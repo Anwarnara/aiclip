@@ -1,0 +1,30 @@
+# YouTube Auto Clip Maker - Dependencies
+
+# GUI (NiceGUI - Modern Web-based UI)
+nicegui>=1.4.0
+
+# Video Download
+yt-dlp>=2024.1.0
+
+# AI Transcription (Whisper with CUDA)
+openai-whisper>=20231117
+# Note: Install PyTorch with CUDA separately:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# Video Processing
+moviepy>=1.0.3
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Face Detection
+ultralytics>=8.0.0
+
+# Face Recognition (dlib) - install separately with CUDA support
+# dlib is already installed custom
+
+# HTTP Requests
+requests>=2.31.0
+
+# Utilities
+tqdm>=4.66.0

@@ -1,0 +1,805 @@
+[FRAME 592/1323] @11.84s | 2 faces | SPLIT | det=27.1ms | F1:(377,440) 119x158 conf=0.83 | F2:(1534,413) 102x151 conf=0.82
+[FRAME 593/1323] @11.86s | 2 faces | SPLIT | det=24.4ms | F1:(377,439) 122x162 conf=0.83 | F2:(1534,413) 102x153 conf=0.82
+[FRAME 594/1323] @11.88s | 2 faces | SPLIT | det=24.1ms | F1:(377,440) 124x161 conf=0.83 | F2:(1534,413) 102x153 conf=0.82
+[FRAME 595/1323] @11.90s | 2 faces | SPLIT | det=26.0ms | F1:(376,440) 125x160 conf=0.83 | F2:(1533,413) 101x153 conf=0.82
+[FRAME 596/1323] @11.92s | 2 faces | SPLIT | det=16.3ms | F1:(374,440) 123x159 conf=0.82 | F2:(1533,413) 102x153 conf=0.82
+[FRAME 597/1323] @11.94s | 2 faces | SPLIT | det=15.8ms | F1:(373,440) 124x161 conf=0.83 | F2:(1533,413) 102x153 conf=0.82
+[FRAME 598/1323] @11.96s | 2 faces | SPLIT | det=15.7ms | F1:(371,440) 123x160 conf=0.83 | F2:(1533,414) 101x152 conf=0.82
+[FRAME 599/1323] @11.98s | 2 faces | SPLIT | det=15.6ms | F1:(370,439) 124x161 conf=0.83 | F2:(1533,414) 102x152 conf=0.82
+[FRAME 600/1323] @12.00s | 2 faces | SPLIT | det=21.4ms | F1:(369,440) 122x160 conf=0.83 | F2:(1533,414) 102x152 conf=0.82
+[LOG] 22:56:18 [info] TRACK @12.0s → 2 faces → SPLIT: (369,440) | (1533,414)
+[TRACK P1] @12.0s | raw=(1533,414) → smooth=(1532,412) | delta=(1.2,2.7) move=3.0px
+[TRACK P2] @12.0s | raw=(369,440) → smooth=(378,439) | delta=(-9.4,0.5) move=9.4px
+[FRAME 601/1323] @12.02s | 2 faces | SPLIT | det=23.0ms | F1:(367,440) 124x160 conf=0.84 | F2:(1531,414) 102x153 conf=0.82
+[FRAME 602/1323] @12.04s | 2 faces | SPLIT | det=17.3ms | F1:(364,440) 123x160 conf=0.83 | F2:(1531,415) 102x154 conf=0.81
+[FRAME 603/1323] @12.06s | 2 faces | SPLIT | det=17.1ms | F1:(363,441) 124x162 conf=0.82 | F2:(1533,415) 102x153 conf=0.82
+[FRAME 604/1323] @12.08s | 2 faces | SPLIT | det=17.6ms | F1:(363,442) 126x160 conf=0.81 | F2:(1533,416) 102x153 conf=0.82
+[FRAME 605/1323] @12.10s | 2 faces | SPLIT | det=20.8ms | F1:(363,443) 125x162 conf=0.81 | F2:(1532,416) 104x153 conf=0.82
+[FRAME 606/1323] @12.12s | 2 faces | SPLIT | det=17.5ms | F1:(363,443) 125x163 conf=0.81 | F2:(1532,415) 104x153 conf=0.82
+[FRAME 607/1323] @12.14s | 2 faces | SPLIT | det=17.1ms | F1:(363,444) 123x162 conf=0.81 | F2:(1532,415) 104x153 conf=0.82
+[FRAME 608/1323] @12.16s | 2 faces | SPLIT | det=15.7ms | F1:(365,444) 124x162 conf=0.82 | F2:(1532,415) 104x153 conf=0.81
+[FRAME 609/1323] @12.18s | 2 faces | SPLIT | det=23.5ms | F1:(365,444) 123x162 conf=0.82 | F2:(1531,415) 102x153 conf=0.81
+[FRAME 610/1323] @12.20s | 2 faces | SPLIT | det=24.0ms | F1:(365,444) 125x162 conf=0.82 | F2:(1530,416) 103x153 conf=0.81
+[FRAME 611/1323] @12.22s | 2 faces | SPLIT | det=15.9ms | F1:(366,443) 124x164 conf=0.82 | F2:(1530,416) 103x153 conf=0.82
+[FRAME 612/1323] @12.24s | 2 faces | SPLIT | det=15.8ms | F1:(367,444) 122x164 conf=0.82 | F2:(1530,416) 103x153 conf=0.82
+[FRAME 613/1323] @12.26s | 2 faces | SPLIT | det=20.6ms | F1:(368,443) 122x166 conf=0.82 | F2:(1530,416) 103x153 conf=0.82
+[FRAME 614/1323] @12.28s | 2 faces | SPLIT | det=19.0ms | F1:(368,442) 120x165 conf=0.81 | F2:(1529,416) 105x153 conf=0.82
+[FRAME 615/1323] @12.30s | 2 faces | SPLIT | det=19.1ms | F1:(368,442) 121x165 conf=0.82 | F2:(1529,416) 105x153 conf=0.82
+[FRAME 616/1323] @12.32s | 2 faces | SPLIT | det=17.8ms | F1:(369,441) 120x163 conf=0.83 | F2:(1529,417) 105x153 conf=0.82
+[FRAME 617/1323] @12.34s | 2 faces | SPLIT | det=19.2ms | F1:(370,442) 120x160 conf=0.84 | F2:(1529,417) 105x152 conf=0.82
+[FRAME 618/1323] @12.36s | 2 faces | SPLIT | det=18.5ms | F1:(370,440) 119x161 conf=0.83 | F2:(1529,417) 105x152 conf=0.81
+[FRAME 619/1323] @12.38s | 2 faces | SPLIT | det=19.9ms | F1:(372,440) 119x160 conf=0.83 | F2:(1529,417) 105x152 conf=0.81
+[FRAME 620/1323] @12.40s | 2 faces | SPLIT | det=15.9ms | F1:(374,440) 118x156 conf=0.83 | F2:(1529,417) 105x152 conf=0.81
+[FRAME 621/1323] @12.42s | 2 faces | SPLIT | det=24.6ms | F1:(374,438) 120x157 conf=0.83 | F2:(1529,417) 105x152 conf=0.81
+[FRAME 622/1323] @12.44s | 2 faces | SPLIT | det=24.8ms | F1:(377,438) 116x156 conf=0.83 | F2:(1529,417) 105x152 conf=0.82
+[FRAME 623/1323] @12.46s | 2 faces | SPLIT | det=24.3ms | F1:(377,438) 115x155 conf=0.83 | F2:(1529,418) 105x152 conf=0.82
+[FRAME 624/1323] @12.48s | 2 faces | SPLIT | det=24.8ms | F1:(377,439) 117x154 conf=0.83 | F2:(1529,418) 104x152 conf=0.82
+[FRAME 625/1323] @12.50s | 2 faces | SPLIT | det=24.1ms | F1:(377,442) 117x152 conf=0.82 | F2:(1530,418) 102x153 conf=0.81
+[FRAME 626/1323] @12.52s | 2 faces | SPLIT | det=24.0ms | F1:(378,444) 115x154 conf=0.82 | F2:(1529,417) 104x153 conf=0.82
+[FRAME 627/1323] @12.54s | 2 faces | SPLIT | det=26.1ms | F1:(380,446) 116x158 conf=0.81 | F2:(1530,417) 102x153 conf=0.82
+[FRAME 628/1323] @12.56s | 2 faces | SPLIT | det=25.3ms | F1:(382,448) 116x158 conf=0.81 | F2:(1530,417) 103x153 conf=0.82
+[FRAME 629/1323] @12.58s | 2 faces | SPLIT | det=30.0ms | F1:(384,447) 114x157 conf=0.81 | F2:(1531,417) 102x153 conf=0.82
+[FRAME 630/1323] @12.60s | 2 faces | SPLIT | det=35.2ms | F1:(386,446) 116x159 conf=0.81 | F2:(1533,417) 102x152 conf=0.82
+[TRACK P1] @12.6s | raw=(1533,417) → smooth=(1531,416) | delta=(1.8,1.4) move=2.3px
+[TRACK P2] @12.6s | raw=(386,446) → smooth=(376,443) | delta=(11.0,3.5) move=11.5px
+[FRAME 631/1323] @12.62s | 2 faces | SPLIT | det=18.9ms | F1:(387,447) 115x157 conf=0.80 | F2:(1532,417) 104x152 conf=0.82
+[FRAME 632/1323] @12.64s | 2 faces | SPLIT | det=14.3ms | F1:(389,446) 117x158 conf=0.82 | F2:(1531,416) 105x153 conf=0.82
+[FRAME 633/1323] @12.66s | 2 faces | SPLIT | det=13.2ms | F1:(390,445) 119x156 conf=0.82 | F2:(1531,416) 105x152 conf=0.82
+[FRAME 634/1323] @12.68s | 2 faces | SPLIT | det=13.2ms | F1:(392,442) 119x156 conf=0.83 | F2:(1531,415) 105x153 conf=0.82
+[FRAME 635/1323] @12.70s | 2 faces | SPLIT | det=17.2ms | F1:(393,440) 118x153 conf=0.82 | F2:(1532,415) 105x153 conf=0.82
+[FRAME 636/1323] @12.72s | 2 faces | SPLIT | det=13.7ms | F1:(395,440) 117x153 conf=0.82 | F2:(1533,415) 102x153 conf=0.82
+[FRAME 637/1323] @12.74s | 2 faces | SPLIT | det=13.6ms | F1:(397,441) 117x152 conf=0.82 | F2:(1533,415) 102x153 conf=0.82
+[FRAME 638/1323] @12.76s | 2 faces | SPLIT | det=18.7ms | F1:(397,442) 115x152 conf=0.82 | F2:(1533,416) 102x152 conf=0.82
+[FRAME 639/1323] @12.78s | 2 faces | SPLIT | det=16.4ms | F1:(398,443) 116x151 conf=0.82 | F2:(1533,415) 102x152 conf=0.81
+[FRAME 640/1323] @12.80s | 2 faces | SPLIT | det=20.3ms | F1:(399,444) 116x153 conf=0.83 | F2:(1534,414) 102x152 conf=0.81
+[FRAME 641/1323] @12.82s | 2 faces | SPLIT | det=18.9ms | F1:(399,445) 115x153 conf=0.83 | F2:(1534,414) 102x152 conf=0.81
+[FRAME 642/1323] @12.84s | 2 faces | SPLIT | det=15.2ms | F1:(398,445) 115x154 conf=0.82 | F2:(1535,414) 104x152 conf=0.81
+[FRAME 643/1323] @12.86s | 2 faces | SPLIT | det=17.8ms | F1:(399,445) 116x154 conf=0.83 | F2:(1535,413) 105x151 conf=0.81
+[FRAME 644/1323] @12.88s | 2 faces | SPLIT | det=15.2ms | F1:(399,445) 115x154 conf=0.83 | F2:(1535,414) 103x150 conf=0.81
+[FRAME 645/1323] @12.90s | 2 faces | SPLIT | det=16.9ms | F1:(399,445) 115x154 conf=0.83 | F2:(1537,413) 105x151 conf=0.81
+[FRAME 646/1323] @12.92s | 2 faces | SPLIT | det=18.1ms | F1:(399,444) 115x155 conf=0.83 | F2:(1537,413) 105x151 conf=0.81
+[FRAME 647/1323] @12.94s | 2 faces | SPLIT | det=18.8ms | F1:(399,444) 115x155 conf=0.83 | F2:(1537,413) 105x151 conf=0.81
+[FRAME 648/1323] @12.96s | 2 faces | SPLIT | det=20.7ms | F1:(399,444) 115x154 conf=0.83 | F2:(1537,413) 105x151 conf=0.81
+[FRAME 649/1323] @12.98s | 2 faces | SPLIT | det=13.4ms | F1:(398,443) 117x154 conf=0.83 | F2:(1537,413) 105x152 conf=0.81
+[FRAME 650/1323] @13.00s | 2 faces | SPLIT | det=17.4ms | F1:(398,441) 117x155 conf=0.84 | F2:(1537,413) 105x152 conf=0.81
+[FRAME 651/1323] @13.02s | 2 faces | SPLIT | det=18.3ms | F1:(397,441) 117x155 conf=0.83 | F2:(1537,413) 105x152 conf=0.81
+[FRAME 652/1323] @13.04s | 2 faces | SPLIT | det=16.0ms | F1:(397,440) 117x157 conf=0.83 | F2:(1537,412) 105x151 conf=0.81
+[FRAME 653/1323] @13.06s | 2 faces | SPLIT | det=18.7ms | F1:(397,440) 120x158 conf=0.83 | F2:(1535,412) 103x151 conf=0.82
+[FRAME 654/1323] @13.08s | 2 faces | SPLIT | det=13.8ms | F1:(396,440) 120x158 conf=0.83 | F2:(1535,412) 103x151 conf=0.82
+[FRAME 655/1323] @13.10s | 2 faces | SPLIT | det=17.0ms | F1:(394,440) 121x157 conf=0.83 | F2:(1535,412) 103x152 conf=0.81
+[FRAME 656/1323] @13.12s | 2 faces | SPLIT | det=15.7ms | F1:(394,441) 120x157 conf=0.83 | F2:(1535,412) 103x152 conf=0.81
+[FRAME 657/1323] @13.14s | 2 faces | SPLIT | det=16.0ms | F1:(393,441) 120x157 conf=0.83 | F2:(1535,412) 103x150 conf=0.81
+[FRAME 658/1323] @13.16s | 2 faces | SPLIT | det=21.1ms | F1:(392,442) 119x153 conf=0.82 | F2:(1535,412) 103x150 conf=0.81
+[FRAME 659/1323] @13.18s | 2 faces | SPLIT | det=16.0ms | F1:(391,442) 117x152 conf=0.82 | F2:(1535,412) 103x150 conf=0.81
+[FRAME 660/1323] @13.20s | 2 faces | SPLIT | det=18.8ms | F1:(390,441) 117x152 conf=0.82 | F2:(1537,412) 102x150 conf=0.82
+[TRACK P1] @13.2s | raw=(1537,412) → smooth=(1535,414) | delta=(2.2,-2.2) move=3.1px
+[TRACK P2] @13.2s | raw=(390,441) → smooth=(394,442) | delta=(-4.3,-1.2) move=4.4px
+[FRAME 661/1323] @13.22s | 2 faces | SPLIT | det=23.2ms | F1:(389,442) 119x152 conf=0.82 | F2:(1537,411) 105x151 conf=0.82
+[FRAME 662/1323] @13.24s | 2 faces | SPLIT | det=17.3ms | F1:(386,441) 117x155 conf=0.83 | F2:(1538,411) 103x151 conf=0.82
+[FRAME 663/1323] @13.26s | 2 faces | SPLIT | det=16.7ms | F1:(386,441) 118x155 conf=0.82 | F2:(1538,411) 103x151 conf=0.82
+[FRAME 664/1323] @13.28s | 2 faces | SPLIT | det=13.9ms | F1:(383,441) 116x156 conf=0.81 | F2:(1538,411) 103x151 conf=0.82
+[FRAME 665/1323] @13.30s | 2 faces | SPLIT | det=14.5ms | F1:(383,441) 119x155 conf=0.81 | F2:(1538,411) 103x151 conf=0.82
+[FRAME 666/1323] @13.32s | 2 faces | SPLIT | det=18.5ms | F1:(382,440) 117x157 conf=0.81 | F2:(1538,412) 103x150 conf=0.82
+[FRAME 667/1323] @13.34s | 2 faces | SPLIT | det=13.4ms | F1:(379,440) 115x155 conf=0.82 | F2:(1538,412) 103x150 conf=0.82
+[FRAME 668/1323] @13.36s | 2 faces | SPLIT | det=16.2ms | F1:(379,442) 117x154 conf=0.83 | F2:(1538,412) 103x150 conf=0.82
+[FRAME 669/1323] @13.38s | 2 faces | SPLIT | det=18.9ms | F1:(378,441) 120x154 conf=0.82 | F2:(1538,412) 103x150 conf=0.82
+[FRAME 670/1323] @13.40s | 2 faces | SPLIT | det=18.0ms | F1:(379,443) 120x154 conf=0.82 | F2:(1538,411) 103x151 conf=0.82
+[FRAME 671/1323] @13.42s | 2 faces | SPLIT | det=13.1ms | F1:(380,446) 118x157 conf=0.81 | F2:(1538,412) 103x150 conf=0.82
+[FRAME 672/1323] @13.44s | 2 faces | SPLIT | det=16.5ms | F1:(380,446) 122x157 conf=0.81 | F2:(1538,412) 103x150 conf=0.82
+[FRAME 673/1323] @13.46s | 2 faces | SPLIT | det=15.8ms | F1:(381,448) 123x158 conf=0.81 | F2:(1537,411) 102x151 conf=0.82
+[FRAME 674/1323] @13.48s | 2 faces | SPLIT | det=14.2ms | F1:(380,449) 122x156 conf=0.82 | F2:(1537,411) 105x151 conf=0.82
+[FRAME 675/1323] @13.50s | 2 faces | SPLIT | det=13.8ms | F1:(379,448) 123x157 conf=0.81 | F2:(1535,411) 103x151 conf=0.81
+[FRAME 676/1323] @13.52s | 2 faces | SPLIT | det=14.9ms | F1:(380,448) 124x157 conf=0.81 | F2:(1535,411) 103x151 conf=0.81
+[FRAME 677/1323] @13.54s | 2 faces | SPLIT | det=14.2ms | F1:(380,449) 124x158 conf=0.81 | F2:(1535,411) 103x151 conf=0.81
+[FRAME 678/1323] @13.56s | 2 faces | SPLIT | det=21.9ms | F1:(380,449) 123x158 conf=0.81 | F2:(1537,412) 105x150 conf=0.81
+[FRAME 679/1323] @13.58s | 2 faces | SPLIT | det=14.1ms | F1:(380,449) 123x157 conf=0.81 | F2:(1537,412) 105x150 conf=0.81
+[FRAME 680/1323] @13.60s | 2 faces | SPLIT | det=13.9ms | F1:(381,449) 125x157 conf=0.81 | F2:(1537,412) 105x151 conf=0.81
+[FRAME 681/1323] @13.62s | 2 faces | SPLIT | det=15.2ms | F1:(382,448) 123x159 conf=0.83 | F2:(1537,412) 105x151 conf=0.81
+[FRAME 682/1323] @13.64s | 2 faces | SPLIT | det=18.7ms | F1:(384,447) 120x161 conf=0.82 | F2:(1537,412) 105x151 conf=0.81
+[FRAME 683/1323] @13.66s | 2 faces | SPLIT | det=17.0ms | F1:(382,448) 118x159 conf=0.84 | F2:(1537,413) 105x151 conf=0.81
+[FRAME 684/1323] @13.68s | 2 faces | SPLIT | det=20.3ms | F1:(383,447) 118x160 conf=0.81 | F2:(1537,414) 105x150 conf=0.81
+[FRAME 685/1323] @13.70s | 2 faces | SPLIT | det=16.5ms | F1:(385,446) 117x159 conf=0.81 | F2:(1537,414) 105x150 conf=0.81
+[FRAME 686/1323] @13.72s | 2 faces | SPLIT | det=13.9ms | F1:(386,446) 119x160 conf=0.80 | F2:(1537,414) 105x150 conf=0.81
+[FRAME 687/1323] @13.74s | 2 faces | SPLIT | det=17.0ms | F1:(385,446) 119x160 conf=0.80 | F2:(1537,414) 105x150 conf=0.81
+[FRAME 688/1323] @13.76s | 2 faces | SPLIT | det=13.9ms | F1:(385,446) 117x159 conf=0.81 | F2:(1537,413) 105x150 conf=0.81
+[FRAME 689/1323] @13.78s | 2 faces | SPLIT | det=14.9ms | F1:(385,448) 118x158 conf=0.82 | F2:(1537,412) 105x151 conf=0.81
+[FRAME 690/1323] @13.80s | 2 faces | SPLIT | det=20.2ms | F1:(385,448) 118x159 conf=0.82 | F2:(1537,413) 105x150 conf=0.81
+[TRACK P1] @13.8s | raw=(1537,413) → smooth=(1536,413) | delta=(1.2,-0.2) move=1.2px
+[TRACK P2] @13.8s | raw=(385,448) → smooth=(383,446) | delta=(1.9,2.1) move=2.9px
+[FRAME 691/1323] @13.82s | 2 faces | SPLIT | det=19.0ms | F1:(385,449) 119x157 conf=0.84 | F2:(1537,413) 105x150 conf=0.81
+[FRAME 692/1323] @13.84s | 2 faces | SPLIT | det=14.1ms | F1:(386,451) 119x158 conf=0.84 | F2:(1537,413) 105x150 conf=0.81
+[FRAME 693/1323] @13.86s | 2 faces | SPLIT | det=15.0ms | F1:(386,452) 119x157 conf=0.80 | F2:(1537,414) 105x150 conf=0.81
+[FRAME 694/1323] @13.88s | 2 faces | SPLIT | det=20.2ms | F1:(386,452) 119x157 conf=0.80 | F2:(1537,414) 105x150 conf=0.81
+[FRAME 695/1323] @13.90s | 2 faces | SPLIT | det=17.3ms | F1:(386,452) 119x157 conf=0.80 | F2:(1537,414) 105x150 conf=0.81
+[FRAME 696/1323] @13.92s | 2 faces | SPLIT | det=15.7ms | F1:(386,452) 118x157 conf=0.80 | F2:(1535,414) 103x150 conf=0.81
+[FRAME 697/1323] @13.94s | 2 faces | SPLIT | det=21.1ms | F1:(386,452) 118x157 conf=0.80 | F2:(1537,414) 102x149 conf=0.81
+[FRAME 698/1323] @13.96s | 2 faces | SPLIT | det=19.9ms | F1:(386,452) 118x157 conf=0.81 | F2:(1537,415) 102x150 conf=0.81
+[FRAME 699/1323] @13.98s | 2 faces | SPLIT | det=18.9ms | F1:(387,452) 120x158 conf=0.85 | F2:(1537,415) 102x150 conf=0.81
+[FRAME 700/1323] @14.00s | 2 faces | SPLIT | det=16.9ms | F1:(387,451) 120x159 conf=0.85 | F2:(1537,415) 102x150 conf=0.81
+[FRAME 701/1323] @14.02s | 2 faces | SPLIT | det=16.8ms | F1:(387,450) 120x157 conf=0.83 | F2:(1537,415) 102x150 conf=0.81
+[FRAME 702/1323] @14.04s | 1 faces | SPLIT | det=90.5ms | F1:(957,562) 292x339 conf=0.90
+[FRAME 703/1323] @14.06s | 1 faces | SPLIT | det=81.6ms | F1:(957,562) 295x340 conf=0.90
+[FRAME 704/1323] @14.08s | 1 faces | SPLIT | det=90.9ms | F1:(957,562) 295x340 conf=0.90
+[FRAME 705/1323] @14.10s | 1 faces | SINGLE | det=80.4ms | F1:(957,562) 295x340 conf=0.90
+[LOG] 22:56:26 [info] MODE SWITCH @14.1s: SPLIT → SINGLE
+
+============================================================
+MODE SWITCH: SPLIT → SINGLE @ frame 705 (14.10s)
+  Faces: 1 | Positions: (957,562)
+  Reason: face_count=1, segment_mode=single
+============================================================
+
+[LOG] 22:56:26 [info]   → INSTANT (957,562)
+[FRAME 706/1323] @14.12s | 1 faces | SINGLE | det=87.1ms | F1:(957,562) 295x340 conf=0.90
+[FRAME 707/1323] @14.14s | 1 faces | SINGLE | det=83.0ms | F1:(957,562) 295x340 conf=0.90
+[FRAME 708/1323] @14.16s | 1 faces | SINGLE | det=75.0ms | F1:(957,562) 295x340 conf=0.90
+[FRAME 709/1323] @14.18s | 1 faces | SINGLE | det=79.0ms | F1:(957,561) 295x341 conf=0.90
+[FRAME 710/1323] @14.20s | 1 faces | SINGLE | det=77.5ms | F1:(957,561) 295x341 conf=0.90
+[FRAME 711/1323] @14.22s | 1 faces | SINGLE | det=72.9ms | F1:(957,562) 295x340 conf=0.90
+[FRAME 712/1323] @14.24s | 1 faces | SINGLE | det=80.2ms | F1:(958,562) 296x340 conf=0.90
+[FRAME 713/1323] @14.26s | 1 faces | SINGLE | det=78.2ms | F1:(958,562) 297x340 conf=0.90
+[FRAME 714/1323] @14.28s | 1 faces | SINGLE | det=75.9ms | F1:(958,562) 297x339 conf=0.90
+[FRAME 715/1323] @14.30s | 1 faces | SINGLE | det=84.7ms | F1:(957,560) 295x336 conf=0.90
+[FRAME 716/1323] @14.32s | 1 faces | SINGLE | det=72.6ms | F1:(959,559) 296x334 conf=0.90
+[FRAME 717/1323] @14.34s | 1 faces | SINGLE | det=76.1ms | F1:(957,556) 293x326 conf=0.90
+[FRAME 718/1323] @14.36s | 1 faces | SINGLE | det=77.4ms | F1:(959,556) 296x327 conf=0.90
+[FRAME 719/1323] @14.38s | 1 faces | SINGLE | det=84.5ms | F1:(960,555) 301x327 conf=0.90
+[FRAME 720/1323] @14.40s | 1 faces | SINGLE | det=78.0ms | F1:(961,555) 301x327 conf=0.90
+[TRACK P1] @14.4s | raw=(961,555) → smooth=(958,560) | delta=(3.7,-5.3) move=6.5px
+[FRAME 721/1323] @14.42s | 1 faces | SINGLE | det=83.0ms | F1:(963,550) 299x321 conf=0.89
+[FRAME 722/1323] @14.44s | 1 faces | SINGLE | det=77.5ms | F1:(962,547) 296x312 conf=0.89
+[FRAME 723/1323] @14.46s | 1 faces | SINGLE | det=78.7ms | F1:(964,546) 307x309 conf=0.89
+[FRAME 724/1323] @14.48s | 1 faces | SINGLE | det=74.9ms | F1:(963,543) 300x299 conf=0.89
+[FRAME 725/1323] @14.50s | 1 faces | SINGLE | det=76.8ms | F1:(962,538) 298x290 conf=0.89
+[FRAME 726/1323] @14.52s | 1 faces | SINGLE | det=74.7ms | F1:(961,536) 299x287 conf=0.89
+[FRAME 727/1323] @14.54s | 1 faces | SINGLE | det=75.2ms | F1:(960,533) 296x285 conf=0.88
+[FRAME 728/1323] @14.56s | 1 faces | SINGLE | det=83.6ms | F1:(959,533) 294x284 conf=0.88
+[FRAME 729/1323] @14.58s | 1 faces | SINGLE | det=82.5ms | F1:(958,532) 293x283 conf=0.88
+[FRAME 730/1323] @14.60s | 1 faces | SINGLE | det=85.2ms | F1:(959,533) 296x284 conf=0.88
+[FRAME 731/1323] @14.62s | 1 faces | SINGLE | det=76.9ms | F1:(958,533) 293x284 conf=0.88
+[FRAME 732/1323] @14.64s | 1 faces | SINGLE | det=73.7ms | F1:(957,532) 293x285 conf=0.88
+[FRAME 733/1323] @14.66s | 1 faces | SINGLE | det=79.6ms | F1:(957,533) 293x284 conf=0.89
+[FRAME 734/1323] @14.68s | 1 faces | SINGLE | det=80.1ms | F1:(958,532) 294x283 conf=0.89
+[FRAME 735/1323] @14.70s | 1 faces | SINGLE | det=78.6ms | F1:(959,533) 294x282 conf=0.89
+[FRAME 736/1323] @14.72s | 1 faces | SINGLE | det=80.3ms | F1:(959,533) 295x283 conf=0.89
+[FRAME 737/1323] @14.74s | 1 faces | SINGLE | det=81.2ms | F1:(960,531) 299x278 conf=0.88
+[FRAME 738/1323] @14.76s | 1 faces | SINGLE | det=79.3ms | F1:(960,532) 297x276 conf=0.89
+[FRAME 739/1323] @14.78s | 1 faces | SINGLE | det=79.2ms | F1:(962,527) 301x271 conf=0.89
+[FRAME 740/1323] @14.80s | 1 faces | SINGLE | det=79.5ms | F1:(963,525) 302x269 conf=0.89
+[FRAME 741/1323] @14.82s | 1 faces | SINGLE | det=86.9ms | F1:(963,525) 305x266 conf=0.89
+[FRAME 742/1323] @14.84s | 1 faces | SINGLE | det=68.8ms | F1:(963,524) 305x267 conf=0.89
+[FRAME 743/1323] @14.86s | 1 faces | SINGLE | det=77.4ms | F1:(964,523) 306x266 conf=0.88
+[FRAME 744/1323] @14.88s | 1 faces | SINGLE | det=79.0ms | F1:(965,524) 304x265 conf=0.88
+[FRAME 745/1323] @14.90s | 1 faces | SINGLE | det=84.4ms | F1:(967,520) 311x261 conf=0.88
+[FRAME 746/1323] @14.92s | 1 faces | SINGLE | det=81.1ms | F1:(952,519) 316x258 conf=0.87
+[FRAME 747/1323] @14.94s | 1 faces | SINGLE | det=78.4ms | F1:(951,518) 314x257 conf=0.88
+[FRAME 748/1323] @14.96s | 1 faces | SINGLE | det=71.5ms | F1:(955,514) 310x249 conf=0.88
+[FRAME 749/1323] @14.98s | 1 faces | SINGLE | det=68.3ms | F1:(956,511) 307x242 conf=0.88
+[FRAME 750/1323] @15.00s | 1 faces | SINGLE | det=82.0ms | F1:(959,510) 299x241 conf=0.88
+[LOG] 22:56:32 [info] TRACK @15.0s → 1 faces → SINGLE: (959,510)
+[TRACK P1] @15.0s | raw=(959,510) → smooth=(959,525) | delta=(-0.2,-16.6) move=16.6px
+[FRAME 751/1323] @15.02s | 1 faces | SINGLE | det=77.8ms | F1:(960,509) 297x238 conf=0.88
+[FRAME 752/1323] @15.04s | 1 faces | SINGLE | det=86.7ms | F1:(962,509) 296x239 conf=0.88
+[FRAME 753/1323] @15.06s | 1 faces | SINGLE | det=84.3ms | F1:(962,509) 295x239 conf=0.89
+[FRAME 754/1323] @15.08s | 1 faces | SINGLE | det=83.5ms | F1:(964,509) 292x238 conf=0.89
+[FRAME 755/1323] @15.10s | 1 faces | SINGLE | det=71.6ms | F1:(964,509) 292x238 conf=0.89
+[FRAME 756/1323] @15.12s | 1 faces | SINGLE | det=76.6ms | F1:(964,508) 292x237 conf=0.89
+[FRAME 757/1323] @15.14s | 1 faces | SINGLE | det=78.0ms | F1:(964,508) 291x236 conf=0.90
+[FRAME 758/1323] @15.16s | 1 faces | SINGLE | det=75.2ms | F1:(965,508) 290x237 conf=0.89
+[FRAME 759/1323] @15.18s | 1 faces | SINGLE | det=79.7ms | F1:(965,508) 289x236 conf=0.89
+[FRAME 760/1323] @15.20s | 1 faces | SINGLE | det=75.4ms | F1:(965,507) 289x235 conf=0.89
+[FRAME 761/1323] @15.22s | 1 faces | SINGLE | det=77.2ms | F1:(965,508) 289x236 conf=0.89
+[FRAME 762/1323] @15.24s | 1 faces | SINGLE | det=82.0ms | F1:(965,507) 290x235 conf=0.88
+[FRAME 763/1323] @15.26s | 1 faces | SINGLE | det=76.9ms | F1:(964,507) 292x235 conf=0.88
+[FRAME 764/1323] @15.28s | 1 faces | SINGLE | det=73.1ms | F1:(964,507) 292x235 conf=0.88
+[FRAME 765/1323] @15.30s | 1 faces | SINGLE | det=74.0ms | F1:(964,507) 291x235 conf=0.88
+[FRAME 766/1323] @15.32s | 1 faces | SINGLE | det=74.8ms | F1:(965,508) 290x236 conf=0.88
+[FRAME 767/1323] @15.34s | 1 faces | SINGLE | det=81.6ms | F1:(965,509) 290x239 conf=0.88
+[FRAME 768/1323] @15.36s | 1 faces | SINGLE | det=94.1ms | F1:(964,512) 292x242 conf=0.89
+[FRAME 769/1323] @15.38s | 1 faces | SINGLE | det=83.0ms | F1:(964,512) 292x242 conf=0.89
+[FRAME 770/1323] @15.40s | 1 faces | SINGLE | det=76.6ms | F1:(964,510) 292x240 conf=0.89
+[FRAME 771/1323] @15.42s | 1 faces | SINGLE | det=75.2ms | F1:(963,507) 293x235 conf=0.89
+[FRAME 772/1323] @15.44s | 1 faces | SINGLE | det=73.7ms | F1:(964,506) 292x232 conf=0.89
+[FRAME 773/1323] @15.46s | 1 faces | SINGLE | det=84.1ms | F1:(963,504) 293x229 conf=0.89
+[FRAME 774/1323] @15.48s | 1 faces | SINGLE | det=90.8ms | F1:(964,503) 292x226 conf=0.89
+[FRAME 775/1323] @15.50s | 1 faces | SINGLE | det=83.0ms | F1:(964,503) 291x226 conf=0.89
+[FRAME 776/1323] @15.52s | 1 faces | SINGLE | det=77.2ms | F1:(964,504) 291x228 conf=0.89
+[FRAME 777/1323] @15.54s | 1 faces | SINGLE | det=80.5ms | F1:(964,505) 291x231 conf=0.89
+[FRAME 778/1323] @15.56s | 1 faces | SINGLE | det=81.6ms | F1:(964,506) 291x232 conf=0.88
+[FRAME 779/1323] @15.58s | 1 faces | SINGLE | det=76.6ms | F1:(964,507) 291x235 conf=0.89
+[FRAME 780/1323] @15.60s | 1 faces | SINGLE | det=87.2ms | F1:(965,507) 289x235 conf=0.89
+[TRACK P1] @15.6s | raw=(965,507) → smooth=(963,508) | delta=(2.3,-1.1) move=2.6px
+[FRAME 781/1323] @15.62s | 1 faces | SINGLE | det=79.8ms | F1:(964,508) 291x236 conf=0.89
+[FRAME 782/1323] @15.64s | 1 faces | SINGLE | det=86.1ms | F1:(964,508) 291x236 conf=0.89
+[FRAME 783/1323] @15.66s | 1 faces | SINGLE | det=79.4ms | F1:(963,508) 293x237 conf=0.89
+[FRAME 784/1323] @15.68s | 1 faces | SINGLE | det=80.3ms | F1:(964,510) 291x240 conf=0.89
+[FRAME 785/1323] @15.70s | 1 faces | SINGLE | det=82.3ms | F1:(963,510) 294x241 conf=0.89
+[FRAME 786/1323] @15.72s | 1 faces | SINGLE | det=75.1ms | F1:(964,511) 291x243 conf=0.89
+[FRAME 787/1323] @15.74s | 1 faces | SINGLE | det=78.7ms | F1:(962,511) 295x243 conf=0.89
+[FRAME 788/1323] @15.76s | 1 faces | SINGLE | det=76.4ms | F1:(962,516) 295x249 conf=0.89
+[FRAME 789/1323] @15.78s | 1 faces | SINGLE | det=82.7ms | F1:(962,519) 295x255 conf=0.89
+[FRAME 790/1323] @15.80s | 1 faces | SINGLE | det=71.1ms | F1:(961,519) 297x255 conf=0.89
+[FRAME 791/1323] @15.82s | 1 faces | SINGLE | det=74.7ms | F1:(961,520) 297x255 conf=0.89
+[FRAME 792/1323] @15.84s | 1 faces | SINGLE | det=81.4ms | F1:(960,520) 299x254 conf=0.89
+[FRAME 793/1323] @15.86s | 1 faces | SINGLE | det=76.6ms | F1:(959,519) 301x252 conf=0.89
+[FRAME 794/1323] @15.88s | 1 faces | SINGLE | det=73.3ms | F1:(960,515) 299x244 conf=0.89
+[FRAME 795/1323] @15.90s | 1 faces | SINGLE | det=81.4ms | F1:(961,512) 298x242 conf=0.89
+[FRAME 796/1323] @15.92s | 1 faces | SINGLE | det=81.5ms | F1:(961,510) 298x241 conf=0.89
+[FRAME 797/1323] @15.94s | 1 faces | SINGLE | det=89.0ms | F1:(960,509) 300x239 conf=0.89
+[FRAME 798/1323] @15.96s | 1 faces | SINGLE | det=80.9ms | F1:(961,510) 298x240 conf=0.89
+[FRAME 799/1323] @15.98s | 1 faces | SINGLE | det=82.1ms | F1:(960,510) 300x240 conf=0.89
+[FRAME 800/1323] @16.00s | 1 faces | SINGLE | det=77.5ms | F1:(961,509) 297x238 conf=0.89
+[FRAME 801/1323] @16.02s | 1 faces | SINGLE | det=74.6ms | F1:(961,508) 298x237 conf=0.90
+[FRAME 802/1323] @16.04s | 1 faces | SINGLE | det=79.7ms | F1:(960,508) 300x237 conf=0.90
+[FRAME 803/1323] @16.06s | 1 faces | SINGLE | det=85.8ms | F1:(960,508) 300x236 conf=0.89
+[FRAME 804/1323] @16.08s | 1 faces | SINGLE | det=73.9ms | F1:(960,508) 300x236 conf=0.89
+[FRAME 805/1323] @16.10s | 1 faces | SINGLE | det=73.5ms | F1:(960,509) 300x238 conf=0.90
+[FRAME 806/1323] @16.12s | 1 faces | SINGLE | det=80.1ms | F1:(960,509) 300x239 conf=0.89
+[FRAME 807/1323] @16.14s | 1 faces | SINGLE | det=75.6ms | F1:(961,509) 298x239 conf=0.89
+[FRAME 808/1323] @16.16s | 1 faces | SINGLE | det=71.1ms | F1:(961,510) 298x241 conf=0.89
+[FRAME 809/1323] @16.18s | 1 faces | SINGLE | det=72.7ms | F1:(960,510) 299x241 conf=0.89
+[FRAME 810/1323] @16.20s | 1 faces | SINGLE | det=82.2ms | F1:(960,511) 299x242 conf=0.89
+[TRACK P1] @16.2s | raw=(960,511) → smooth=(962,511) | delta=(-2.1,0.3) move=2.2px
+[FRAME 811/1323] @16.22s | 1 faces | SINGLE | det=72.9ms | F1:(960,511) 299x243 conf=0.90
+[FRAME 812/1323] @16.24s | 1 faces | SINGLE | det=75.2ms | F1:(960,512) 299x244 conf=0.89
+[FRAME 813/1323] @16.26s | 1 faces | SINGLE | det=81.3ms | F1:(959,512) 301x244 conf=0.90
+[FRAME 814/1323] @16.28s | 1 faces | SINGLE | det=74.6ms | F1:(958,513) 299x246 conf=0.90
+[FRAME 815/1323] @16.30s | 1 faces | SINGLE | det=77.9ms | F1:(955,513) 307x246 conf=0.89
+[FRAME 816/1323] @16.32s | 1 faces | SINGLE | det=76.5ms | F1:(953,513) 313x246 conf=0.89
+[FRAME 817/1323] @16.34s | 1 faces | SINGLE | det=76.3ms | F1:(949,514) 319x248 conf=0.89
+[FRAME 818/1323] @16.36s | 1 faces | SINGLE | det=77.1ms | F1:(947,515) 323x250 conf=0.89
+[FRAME 819/1323] @16.38s | 1 faces | SINGLE | det=69.8ms | F1:(945,516) 326x252 conf=0.89
+[FRAME 820/1323] @16.40s | 1 faces | SINGLE | det=77.4ms | F1:(944,516) 328x252 conf=0.89
+[FRAME 821/1323] @16.42s | 1 faces | SINGLE | det=73.0ms | F1:(960,517) 296x254 conf=0.89
+[FRAME 822/1323] @16.44s | 1 faces | SINGLE | det=78.3ms | F1:(938,518) 337x256 conf=0.88
+[FRAME 823/1323] @16.46s | 1 faces | SINGLE | det=76.4ms | F1:(956,519) 291x259 conf=0.89
+[FRAME 824/1323] @16.48s | 1 faces | SINGLE | det=73.4ms | F1:(955,520) 289x261 conf=0.89
+[FRAME 825/1323] @16.50s | 1 faces | SINGLE | det=69.8ms | F1:(952,520) 283x261 conf=0.89
+[FRAME 826/1323] @16.52s | 1 faces | SINGLE | det=83.2ms | F1:(953,520) 286x259 conf=0.89
+[FRAME 827/1323] @16.54s | 1 faces | SINGLE | det=88.0ms | F1:(952,521) 285x261 conf=0.89
+[FRAME 828/1323] @16.56s | 1 faces | SINGLE | det=79.2ms | F1:(951,524) 283x265 conf=0.89
+[FRAME 829/1323] @16.58s | 1 faces | SINGLE | det=74.7ms | F1:(951,525) 282x269 conf=0.89
+[FRAME 830/1323] @16.60s | 1 faces | SINGLE | det=72.8ms | F1:(952,528) 284x274 conf=0.89
+[FRAME 831/1323] @16.62s | 2 faces | SINGLE | det=15.9ms | F1:(807,149) 267x291 conf=0.78 | F2:(1076,433) 261x373 conf=0.83
+[FRAME 832/1323] @16.64s | 2 faces | SINGLE | det=16.1ms | F1:(807,149) 267x291 conf=0.78 | F2:(1076,434) 261x376 conf=0.83
+[FRAME 833/1323] @16.66s | 2 faces | SINGLE | det=18.3ms | F1:(806,149) 267x291 conf=0.78 | F2:(1077,432) 264x379 conf=0.83
+[FRAME 834/1323] @16.68s | 2 faces | SINGLE | det=18.0ms | F1:(806,149) 267x291 conf=0.78 | F2:(1075,430) 264x375 conf=0.83
+[FRAME 835/1323] @16.70s | 2 faces | SPLIT | det=16.3ms | F1:(805,149) 267x291 conf=0.77 | F2:(1074,427) 264x372 conf=0.83
+[LOG] 22:56:43 [info] MODE SWITCH @16.7s: SINGLE → SPLIT
+
+============================================================
+MODE SWITCH: SINGLE → SPLIT @ frame 835 (16.70s)
+  Faces: 2 | Positions: (805,149) | (1074,427)
+  Reason: face_count=2, segment_mode=split
+============================================================
+
+[LOG] 22:56:43 [info]   → INSTANT P1=(805,149), P2=(1074,427)
+[FRAME 836/1323] @16.72s | 2 faces | SPLIT | det=17.1ms | F1:(806,149) 265x291 conf=0.77 | F2:(1074,424) 264x369 conf=0.82
+[FRAME 837/1323] @16.74s | 2 faces | SPLIT | det=14.3ms | F1:(806,149) 265x291 conf=0.78 | F2:(1074,419) 263x363 conf=0.83
+[FRAME 838/1323] @16.76s | 2 faces | SPLIT | det=14.5ms | F1:(806,149) 265x291 conf=0.77 | F2:(1074,418) 264x361 conf=0.84
+[FRAME 839/1323] @16.78s | 2 faces | SPLIT | det=14.7ms | F1:(806,149) 266x291 conf=0.77 | F2:(1075,418) 264x360 conf=0.84
+[FRAME 840/1323] @16.80s | 2 faces | SPLIT | det=20.8ms | F1:(806,149) 265x291 conf=0.78 | F2:(1076,418) 266x361 conf=0.84
+[TRACK P1] @16.8s | raw=(806,149) → smooth=(805,149) | delta=(1.0,0.0) move=1.0px
+[TRACK P2] @16.8s | raw=(1076,418) → smooth=(1074,424) | delta=(2.0,-6.7) move=7.0px
+[FRAME 841/1323] @16.82s | 2 faces | SPLIT | det=15.5ms | F1:(806,149) 265x291 conf=0.78 | F2:(1076,420) 267x362 conf=0.84
+[FRAME 842/1323] @16.84s | 2 faces | SPLIT | det=15.5ms | F1:(806,149) 265x291 conf=0.78 | F2:(1076,421) 267x360 conf=0.83
+[FRAME 843/1323] @16.86s | 2 faces | SPLIT | det=15.3ms | F1:(806,150) 267x290 conf=0.78 | F2:(1076,427) 262x364 conf=0.83
+[FRAME 844/1323] @16.88s | 2 faces | SPLIT | det=15.0ms | F1:(806,149) 267x291 conf=0.78 | F2:(1078,431) 264x372 conf=0.84
+[FRAME 845/1323] @16.90s | 2 faces | SPLIT | det=13.7ms | F1:(807,149) 264x291 conf=0.78 | F2:(1078,436) 264x377 conf=0.84
+[FRAME 846/1323] @16.92s | 2 faces | SPLIT | det=14.5ms | F1:(806,149) 267x291 conf=0.78 | F2:(1077,440) 264x377 conf=0.84
+[FRAME 847/1323] @16.94s | 2 faces | SPLIT | det=14.5ms | F1:(806,149) 267x291 conf=0.78 | F2:(1077,443) 264x374 conf=0.84
+[FRAME 848/1323] @16.96s | 2 faces | SPLIT | det=20.1ms | F1:(806,150) 265x290 conf=0.78 | F2:(1075,444) 267x370 conf=0.84
+[FRAME 849/1323] @16.98s | 2 faces | SPLIT | det=17.7ms | F1:(807,150) 265x290 conf=0.78 | F2:(1075,446) 267x367 conf=0.85
+[FRAME 850/1323] @17.00s | 2 faces | SPLIT | det=16.0ms | F1:(807,150) 265x290 conf=0.78 | F2:(1075,448) 266x366 conf=0.84
+[FRAME 851/1323] @17.02s | 2 faces | SPLIT | det=17.3ms | F1:(807,150) 265x290 conf=0.78 | F2:(1075,449) 267x365 conf=0.85
+[FRAME 852/1323] @17.04s | 2 faces | SPLIT | det=14.1ms | F1:(807,150) 265x290 conf=0.78 | F2:(1075,451) 267x362 conf=0.85
+[FRAME 853/1323] @17.06s | 2 faces | SPLIT | det=14.6ms | F1:(807,150) 265x290 conf=0.78 | F2:(1073,451) 267x362 conf=0.84
+[FRAME 854/1323] @17.08s | 2 faces | SPLIT | det=15.1ms | F1:(806,150) 265x290 conf=0.78 | F2:(1072,451) 264x362 conf=0.84
+[FRAME 855/1323] @17.10s | 2 faces | SPLIT | det=14.9ms | F1:(806,150) 267x290 conf=0.78 | F2:(1072,450) 267x361 conf=0.84
+[FRAME 856/1323] @17.12s | 2 faces | SPLIT | det=14.9ms | F1:(807,150) 267x290 conf=0.78 | F2:(1072,449) 267x361 conf=0.84
+[FRAME 857/1323] @17.14s | 2 faces | SPLIT | det=18.3ms | F1:(807,150) 267x290 conf=0.78 | F2:(1071,448) 265x365 conf=0.84
+[FRAME 858/1323] @17.16s | 2 faces | SPLIT | det=15.2ms | F1:(806,149) 267x291 conf=0.78 | F2:(1070,448) 266x366 conf=0.84
+[FRAME 859/1323] @17.18s | 1 faces | SPLIT | det=80.7ms | F1:(955,546) 288x311 conf=0.90
+[FRAME 860/1323] @17.20s | 1 faces | SPLIT | det=82.6ms | F1:(954,544) 286x307 conf=0.90
+[FRAME 861/1323] @17.22s | 1 faces | SPLIT | det=75.0ms | F1:(952,543) 284x303 conf=0.90
+[FRAME 862/1323] @17.24s | 1 faces | SPLIT | det=88.3ms | F1:(949,542) 278x301 conf=0.89
+[FRAME 863/1323] @17.26s | 1 faces | SPLIT | det=89.6ms | F1:(948,547) 277x306 conf=0.90
+[FRAME 864/1323] @17.28s | 1 faces | SPLIT | det=74.3ms | F1:(945,549) 271x308 conf=0.89
+[FRAME 865/1323] @17.30s | 1 faces | SPLIT | det=81.3ms | F1:(942,546) 265x313 conf=0.90
+[FRAME 866/1323] @17.32s | 1 faces | SPLIT | det=82.9ms | F1:(941,547) 262x314 conf=0.90
+[FRAME 867/1323] @17.34s | 1 faces | SPLIT | det=83.8ms | F1:(941,549) 262x319 conf=0.90
+[FRAME 868/1323] @17.36s | 1 faces | SPLIT | det=66.9ms | F1:(942,550) 264x321 conf=0.90
+[FRAME 869/1323] @17.38s | 1 faces | SPLIT | det=76.4ms | F1:(917,553) 318x324 conf=0.90
+[FRAME 870/1323] @17.40s | 1 faces | SPLIT | det=77.9ms | F1:(917,553) 316x324 conf=0.90
+[FRAME 871/1323] @17.42s | 1 faces | SPLIT | det=80.6ms | F1:(920,551) 317x318 conf=0.89
+[FRAME 872/1323] @17.44s | 1 faces | SPLIT | det=84.3ms | F1:(915,548) 297x313 conf=0.89
+[FRAME 873/1323] @17.46s | 1 faces | SPLIT | det=74.6ms | F1:(917,546) 293x306 conf=0.88
+[FRAME 874/1323] @17.48s | 1 faces | SPLIT | det=71.9ms | F1:(926,545) 297x302 conf=0.87
+[FRAME 875/1323] @17.50s | 1 faces | SPLIT | det=78.0ms | F1:(931,545) 286x304 conf=0.87
+[FRAME 876/1323] @17.52s | 1 faces | SPLIT | det=72.6ms | F1:(945,545) 300x302 conf=0.86
+[FRAME 877/1323] @17.54s | 1 faces | SPLIT | det=77.8ms | F1:(949,543) 296x306 conf=0.84
+[FRAME 878/1323] @17.56s | 1 faces | SPLIT | det=76.5ms | F1:(953,544) 297x308 conf=0.85
+[FRAME 879/1323] @17.58s | 1 faces | SPLIT | det=82.8ms | F1:(958,540) 293x299 conf=0.81
+[FRAME 880/1323] @17.60s | 1 faces | SPLIT | det=81.1ms | F1:(965,542) 286x301 conf=0.81
+[FRAME 881/1323] @17.62s | 1 faces | SPLIT | det=81.1ms | F1:(967,544) 281x302 conf=0.80
+[FRAME 882/1323] @17.64s | 1 faces | SPLIT | det=72.4ms | F1:(1004,548) 345x312 conf=0.81
+[FRAME 883/1323] @17.66s | 1 faces | SPLIT | det=80.7ms | F1:(1007,542) 343x301 conf=0.81
+[FRAME 884/1323] @17.68s | 1 faces | SPLIT | det=75.9ms | F1:(977,544) 264x302 conf=0.82
+[FRAME 885/1323] @17.70s | 1 faces | SPLIT | det=74.5ms | F1:(979,543) 261x299 conf=0.85
+[FRAME 886/1323] @17.72s | 1 faces | SPLIT | det=79.6ms | F1:(1029,525) 345x263 conf=0.80
+[FRAME 887/1323] @17.74s | 1 faces | SPLIT | det=66.3ms | F1:(1034,527) 349x266 conf=0.81
+[FRAME 888/1323] @17.76s | 1 faces | SPLIT | det=75.7ms | F1:(1036,534) 349x278 conf=0.82
+[FRAME 889/1323] @17.78s | 1 faces | SPLIT | det=77.4ms | F1:(1041,542) 353x295 conf=0.80
+[FRAME 890/1323] @17.80s | 1 faces | SPLIT | det=84.5ms | F1:(1044,538) 352x290 conf=0.78
+[FRAME 891/1323] @17.82s | 1 faces | SPLIT | det=71.8ms | F1:(991,498) 238x338 conf=0.78
+[FRAME 892/1323] @17.84s | 1 faces | SPLIT | det=75.1ms | F1:(992,497) 235x336 conf=0.78
+[FRAME 893/1323] @17.86s | 1 faces | SPLIT | det=85.3ms | F1:(992,499) 235x346 conf=0.81
+[FRAME 894/1323] @17.88s | 1 faces | SPLIT | det=81.0ms | F1:(1053,532) 343x277 conf=0.81
+[FRAME 895/1323] @17.90s | 1 faces | SPLIT | det=77.6ms | F1:(1059,530) 348x274 conf=0.81
+[FRAME 896/1323] @17.92s | 1 faces | SPLIT | det=74.4ms | F1:(1059,546) 353x305 conf=0.84
+[FRAME 897/1323] @17.94s | 1 faces | SPLIT | det=76.7ms | F1:(1063,541) 343x296 conf=0.83
+[FRAME 898/1323] @17.96s | 1 faces | SPLIT | det=81.6ms | F1:(1002,541) 216x294 conf=0.82
+[FRAME 899/1323] @17.98s | 2 faces | SPLIT | det=75.1ms | F1:(1005,497) 209x357 conf=0.80 | F2:(1081,533) 348x283 conf=0.80
+[LOG] 22:56:48 [info] JUMP @18.0s: 401px → INSTANT
+[DEBUG 22:56:48] [JUMP SPLIT] Frame 899: dist1=401px, dist2=92px, threshold=200px
+[DEBUG 22:56:48]   P1: (805,149) → (1005,497)
+[DEBUG 22:56:48]   P2: (1074,441) → (1081,533)
+[FRAME 900/1323] @18.00s | 1 faces | SPLIT | det=86.3ms | F1:(1010,542) 200x304 conf=0.86
+[LOG] 22:56:48 [info] TRACK @18.0s → 1 faces → SPLIT: (1010,542)
+[FRAME 901/1323] @18.02s | 2 faces | SPLIT | det=78.3ms | F1:(1013,543) 193x307 conf=0.87 | F2:(1095,497) 350x379 conf=0.83
+[FRAME 902/1323] @18.04s | 2 faces | SPLIT | det=74.9ms | F1:(1018,544) 184x301 conf=0.86 | F2:(1096,541) 333x303 conf=0.86
+[FRAME 903/1323] @18.06s | 2 faces | SPLIT | det=72.2ms | F1:(1021,541) 177x299 conf=0.84 | F2:(1104,539) 331x298 conf=0.87
+[FRAME 904/1323] @18.08s | 2 faces | SPLIT | det=73.6ms | F1:(1026,540) 167x300 conf=0.83 | F2:(1112,541) 339x297 conf=0.87
+[FRAME 905/1323] @18.10s | 2 faces | SPLIT | det=87.8ms | F1:(1026,538) 167x296 conf=0.82 | F2:(1119,541) 340x302 conf=0.88
+[FRAME 906/1323] @18.12s | 2 faces | SPLIT | det=73.7ms | F1:(1026,538) 167x296 conf=0.78 | F2:(1123,540) 347x301 conf=0.87
+[FRAME 907/1323] @18.14s | 2 faces | SPLIT | det=81.0ms | F1:(1030,478) 160x395 conf=0.77 | F2:(1128,540) 346x301 conf=0.87
+[FRAME 908/1323] @18.16s | 2 faces | SPLIT | det=86.8ms | F1:(1028,478) 164x404 conf=0.71 | F2:(1129,539) 342x298 conf=0.87
+[FRAME 909/1323] @18.18s | 2 faces | SPLIT | det=71.4ms | F1:(1030,474) 160x406 conf=0.66 | F2:(1128,537) 340x295 conf=0.86
+[FRAME 910/1323] @18.20s | 2 faces | SPLIT | det=81.6ms | F1:(1029,468) 160x413 conf=0.66 | F2:(1122,538) 341x296 conf=0.85
+[FRAME 911/1323] @18.22s | 2 faces | SPLIT | det=79.2ms | F1:(1028,465) 162x423 conf=0.65 | F2:(1118,469) 336x429 conf=0.85
+[FRAME 912/1323] @18.24s | 2 faces | SPLIT | det=72.3ms | F1:(1028,463) 164x431 conf=0.69 | F2:(1119,467) 339x433 conf=0.85
+[FRAME 913/1323] @18.26s | 2 faces | SPLIT | det=81.9ms | F1:(1028,467) 164x430 conf=0.68 | F2:(1123,538) 349x297 conf=0.86
+[FRAME 914/1323] @18.28s | 2 faces | SPLIT | det=73.9ms | F1:(1026,469) 163x423 conf=0.65 | F2:(1117,467) 341x432 conf=0.85
+[FRAME 915/1323] @18.30s | 2 faces | SPLIT | det=70.6ms | F1:(1028,529) 164x279 conf=0.69 | F2:(1116,465) 339x433 conf=0.86
+[FRAME 916/1323] @18.32s | 2 faces | SPLIT | det=68.7ms | F1:(1028,460) 164x409 conf=0.73 | F2:(1118,464) 340x431 conf=0.86
+[FRAME 917/1323] @18.34s | 2 faces | SPLIT | det=70.8ms | F1:(1028,460) 164x408 conf=0.74 | F2:(1119,464) 338x428 conf=0.86
+[FRAME 918/1323] @18.36s | 2 faces | SPLIT | det=78.3ms | F1:(1030,458) 160x410 conf=0.71 | F2:(1121,463) 333x427 conf=0.85
+[FRAME 919/1323] @18.38s | 2 faces | SPLIT | det=71.7ms | F1:(1031,455) 158x403 conf=0.75 | F2:(1132,532) 347x285 conf=0.86
+[FRAME 920/1323] @18.40s | 2 faces | SPLIT | det=81.5ms | F1:(1032,458) 155x401 conf=0.75 | F2:(1133,532) 345x284 conf=0.86
+[FRAME 921/1323] @18.42s | 2 faces | SPLIT | det=73.4ms | F1:(1035,459) 150x397 conf=0.73 | F2:(1136,533) 345x287 conf=0.86
+[FRAME 922/1323] @18.44s | 2 faces | SPLIT | det=83.8ms | F1:(1040,457) 139x391 conf=0.74 | F2:(1140,533) 350x287 conf=0.86
+[FRAME 923/1323] @18.46s | 2 faces | SPLIT | det=79.8ms | F1:(1043,456) 134x391 conf=0.72 | F2:(1143,533) 350x287 conf=0.86
+[FRAME 924/1323] @18.48s | 2 faces | SPLIT | det=69.2ms | F1:(1042,457) 136x390 conf=0.74 | F2:(1145,531) 350x283 conf=0.86
+[FRAME 925/1323] @18.50s | 2 faces | SPLIT | det=76.1ms | F1:(1043,458) 134x387 conf=0.74 | F2:(1152,530) 348x281 conf=0.86
+[FRAME 926/1323] @18.52s | 2 faces | SPLIT | det=81.1ms | F1:(1045,459) 129x383 conf=0.71 | F2:(1154,531) 348x282 conf=0.87
+[FRAME 927/1323] @18.54s | 2 faces | SPLIT | det=77.0ms | F1:(1044,460) 131x386 conf=0.73 | F2:(1155,532) 345x284 conf=0.86
+[FRAME 928/1323] @18.56s | 2 faces | SPLIT | det=77.8ms | F1:(1045,459) 129x390 conf=0.73 | F2:(1156,532) 346x285 conf=0.86
+[FRAME 929/1323] @18.58s | 2 faces | SPLIT | det=82.4ms | F1:(1045,457) 129x390 conf=0.72 | F2:(1158,532) 348x284 conf=0.86
+[FRAME 930/1323] @18.60s | 2 faces | SPLIT | det=90.9ms | F1:(1045,458) 129x386 conf=0.72 | F2:(1158,532) 348x285 conf=0.87
+[TRACK P1] @18.6s | raw=(1045,458) → smooth=(1036,467) | delta=(10.1,-10.1) move=14.3px
+[TRACK P2] @18.6s | raw=(1158,532) → smooth=(1137,522) | delta=(23.0,10.8) move=25.4px
+[FRAME 931/1323] @18.62s | 2 faces | SPLIT | det=75.3ms | F1:(1045,458) 129x388 conf=0.72 | F2:(1157,533) 346x284 conf=0.86
+[FRAME 932/1323] @18.64s | 2 faces | SPLIT | det=74.4ms | F1:(1045,457) 129x389 conf=0.73 | F2:(1156,532) 346x284 conf=0.86
+[FRAME 933/1323] @18.66s | 2 faces | SPLIT | det=75.1ms | F1:(1045,459) 129x391 conf=0.73 | F2:(1155,532) 344x284 conf=0.86
+[FRAME 934/1323] @18.68s | 2 faces | SPLIT | det=65.1ms | F1:(1044,458) 132x388 conf=0.73 | F2:(1145,460) 328x424 conf=0.86
+[FRAME 935/1323] @18.70s | 2 faces | SPLIT | det=76.9ms | F1:(1044,457) 132x394 conf=0.75 | F2:(1152,531) 346x279 conf=0.86
+[FRAME 936/1323] @18.72s | 2 faces | SPLIT | det=69.5ms | F1:(1043,459) 134x393 conf=0.74 | F2:(1150,531) 350x282 conf=0.87
+[FRAME 937/1323] @18.74s | 2 faces | SPLIT | det=75.4ms | F1:(1041,455) 138x397 conf=0.75 | F2:(1146,531) 355x282 conf=0.87
+[FRAME 938/1323] @18.76s | 2 faces | SPLIT | det=80.1ms | F1:(1038,457) 143x396 conf=0.74 | F2:(1141,531) 351x283 conf=0.86
+[FRAME 939/1323] @18.78s | 2 faces | SPLIT | det=84.3ms | F1:(1034,456) 151x393 conf=0.76 | F2:(1139,529) 348x279 conf=0.86
+[FRAME 940/1323] @18.80s | 2 faces | SPLIT | det=71.8ms | F1:(1031,452) 157x396 conf=0.75 | F2:(1124,458) 328x422 conf=0.85
+[FRAME 941/1323] @18.82s | 2 faces | SPLIT | det=72.5ms | F1:(1030,524) 160x268 conf=0.78 | F2:(1121,457) 329x420 conf=0.85
+[FRAME 942/1323] @18.84s | 2 faces | SPLIT | det=73.2ms | F1:(1028,455) 164x403 conf=0.80 | F2:(1118,457) 334x423 conf=0.86
+[FRAME 943/1323] @18.86s | 2 faces | SPLIT | det=81.2ms | F1:(1026,454) 167x404 conf=0.80 | F2:(1108,457) 328x425 conf=0.85
+[FRAME 944/1323] @18.88s | 2 faces | SPLIT | det=75.5ms | F1:(1024,523) 172x267 conf=0.82 | F2:(1116,529) 354x279 conf=0.86
+[FRAME 945/1323] @18.90s | 2 faces | SPLIT | det=82.5ms | F1:(1021,523) 177x267 conf=0.83 | F2:(1112,530) 347x280 conf=0.86
+[FRAME 946/1323] @18.92s | 2 faces | SPLIT | det=78.2ms | F1:(1021,523) 177x267 conf=0.84 | F2:(1105,529) 343x279 conf=0.86
+[FRAME 947/1323] @18.94s | 2 faces | SPLIT | det=90.5ms | F1:(1019,523) 181x267 conf=0.85 | F2:(1102,530) 340x280 conf=0.86
+[FRAME 948/1323] @18.96s | 2 faces | SPLIT | det=78.6ms | F1:(1018,523) 184x267 conf=0.86 | F2:(1101,529) 343x278 conf=0.86
+[FRAME 949/1323] @18.98s | 2 faces | SPLIT | det=70.5ms | F1:(1017,523) 186x267 conf=0.86 | F2:(1096,528) 335x277 conf=0.86
+[FRAME 950/1323] @19.00s | 2 faces | SPLIT | det=76.3ms | F1:(1017,523) 186x267 conf=0.86 | F2:(1095,529) 337x276 conf=0.86
+[FRAME 951/1323] @19.02s | 2 faces | SPLIT | det=85.3ms | F1:(1016,524) 188x268 conf=0.86 | F2:(1093,529) 340x274 conf=0.86
+[FRAME 952/1323] @19.04s | 2 faces | SPLIT | det=89.3ms | F1:(1016,524) 188x268 conf=0.85 | F2:(1091,526) 337x268 conf=0.86
+[FRAME 953/1323] @19.06s | 2 faces | SPLIT | det=71.7ms | F1:(1014,523) 191x267 conf=0.85 | F2:(1080,450) 317x431 conf=0.85
+[FRAME 954/1323] @19.08s | 2 faces | SPLIT | det=76.7ms | F1:(1013,523) 193x266 conf=0.86 | F2:(1078,445) 318x425 conf=0.85
+[FRAME 955/1323] @19.10s | 2 faces | SPLIT | det=79.7ms | F1:(1012,522) 195x265 conf=0.86 | F2:(1076,443) 316x423 conf=0.85
+[FRAME 956/1323] @19.12s | 2 faces | SPLIT | det=74.6ms | F1:(1012,522) 196x265 conf=0.86 | F2:(1076,442) 316x419 conf=0.86
+[FRAME 957/1323] @19.14s | 1 faces | SPLIT | det=81.3ms | F1:(1010,522) 200x264 conf=0.86
+[FRAME 958/1323] @19.16s | 2 faces | SPLIT | det=83.4ms | F1:(1010,522) 200x264 conf=0.86 | F2:(1074,442) 322x419 conf=0.86
+[FRAME 959/1323] @19.18s | 1 faces | SPLIT | det=73.3ms | F1:(1011,524) 198x268 conf=0.86
+[FRAME 960/1323] @19.20s | 1 faces | SPLIT | det=84.4ms | F1:(1010,523) 200x267 conf=0.85
+[FRAME 961/1323] @19.22s | 1 faces | SPLIT | det=79.7ms | F1:(1067,444) 315x415 conf=0.85
+[FRAME 962/1323] @19.24s | 1 faces | SPLIT | det=75.8ms | F1:(1066,445) 316x416 conf=0.86
+[FRAME 963/1323] @19.26s | 1 faces | SPLIT | det=77.0ms | F1:(1065,445) 315x419 conf=0.86
+[FRAME 964/1323] @19.28s | 1 faces | SPLIT | det=74.0ms | F1:(1064,447) 314x419 conf=0.86
+[FRAME 965/1323] @19.30s | 1 faces | SPLIT | det=84.1ms | F1:(1064,449) 314x420 conf=0.86
+[FRAME 966/1323] @19.32s | 1 faces | SPLIT | det=79.1ms | F1:(1063,448) 317x422 conf=0.86
+[FRAME 967/1323] @19.34s | 1 faces | SPLIT | det=78.9ms | F1:(1062,447) 316x422 conf=0.86
+[FRAME 968/1323] @19.36s | 1 faces | SPLIT | det=78.5ms | F1:(1004,524) 212x268 conf=0.86
+[FRAME 969/1323] @19.38s | 1 faces | SPLIT | det=70.5ms | F1:(1057,447) 314x421 conf=0.86
+[FRAME 970/1323] @19.40s | 1 faces | SPLIT | det=71.0ms | F1:(1002,523) 216x267 conf=0.87
+[FRAME 971/1323] @19.42s | 1 faces | SPLIT | det=78.3ms | F1:(1000,523) 219x267 conf=0.87
+[FRAME 972/1323] @19.44s | 1 faces | SPLIT | det=76.1ms | F1:(999,524) 221x269 conf=0.87
+[FRAME 973/1323] @19.46s | 1 faces | SPLIT | det=66.7ms | F1:(998,525) 223x270 conf=0.87
+[FRAME 974/1323] @19.48s | 1 faces | SPLIT | det=80.1ms | F1:(997,525) 226x271 conf=0.87
+[FRAME 975/1323] @19.50s | 1 faces | SPLIT | det=67.1ms | F1:(995,526) 229x272 conf=0.87
+[FRAME 976/1323] @19.52s | 1 faces | SPLIT | det=80.9ms | F1:(995,524) 229x269 conf=0.86
+[FRAME 977/1323] @19.54s | 1 faces | SPLIT | det=77.4ms | F1:(994,523) 231x266 conf=0.86
+[FRAME 978/1323] @19.56s | 1 faces | SPLIT | det=78.8ms | F1:(994,523) 232x266 conf=0.86
+[FRAME 979/1323] @19.58s | 1 faces | SPLIT | det=71.9ms | F1:(994,524) 231x269 conf=0.86
+[FRAME 980/1323] @19.60s | 1 faces | SPLIT | det=75.0ms | F1:(994,525) 231x270 conf=0.86
+[FRAME 981/1323] @19.62s | 1 faces | SPLIT | det=73.7ms | F1:(1038,441) 314x420 conf=0.86
+[FRAME 982/1323] @19.64s | 1 faces | SPLIT | det=77.9ms | F1:(993,523) 233x267 conf=0.86
+[FRAME 983/1323] @19.66s | 1 faces | SPLIT | det=81.9ms | F1:(992,523) 236x266 conf=0.87
+[FRAME 984/1323] @19.68s | 1 faces | SPLIT | det=82.3ms | F1:(992,524) 236x269 conf=0.86
+[FRAME 985/1323] @19.70s | 1 faces | SPLIT | det=75.2ms | F1:(992,530) 236x281 conf=0.88
+[FRAME 986/1323] @19.72s | 1 faces | SPLIT | det=77.5ms | F1:(989,539) 237x298 conf=0.87
+[FRAME 987/1323] @19.74s | 1 faces | SPLIT | det=72.7ms | F1:(989,548) 237x316 conf=0.87
+[FRAME 988/1323] @19.76s | 1 faces | SPLIT | det=71.0ms | F1:(991,553) 237x320 conf=0.88
+[FRAME 989/1323] @19.78s | 1 faces | SPLIT | det=72.6ms | F1:(1038,554) 329x320 conf=0.88
+[FRAME 990/1323] @19.80s | 1 faces | SPLIT | det=89.0ms | F1:(1040,554) 330x320 conf=0.88
+[FRAME 991/1323] @19.82s | 1 faces | SPLIT | det=80.8ms | F1:(1042,552) 339x319 conf=0.88
+[FRAME 992/1323] @19.84s | 1 faces | SPLIT | det=79.8ms | F1:(990,548) 238x314 conf=0.88
+[FRAME 993/1323] @19.86s | 1 faces | SPLIT | det=73.7ms | F1:(988,539) 240x298 conf=0.88
+[FRAME 994/1323] @19.88s | 1 faces | SPLIT | det=69.8ms | F1:(988,536) 241x293 conf=0.88
+[FRAME 995/1323] @19.90s | 1 faces | SPLIT | det=74.6ms | F1:(1032,533) 342x284 conf=0.87
+[FRAME 996/1323] @19.92s | 1 faces | SPLIT | det=84.6ms | F1:(1029,533) 344x282 conf=0.87
+[FRAME 997/1323] @19.94s | 1 faces | SPLIT | det=75.6ms | F1:(1028,536) 343x288 conf=0.88
+[FRAME 998/1323] @19.96s | 1 faces | SPLIT | det=78.2ms | F1:(1028,542) 343x298 conf=0.89
+[FRAME 999/1323] @19.98s | 1 faces | SPLIT | det=83.4ms | F1:(1028,541) 343x300 conf=0.89
+[FRAME 1000/1323] @20.00s | 1 faces | SPLIT | det=76.8ms | F1:(1028,541) 345x301 conf=0.89
+[FRAME 1001/1323] @20.02s | 1 faces | SPLIT | det=88.6ms | F1:(982,540) 254x300 conf=0.88
+[FRAME 1002/1323] @20.04s | 1 faces | SPLIT | det=79.6ms | F1:(982,539) 254x298 conf=0.88
+[FRAME 1003/1323] @20.06s | 1 faces | SPLIT | det=73.8ms | F1:(981,540) 257x301 conf=0.88
+[FRAME 1004/1323] @20.08s | 1 faces | SPLIT | det=75.6ms | F1:(979,541) 257x303 conf=0.88
+[FRAME 1005/1323] @20.10s | 1 faces | SPLIT | det=79.4ms | F1:(979,541) 261x302 conf=0.88
+[FRAME 1006/1323] @20.12s | 1 faces | SPLIT | det=83.0ms | F1:(978,541) 264x302 conf=0.88
+[FRAME 1007/1323] @20.14s | 1 faces | SPLIT | det=76.7ms | F1:(976,536) 267x292 conf=0.88
+[FRAME 1008/1323] @20.16s | 1 faces | SPLIT | det=74.3ms | F1:(975,532) 269x284 conf=0.88
+[FRAME 1009/1323] @20.18s | 1 faces | SPLIT | det=78.9ms | F1:(975,531) 269x282 conf=0.88
+[FRAME 1010/1323] @20.20s | 1 faces | SPLIT | det=71.1ms | F1:(974,531) 271x283 conf=0.89
+[FRAME 1011/1323] @20.22s | 1 faces | SPLIT | det=76.0ms | F1:(974,532) 271x285 conf=0.88
+[FRAME 1012/1323] @20.24s | 1 faces | SPLIT | det=74.8ms | F1:(974,538) 271x297 conf=0.88
+[FRAME 1013/1323] @20.26s | 1 faces | SPLIT | det=66.7ms | F1:(975,538) 270x297 conf=0.88
+[FRAME 1014/1323] @20.28s | 1 faces | SPLIT | det=73.5ms | F1:(975,538) 270x297 conf=0.89
+[FRAME 1015/1323] @20.30s | 1 faces | SPLIT | det=87.2ms | F1:(974,537) 271x294 conf=0.89
+[FRAME 1016/1323] @20.32s | 1 faces | SPLIT | det=92.0ms | F1:(973,535) 273x290 conf=0.89
+[FRAME 1017/1323] @20.34s | 1 faces | SPLIT | det=77.9ms | F1:(974,533) 271x287 conf=0.89
+[FRAME 1018/1323] @20.36s | 1 faces | SPLIT | det=78.6ms | F1:(975,532) 269x285 conf=0.88
+[FRAME 1019/1323] @20.38s | 1 faces | SPLIT | det=68.8ms | F1:(974,531) 271x283 conf=0.88
+[FRAME 1020/1323] @20.40s | 1 faces | SPLIT | det=79.5ms | F1:(974,531) 271x282 conf=0.88
+[FRAME 1021/1323] @20.42s | 1 faces | SPLIT | det=76.6ms | F1:(974,530) 271x280 conf=0.88
+[FRAME 1022/1323] @20.44s | 1 faces | SPLIT | det=76.5ms | F1:(976,530) 268x280 conf=0.88
+[FRAME 1023/1323] @20.46s | 1 faces | SPLIT | det=70.7ms | F1:(976,530) 267x280 conf=0.88
+[FRAME 1024/1323] @20.48s | 1 faces | SPLIT | det=83.2ms | F1:(976,531) 267x282 conf=0.88
+[FRAME 1025/1323] @20.50s | 1 faces | SPLIT | det=79.5ms | F1:(978,531) 264x283 conf=0.88
+[FRAME 1026/1323] @20.52s | 1 faces | SPLIT | det=79.3ms | F1:(979,532) 262x282 conf=0.87
+[FRAME 1027/1323] @20.54s | 1 faces | SPLIT | det=74.7ms | F1:(980,531) 260x283 conf=0.87
+[FRAME 1028/1323] @20.56s | 1 faces | SPLIT | det=72.6ms | F1:(980,531) 260x281 conf=0.87
+[FRAME 1029/1323] @20.58s | 1 faces | SPLIT | det=84.7ms | F1:(979,532) 261x282 conf=0.87
+[FRAME 1030/1323] @20.60s | 1 faces | SPLIT | det=73.2ms | F1:(979,531) 261x283 conf=0.87
+[FRAME 1031/1323] @20.62s | 1 faces | SPLIT | det=73.7ms | F1:(979,532) 259x284 conf=0.88
+[FRAME 1032/1323] @20.64s | 1 faces | SPLIT | det=70.3ms | F1:(980,531) 260x283 conf=0.87
+[FRAME 1033/1323] @20.66s | 1 faces | SPLIT | det=77.4ms | F1:(978,532) 262x284 conf=0.87
+[FRAME 1034/1323] @20.68s | 1 faces | SPLIT | det=72.2ms | F1:(977,533) 264x284 conf=0.87
+[FRAME 1035/1323] @20.70s | 1 faces | SPLIT | det=74.4ms | F1:(977,531) 265x283 conf=0.87
+[FRAME 1036/1323] @20.72s | 1 faces | SPLIT | det=73.0ms | F1:(976,533) 267x287 conf=0.88
+[FRAME 1037/1323] @20.74s | 1 faces | SPLIT | det=81.2ms | F1:(975,534) 269x288 conf=0.88
+[FRAME 1038/1323] @20.76s | 1 faces | SPLIT | det=80.0ms | F1:(973,533) 273x286 conf=0.88
+[FRAME 1039/1323] @20.78s | 1 faces | SPLIT | det=85.5ms | F1:(969,532) 281x284 conf=0.89
+[FRAME 1040/1323] @20.80s | 1 faces | SPLIT | det=76.2ms | F1:(968,531) 283x282 conf=0.89
+[FRAME 1041/1323] @20.82s | 1 faces | SPLIT | det=78.4ms | F1:(967,530) 286x280 conf=0.89
+[FRAME 1042/1323] @20.84s | 1 faces | SPLIT | det=75.1ms | F1:(966,528) 288x276 conf=0.89
+[FRAME 1043/1323] @20.86s | 1 faces | SPLIT | det=64.6ms | F1:(965,525) 287x270 conf=0.88
+[FRAME 1044/1323] @20.88s | 1 faces | SPLIT | det=80.3ms | F1:(965,518) 288x256 conf=0.89
+[FRAME 1045/1323] @20.90s | 1 faces | SPLIT | det=76.0ms | F1:(961,512) 293x245 conf=0.90
+[FRAME 1046/1323] @20.92s | 1 faces | SPLIT | det=79.8ms | F1:(960,511) 295x243 conf=0.89
+[FRAME 1047/1323] @20.94s | 1 faces | SPLIT | det=70.9ms | F1:(958,510) 298x240 conf=0.89
+[FRAME 1048/1323] @20.96s | 1 faces | SPLIT | det=75.2ms | F1:(956,508) 304x237 conf=0.89
+[FRAME 1049/1323] @20.98s | 1 faces | SPLIT | det=81.4ms | F1:(955,506) 306x233 conf=0.89
+[FRAME 1050/1323] @21.00s | 1 faces | SPLIT | det=93.0ms | F1:(953,505) 309x231 conf=0.89
+[LOG] 22:57:08 [info] TRACK @21.0s → 1 faces → SPLIT: (953,505)
+[FRAME 1051/1323] @21.02s | 1 faces | SPLIT | det=77.7ms | F1:(952,506) 311x233 conf=0.89
+[FRAME 1052/1323] @21.04s | 1 faces | SPLIT | det=85.6ms | F1:(952,507) 314x235 conf=0.89
+[FRAME 1053/1323] @21.06s | 1 faces | SPLIT | det=83.2ms | F1:(950,505) 318x231 conf=0.88
+[FRAME 1054/1323] @21.08s | 2 faces | SPLIT | det=14.8ms | F1:(363,406) 113x154 conf=0.84 | F2:(1543,419) 114x158 conf=0.83
+[LOG] 22:57:08 [info] JUMP @21.1s: 665px → INSTANT
+[DEBUG 22:57:08] [JUMP SPLIT] Frame 1054: dist1=665px, dist2=448px, threshold=200px
+[DEBUG 22:57:08]   P1: (1021,507) → (363,406)
+[DEBUG 22:57:08]   P2: (1101,490) → (1543,419)
+[FRAME 1055/1323] @21.10s | 2 faces | SPLIT | det=14.2ms | F1:(362,405) 112x151 conf=0.85 | F2:(1543,419) 114x157 conf=0.82
+[FRAME 1056/1323] @21.12s | 2 faces | SPLIT | det=20.4ms | F1:(361,405) 110x151 conf=0.85 | F2:(1543,420) 111x156 conf=0.82
+[FRAME 1057/1323] @21.14s | 2 faces | SPLIT | det=14.9ms | F1:(360,406) 111x150 conf=0.84 | F2:(1541,419) 109x157 conf=0.82
+[FRAME 1058/1323] @21.16s | 2 faces | SPLIT | det=13.4ms | F1:(360,405) 111x151 conf=0.83 | F2:(1540,420) 108x156 conf=0.83
+[FRAME 1059/1323] @21.18s | 2 faces | SPLIT | det=14.0ms | F1:(360,404) 110x151 conf=0.83 | F2:(1539,419) 108x155 conf=0.83
+[FRAME 1060/1323] @21.20s | 2 faces | SPLIT | det=13.8ms | F1:(359,404) 112x151 conf=0.83 | F2:(1535,420) 106x154 conf=0.83
+[FRAME 1061/1323] @21.22s | 2 faces | SPLIT | det=22.9ms | F1:(359,404) 112x151 conf=0.82 | F2:(1534,419) 108x152 conf=0.83
+[FRAME 1062/1323] @21.24s | 2 faces | SPLIT | det=14.1ms | F1:(360,405) 112x150 conf=0.82 | F2:(1531,418) 105x150 conf=0.83
+[FRAME 1063/1323] @21.26s | 2 faces | SPLIT | det=16.5ms | F1:(360,403) 112x150 conf=0.80 | F2:(1529,417) 105x150 conf=0.83
+[FRAME 1064/1323] @21.28s | 2 faces | SPLIT | det=15.0ms | F1:(360,402) 113x151 conf=0.80 | F2:(1529,417) 105x150 conf=0.82
+[FRAME 1065/1323] @21.30s | 2 faces | SPLIT | det=15.8ms | F1:(358,401) 113x151 conf=0.80 | F2:(1528,417) 102x150 conf=0.81
+[FRAME 1066/1323] @21.32s | 2 faces | SPLIT | det=17.7ms | F1:(358,402) 111x150 conf=0.79 | F2:(1529,417) 104x150 conf=0.82
+[FRAME 1067/1323] @21.34s | 2 faces | SPLIT | det=15.8ms | F1:(357,399) 111x150 conf=0.79 | F2:(1529,418) 105x148 conf=0.83
+[FRAME 1068/1323] @21.36s | 2 faces | SPLIT | det=18.3ms | F1:(356,397) 111x149 conf=0.79 | F2:(1531,418) 105x151 conf=0.83
+[FRAME 1069/1323] @21.38s | 2 faces | SPLIT | det=15.4ms | F1:(356,397) 111x147 conf=0.79 | F2:(1534,420) 108x152 conf=0.82
+[FRAME 1070/1323] @21.40s | 2 faces | SPLIT | det=14.8ms | F1:(356,397) 111x147 conf=0.80 | F2:(1537,419) 105x151 conf=0.83
+[FRAME 1071/1323] @21.42s | 2 faces | SPLIT | det=15.4ms | F1:(356,396) 110x145 conf=0.81 | F2:(1541,421) 109x154 conf=0.83
+[FRAME 1072/1323] @21.44s | 2 faces | SPLIT | det=19.0ms | F1:(356,396) 111x145 conf=0.80 | F2:(1540,421) 114x156 conf=0.83
+[FRAME 1073/1323] @21.46s | 2 faces | SPLIT | det=15.9ms | F1:(356,396) 110x144 conf=0.80 | F2:(1541,421) 111x157 conf=0.82
+[FRAME 1074/1323] @21.48s | 2 faces | SPLIT | det=14.7ms | F1:(357,395) 110x144 conf=0.79 | F2:(1543,421) 111x158 conf=0.82
+[FRAME 1075/1323] @21.50s | 2 faces | SPLIT | det=15.1ms | F1:(357,394) 107x144 conf=0.79 | F2:(1541,421) 109x159 conf=0.82
+[FRAME 1076/1323] @21.52s | 2 faces | SPLIT | det=16.3ms | F1:(357,392) 108x143 conf=0.80 | F2:(1542,419) 108x158 conf=0.82
+[FRAME 1077/1323] @21.54s | 2 faces | SPLIT | det=19.7ms | F1:(357,392) 107x141 conf=0.80 | F2:(1540,418) 105x157 conf=0.82
+[FRAME 1078/1323] @21.56s | 2 faces | SPLIT | det=18.1ms | F1:(357,393) 107x143 conf=0.80 | F2:(1538,417) 105x155 conf=0.82
+[FRAME 1079/1323] @21.58s | 2 faces | SPLIT | det=16.9ms | F1:(358,392) 108x143 conf=0.80 | F2:(1537,416) 102x153 conf=0.83
+[FRAME 1080/1323] @21.60s | 2 faces | SPLIT | det=26.1ms | F1:(358,392) 106x141 conf=0.80 | F2:(1536,415) 102x152 conf=0.82
+[TRACK P1] @21.6s | raw=(358,392) → smooth=(359,397) | delta=(-0.7,-5.5) move=5.5px
+[TRACK P2] @21.6s | raw=(1536,415) → smooth=(1538,418) | delta=(-2.0,-3.7) move=4.3px
+[FRAME 1081/1323] @21.62s | 2 faces | SPLIT | det=16.3ms | F1:(359,392) 106x144 conf=0.79 | F2:(1534,415) 102x152 conf=0.81
+[FRAME 1082/1323] @21.64s | 2 faces | SPLIT | det=17.7ms | F1:(358,391) 107x143 conf=0.80 | F2:(1533,414) 102x152 conf=0.82
+[FRAME 1083/1323] @21.66s | 2 faces | SPLIT | det=14.9ms | F1:(358,391) 106x143 conf=0.80 | F2:(1533,414) 102x152 conf=0.81
+[FRAME 1084/1323] @21.68s | 2 faces | SPLIT | det=15.6ms | F1:(358,391) 107x144 conf=0.79 | F2:(1534,413) 102x149 conf=0.81
+[FRAME 1085/1323] @21.70s | 2 faces | SPLIT | det=15.4ms | F1:(358,391) 107x144 conf=0.80 | F2:(1534,413) 102x149 conf=0.82
+[FRAME 1086/1323] @21.72s | 2 faces | SPLIT | det=14.8ms | F1:(357,389) 107x145 conf=0.80 | F2:(1537,413) 105x149 conf=0.82
+[FRAME 1087/1323] @21.74s | 2 faces | SPLIT | det=15.1ms | F1:(357,389) 108x146 conf=0.80 | F2:(1537,414) 105x149 conf=0.82
+[FRAME 1088/1323] @21.76s | 2 faces | SPLIT | det=19.8ms | F1:(357,389) 108x146 conf=0.80 | F2:(1537,414) 105x149 conf=0.82
+[FRAME 1089/1323] @21.78s | 2 faces | SPLIT | det=15.2ms | F1:(356,388) 107x146 conf=0.80 | F2:(1537,414) 105x150 conf=0.83
+[FRAME 1090/1323] @21.80s | 2 faces | SPLIT | det=17.8ms | F1:(356,388) 107x146 conf=0.80 | F2:(1537,414) 105x151 conf=0.83
+[FRAME 1091/1323] @21.82s | 2 faces | SPLIT | det=17.5ms | F1:(356,388) 107x145 conf=0.80 | F2:(1535,412) 105x153 conf=0.83
+[FRAME 1092/1323] @21.84s | 2 faces | SPLIT | det=18.1ms | F1:(356,388) 108x147 conf=0.80 | F2:(1534,412) 105x154 conf=0.83
+[FRAME 1093/1323] @21.86s | 2 faces | SPLIT | det=16.8ms | F1:(357,390) 108x144 conf=0.80 | F2:(1534,410) 102x154 conf=0.83
+[FRAME 1094/1323] @21.88s | 2 faces | SPLIT | det=19.7ms | F1:(358,391) 107x144 conf=0.81 | F2:(1534,409) 105x156 conf=0.82
+[FRAME 1095/1323] @21.90s | 2 faces | SPLIT | det=16.0ms | F1:(358,391) 106x143 conf=0.80 | F2:(1534,409) 102x156 conf=0.82
+[FRAME 1096/1323] @21.92s | 2 faces | SPLIT | det=16.9ms | F1:(360,393) 106x144 conf=0.79 | F2:(1535,408) 104x154 conf=0.81
+[FRAME 1097/1323] @21.94s | 2 faces | SPLIT | det=15.7ms | F1:(360,394) 106x143 conf=0.80 | F2:(1535,407) 105x153 conf=0.81
+[FRAME 1098/1323] @21.96s | 2 faces | SPLIT | det=16.5ms | F1:(361,395) 106x143 conf=0.78 | F2:(1535,408) 105x149 conf=0.82
+[FRAME 1099/1323] @21.98s | 2 faces | SPLIT | det=19.0ms | F1:(362,396) 105x145 conf=0.80 | F2:(1535,410) 105x150 conf=0.81
+[FRAME 1100/1323] @22.00s | 2 faces | SPLIT | det=16.9ms | F1:(362,396) 107x145 conf=0.79 | F2:(1534,411) 105x149 conf=0.82
+[FRAME 1101/1323] @22.02s | 2 faces | SPLIT | det=17.1ms | F1:(364,398) 108x146 conf=0.81 | F2:(1533,412) 108x150 conf=0.81
+[FRAME 1102/1323] @22.04s | 2 faces | SPLIT | det=16.8ms | F1:(363,399) 109x146 conf=0.81 | F2:(1533,413) 102x151 conf=0.81
+[FRAME 1103/1323] @22.06s | 2 faces | SPLIT | det=16.5ms | F1:(365,399) 110x145 conf=0.81 | F2:(1531,413) 102x150 conf=0.81
+[FRAME 1104/1323] @22.08s | 2 faces | SPLIT | det=17.2ms | F1:(364,400) 109x145 conf=0.81 | F2:(1531,411) 105x150 conf=0.81
+[FRAME 1105/1323] @22.10s | 2 faces | SPLIT | det=32.1ms | F1:(364,402) 111x146 conf=0.81 | F2:(1534,410) 105x150 conf=0.80
+[FRAME 1106/1323] @22.12s | 2 faces | SPLIT | det=26.2ms | F1:(365,403) 112x147 conf=0.81 | F2:(1534,410) 105x151 conf=0.82
+[FRAME 1107/1323] @22.14s | 2 faces | SPLIT | det=27.3ms | F1:(366,405) 114x145 conf=0.80 | F2:(1535,410) 105x151 conf=0.80
+[FRAME 1108/1323] @22.16s | 2 faces | SPLIT | det=32.4ms | F1:(366,408) 113x146 conf=0.82 | F2:(1537,411) 105x152 conf=0.81
+[FRAME 1109/1323] @22.18s | 2 faces | SPLIT | det=24.3ms | F1:(370,409) 116x148 conf=0.81 | F2:(1535,415) 105x154 conf=0.81
+[FRAME 1110/1323] @22.20s | 2 faces | SPLIT | det=31.3ms | F1:(371,412) 118x150 conf=0.82 | F2:(1536,414) 108x155 conf=0.81
+[TRACK P1] @22.2s | raw=(371,412) → smooth=(363,400) | delta=(8.2,13.2) move=15.6px
+[TRACK P2] @22.2s | raw=(1536,414) → smooth=(1535,412) | delta=(1.1,1.5) move=1.9px
+[FRAME 1111/1323] @22.22s | 2 faces | SPLIT | det=26.2ms | F1:(374,416) 117x150 conf=0.82 | F2:(1535,415) 104x154 conf=0.81
+[FRAME 1112/1323] @22.24s | 2 faces | SPLIT | det=25.3ms | F1:(373,418) 118x153 conf=0.82 | F2:(1535,412) 105x152 conf=0.81
+[FRAME 1113/1323] @22.26s | 2 faces | SPLIT | det=23.7ms | F1:(373,420) 117x155 conf=0.83 | F2:(1535,411) 106x152 conf=0.80
+[FRAME 1114/1323] @22.28s | 2 faces | SPLIT | det=24.1ms | F1:(376,422) 113x153 conf=0.82 | F2:(1534,411) 105x153 conf=0.80
+[FRAME 1115/1323] @22.30s | 2 faces | SPLIT | det=29.5ms | F1:(377,425) 117x152 conf=0.82 | F2:(1534,410) 105x153 conf=0.81
+[FRAME 1116/1323] @22.32s | 2 faces | SPLIT | det=18.1ms | F1:(380,427) 116x152 conf=0.82 | F2:(1535,410) 105x153 conf=0.81
+[FRAME 1117/1323] @22.34s | 2 faces | SPLIT | det=18.8ms | F1:(383,430) 115x149 conf=0.81 | F2:(1535,412) 105x154 conf=0.80
+[FRAME 1118/1323] @22.36s | 2 faces | SPLIT | det=17.5ms | F1:(386,430) 118x152 conf=0.81 | F2:(1536,412) 108x153 conf=0.81
+[FRAME 1119/1323] @22.38s | 2 faces | SPLIT | det=17.0ms | F1:(386,430) 116x153 conf=0.82 | F2:(1535,412) 105x153 conf=0.81
+[FRAME 1120/1323] @22.40s | 2 faces | SPLIT | det=17.6ms | F1:(387,430) 116x154 conf=0.81 | F2:(1534,413) 105x150 conf=0.81
+[FRAME 1121/1323] @22.42s | 2 faces | SPLIT | det=16.5ms | F1:(390,432) 117x154 conf=0.81 | F2:(1533,413) 102x150 conf=0.80
+[FRAME 1122/1323] @22.44s | 2 faces | SPLIT | det=21.5ms | F1:(390,431) 119x153 conf=0.80 | F2:(1531,413) 105x152 conf=0.81
+[FRAME 1123/1323] @22.46s | 2 faces | SPLIT | det=16.5ms | F1:(392,432) 119x156 conf=0.81 | F2:(1532,411) 106x152 conf=0.81
+[FRAME 1124/1323] @22.48s | 2 faces | SPLIT | det=17.2ms | F1:(393,432) 118x155 conf=0.80 | F2:(1531,410) 105x153 conf=0.81
+[FRAME 1125/1323] @22.50s | 2 faces | SPLIT | det=22.0ms | F1:(392,432) 119x157 conf=0.81 | F2:(1532,411) 106x153 conf=0.82
+[FRAME 1126/1323] @22.52s | 2 faces | SPLIT | det=23.8ms | F1:(393,434) 116x154 conf=0.80 | F2:(1534,412) 105x154 conf=0.82
+[FRAME 1127/1323] @22.54s | 2 faces | SPLIT | det=17.3ms | F1:(393,436) 119x152 conf=0.80 | F2:(1532,412) 105x154 conf=0.82
+[FRAME 1128/1323] @22.56s | 2 faces | SPLIT | det=19.3ms | F1:(394,435) 117x155 conf=0.79 | F2:(1532,412) 105x154 conf=0.81
+[FRAME 1129/1323] @22.58s | 2 faces | SPLIT | det=17.8ms | F1:(395,436) 117x153 conf=0.81 | F2:(1532,412) 105x154 conf=0.80
+[FRAME 1130/1323] @22.60s | 2 faces | SPLIT | det=17.2ms | F1:(396,439) 118x150 conf=0.81 | F2:(1533,411) 107x152 conf=0.81
+[FRAME 1131/1323] @22.62s | 2 faces | SPLIT | det=18.7ms | F1:(396,439) 118x151 conf=0.81 | F2:(1532,411) 105x152 conf=0.80
+[FRAME 1132/1323] @22.64s | 2 faces | SPLIT | det=19.1ms | F1:(396,441) 118x150 conf=0.82 | F2:(1532,411) 105x150 conf=0.81
+[FRAME 1133/1323] @22.66s | 2 faces | SPLIT | det=15.8ms | F1:(397,441) 117x150 conf=0.81 | F2:(1532,410) 105x151 conf=0.80
+[FRAME 1134/1323] @22.68s | 2 faces | SPLIT | det=17.5ms | F1:(398,442) 118x150 conf=0.82 | F2:(1532,410) 105x152 conf=0.80
+[FRAME 1135/1323] @22.70s | 2 faces | SPLIT | det=17.4ms | F1:(398,444) 119x150 conf=0.82 | F2:(1533,410) 103x152 conf=0.80
+[FRAME 1136/1323] @22.72s | 2 faces | SPLIT | det=16.7ms | F1:(399,444) 118x150 conf=0.82 | F2:(1532,410) 105x152 conf=0.80
+[FRAME 1137/1323] @22.74s | 2 faces | SPLIT | det=16.7ms | F1:(398,444) 118x150 conf=0.83 | F2:(1532,410) 105x152 conf=0.80
+[FRAME 1138/1323] @22.76s | 2 faces | SPLIT | det=16.5ms | F1:(397,443) 117x151 conf=0.83 | F2:(1532,411) 105x152 conf=0.81
+[FRAME 1139/1323] @22.78s | 2 faces | SPLIT | det=25.1ms | F1:(397,443) 120x151 conf=0.81 | F2:(1533,411) 108x151 conf=0.80
+[FRAME 1140/1323] @22.80s | 2 faces | SPLIT | det=33.4ms | F1:(395,442) 123x153 conf=0.82 | F2:(1532,411) 106x151 conf=0.80
+[TRACK P1] @22.8s | raw=(395,442) → smooth=(393,436) | delta=(2.7,6.2) move=6.8px
+[TRACK P2] @22.8s | raw=(1532,411) → smooth=(1534,412) | delta=(-2.0,-1.2) move=2.4px
+[FRAME 1141/1323] @22.82s | 2 faces | SPLIT | det=29.5ms | F1:(396,443) 125x151 conf=0.82 | F2:(1531,412) 105x150 conf=0.80
+[FRAME 1142/1323] @22.84s | 2 faces | SPLIT | det=33.6ms | F1:(394,444) 125x151 conf=0.83 | F2:(1531,411) 105x150 conf=0.80
+[FRAME 1143/1323] @22.86s | 2 faces | SPLIT | det=31.4ms | F1:(395,445) 124x152 conf=0.82 | F2:(1531,410) 105x151 conf=0.80
+[FRAME 1144/1323] @22.88s | 2 faces | SPLIT | det=25.5ms | F1:(395,446) 125x152 conf=0.82 | F2:(1531,410) 108x150 conf=0.80
+[FRAME 1145/1323] @22.90s | 2 faces | SPLIT | det=25.2ms | F1:(394,446) 125x151 conf=0.82 | F2:(1531,410) 105x150 conf=0.80
+[FRAME 1146/1323] @22.92s | 2 faces | SPLIT | det=24.5ms | F1:(394,447) 125x151 conf=0.81 | F2:(1531,409) 105x150 conf=0.80
+[FRAME 1147/1323] @22.94s | 2 faces | SPLIT | det=25.0ms | F1:(394,447) 125x151 conf=0.81 | F2:(1531,409) 105x151 conf=0.80
+[FRAME 1148/1323] @22.96s | 2 faces | SPLIT | det=25.4ms | F1:(395,445) 124x151 conf=0.82 | F2:(1531,409) 105x151 conf=0.80
+[FRAME 1149/1323] @22.98s | 2 faces | SPLIT | det=25.5ms | F1:(395,445) 123x151 conf=0.82 | F2:(1531,410) 105x153 conf=0.80
+[FRAME 1150/1323] @23.00s | 2 faces | SPLIT | det=28.0ms | F1:(396,444) 124x151 conf=0.82 | F2:(1531,410) 105x154 conf=0.81
+[FRAME 1151/1323] @23.02s | 2 faces | SPLIT | det=26.1ms | F1:(396,442) 122x150 conf=0.82 | F2:(1531,409) 105x153 conf=0.80
+[FRAME 1152/1323] @23.04s | 2 faces | SPLIT | det=32.3ms | F1:(396,438) 123x151 conf=0.81 | F2:(1531,410) 105x153 conf=0.80
+[FRAME 1153/1323] @23.06s | 2 faces | SPLIT | det=28.5ms | F1:(395,439) 121x150 conf=0.81 | F2:(1531,409) 105x153 conf=0.80
+[FRAME 1154/1323] @23.08s | 2 faces | SPLIT | det=28.0ms | F1:(397,438) 123x153 conf=0.81 | F2:(1531,409) 105x153 conf=0.79
+[FRAME 1155/1323] @23.10s | 2 faces | SPLIT | det=26.8ms | F1:(398,438) 121x154 conf=0.81 | F2:(1531,409) 105x153 conf=0.79
+[FRAME 1156/1323] @23.12s | 2 faces | SPLIT | det=24.9ms | F1:(398,438) 121x155 conf=0.81 | F2:(1531,408) 105x151 conf=0.79
+[FRAME 1157/1323] @23.14s | 2 faces | SPLIT | det=25.1ms | F1:(399,438) 119x154 conf=0.82 | F2:(1532,410) 106x154 conf=0.80
+[FRAME 1158/1323] @23.16s | 2 faces | SPLIT | det=24.0ms | F1:(399,437) 120x151 conf=0.83 | F2:(1532,410) 106x154 conf=0.80
+[FRAME 1159/1323] @23.18s | 2 faces | SPLIT | det=16.7ms | F1:(400,437) 120x152 conf=0.82 | F2:(1532,410) 106x154 conf=0.81
+[FRAME 1160/1323] @23.20s | 2 faces | SPLIT | det=16.6ms | F1:(401,435) 120x153 conf=0.82 | F2:(1532,409) 106x153 conf=0.81
+[FRAME 1161/1323] @23.22s | 2 faces | SPLIT | det=16.3ms | F1:(401,434) 119x155 conf=0.82 | F2:(1531,408) 105x151 conf=0.81
+[FRAME 1162/1323] @23.24s | 2 faces | SPLIT | det=16.6ms | F1:(402,434) 119x153 conf=0.82 | F2:(1532,408) 105x151 conf=0.81
+[FRAME 1163/1323] @23.26s | 2 faces | SPLIT | det=17.1ms | F1:(403,433) 118x154 conf=0.82 | F2:(1533,408) 107x151 conf=0.81
+[FRAME 1164/1323] @23.28s | 2 faces | SPLIT | det=17.1ms | F1:(404,432) 117x153 conf=0.81 | F2:(1534,409) 108x150 conf=0.81
+[FRAME 1165/1323] @23.30s | 2 faces | SPLIT | det=18.8ms | F1:(404,431) 116x155 conf=0.82 | F2:(1534,410) 105x152 conf=0.81
+[FRAME 1166/1323] @23.32s | 2 faces | SPLIT | det=16.6ms | F1:(403,431) 118x155 conf=0.82 | F2:(1532,410) 105x152 conf=0.80
+[FRAME 1167/1323] @23.34s | 2 faces | SPLIT | det=20.4ms | F1:(403,432) 118x153 conf=0.82 | F2:(1536,410) 108x153 conf=0.81
+[FRAME 1168/1323] @23.36s | 2 faces | SPLIT | det=22.0ms | F1:(403,432) 118x154 conf=0.82 | F2:(1536,410) 108x153 conf=0.82
+[FRAME 1169/1323] @23.38s | 2 faces | SPLIT | det=16.1ms | F1:(402,431) 119x153 conf=0.83 | F2:(1535,410) 111x153 conf=0.82
+[FRAME 1170/1323] @23.40s | 2 faces | SPLIT | det=16.2ms | F1:(401,431) 117x153 conf=0.83 | F2:(1536,410) 108x152 conf=0.82
+[TRACK P1] @23.4s | raw=(401,431) → smooth=(400,435) | delta=(1.3,-4.2) move=4.4px
+[TRACK P2] @23.4s | raw=(1536,410) → smooth=(1534,410) | delta=(2.3,-0.2) move=2.3px
+[FRAME 1171/1323] @23.42s | 2 faces | SPLIT | det=17.2ms | F1:(402,429) 119x155 conf=0.82 | F2:(1535,410) 109x152 conf=0.82
+[FRAME 1172/1323] @23.44s | 2 faces | SPLIT | det=17.9ms | F1:(400,428) 117x155 conf=0.82 | F2:(1535,410) 111x152 conf=0.82
+[FRAME 1173/1323] @23.46s | 2 faces | SPLIT | det=22.1ms | F1:(399,427) 118x156 conf=0.82 | F2:(1535,409) 111x151 conf=0.82
+[FRAME 1174/1323] @23.48s | 2 faces | SPLIT | det=17.5ms | F1:(398,427) 118x156 conf=0.82 | F2:(1536,409) 108x151 conf=0.83
+[FRAME 1175/1323] @23.50s | 2 faces | SPLIT | det=14.4ms | F1:(395,425) 118x157 conf=0.82 | F2:(1536,409) 108x151 conf=0.82
+[FRAME 1176/1323] @23.52s | 2 faces | SPLIT | det=13.8ms | F1:(393,424) 120x155 conf=0.81 | F2:(1536,409) 108x152 conf=0.82
+[FRAME 1177/1323] @23.54s | 2 faces | SPLIT | det=14.2ms | F1:(391,423) 118x155 conf=0.82 | F2:(1537,409) 108x152 conf=0.82
+[FRAME 1178/1323] @23.56s | 2 faces | SPLIT | det=15.5ms | F1:(388,421) 121x154 conf=0.82 | F2:(1537,409) 108x152 conf=0.81
+[FRAME 1179/1323] @23.58s | 2 faces | SPLIT | det=15.3ms | F1:(384,419) 119x154 conf=0.83 | F2:(1539,408) 108x151 conf=0.81
+[FRAME 1180/1323] @23.60s | 2 faces | SPLIT | det=14.2ms | F1:(380,417) 117x154 conf=0.83 | F2:(1537,409) 108x151 conf=0.81
+[FRAME 1181/1323] @23.62s | 2 faces | SPLIT | det=15.3ms | F1:(378,414) 118x154 conf=0.83 | F2:(1537,409) 108x151 conf=0.81
+[FRAME 1182/1323] @23.64s | 2 faces | SPLIT | det=13.5ms | F1:(375,413) 121x154 conf=0.84 | F2:(1537,409) 108x153 conf=0.82
+[FRAME 1183/1323] @23.66s | 2 faces | SPLIT | det=19.0ms | F1:(371,412) 122x156 conf=0.82 | F2:(1539,410) 108x152 conf=0.82
+[FRAME 1184/1323] @23.68s | 2 faces | SPLIT | det=19.4ms | F1:(369,410) 124x159 conf=0.82 | F2:(1538,410) 105x152 conf=0.83
+[FRAME 1185/1323] @23.70s | 2 faces | SPLIT | det=16.4ms | F1:(367,408) 123x161 conf=0.83 | F2:(1539,410) 108x152 conf=0.83
+[FRAME 1186/1323] @23.72s | 2 faces | SPLIT | det=17.6ms | F1:(364,409) 123x159 conf=0.82 | F2:(1540,410) 105x152 conf=0.83
+[FRAME 1187/1323] @23.74s | 2 faces | SPLIT | det=13.7ms | F1:(361,408) 123x161 conf=0.81 | F2:(1539,410) 108x152 conf=0.82
+[FRAME 1188/1323] @23.76s | 2 faces | SPLIT | det=20.5ms | F1:(359,407) 123x162 conf=0.81 | F2:(1539,410) 108x152 conf=0.81
+[FRAME 1189/1323] @23.78s | 2 faces | SPLIT | det=17.2ms | F1:(357,407) 122x164 conf=0.81 | F2:(1539,410) 108x152 conf=0.81
+[FRAME 1190/1323] @23.80s | 2 faces | SPLIT | det=14.5ms | F1:(353,406) 120x165 conf=0.82 | F2:(1538,409) 109x153 conf=0.81
+[FRAME 1191/1323] @23.82s | 2 faces | SPLIT | det=16.2ms | F1:(349,406) 121x163 conf=0.83 | F2:(1540,409) 108x152 conf=0.81
+[FRAME 1192/1323] @23.84s | 2 faces | SPLIT | det=13.4ms | F1:(348,405) 122x163 conf=0.83 | F2:(1540,409) 111x152 conf=0.81
+[FRAME 1193/1323] @23.86s | 2 faces | SPLIT | det=18.1ms | F1:(347,405) 123x162 conf=0.83 | F2:(1540,408) 111x153 conf=0.81
+[FRAME 1194/1323] @23.88s | 2 faces | SPLIT | det=14.7ms | F1:(345,404) 120x160 conf=0.82 | F2:(1538,408) 109x153 conf=0.80
+[FRAME 1195/1323] @23.90s | 2 faces | SPLIT | det=16.2ms | F1:(345,403) 120x159 conf=0.82 | F2:(1538,407) 109x153 conf=0.81
+[FRAME 1196/1323] @23.92s | 2 faces | SPLIT | det=13.6ms | F1:(346,403) 122x159 conf=0.84 | F2:(1540,407) 108x153 conf=0.81
+[FRAME 1197/1323] @23.94s | 2 faces | SPLIT | det=16.7ms | F1:(346,404) 122x156 conf=0.83 | F2:(1540,407) 111x153 conf=0.82
+[FRAME 1198/1323] @23.96s | 2 faces | SPLIT | det=16.6ms | F1:(346,403) 122x156 conf=0.83 | F2:(1538,406) 109x153 conf=0.82
+[FRAME 1199/1323] @23.98s | 2 faces | SPLIT | det=14.4ms | F1:(346,404) 121x158 conf=0.84 | F2:(1540,406) 108x156 conf=0.81
+[FRAME 1200/1323] @24.00s | 2 faces | SPLIT | det=17.1ms | F1:(346,404) 121x158 conf=0.82 | F2:(1540,405) 108x155 conf=0.81
+[LOG] 22:57:19 [info] TRACK @24.0s → 2 faces → SPLIT: (346,404) | (1540,405)
+[TRACK P1] @24.0s | raw=(346,404) → smooth=(358,409) | delta=(-13.2,-5.3) move=14.2px
+[TRACK P2] @24.0s | raw=(1540,405) → smooth=(1538,409) | delta=(2.2,-3.9) move=4.5px
+[FRAME 1201/1323] @24.02s | 2 faces | SPLIT | det=17.9ms | F1:(346,404) 120x157 conf=0.82 | F2:(1541,405) 109x155 conf=0.80
+[FRAME 1202/1323] @24.04s | 2 faces | SPLIT | det=14.6ms | F1:(346,404) 120x157 conf=0.82 | F2:(1541,406) 109x156 conf=0.81
+[FRAME 1203/1323] @24.06s | 2 faces | SPLIT | det=14.1ms | F1:(346,404) 120x159 conf=0.82 | F2:(1543,405) 111x155 conf=0.81
+[FRAME 1204/1323] @24.08s | 2 faces | SPLIT | det=15.1ms | F1:(345,404) 121x159 conf=0.82 | F2:(1541,405) 111x156 conf=0.82
+[FRAME 1205/1323] @24.10s | 2 faces | SPLIT | det=13.6ms | F1:(345,404) 120x159 conf=0.82 | F2:(1541,405) 111x157 conf=0.82
+[FRAME 1206/1323] @24.12s | 2 faces | SPLIT | det=16.9ms | F1:(345,404) 121x159 conf=0.82 | F2:(1541,405) 111x156 conf=0.82
+[FRAME 1207/1323] @24.14s | 2 faces | SPLIT | det=14.0ms | F1:(344,404) 122x159 conf=0.82 | F2:(1543,404) 111x157 conf=0.82
+[FRAME 1208/1323] @24.16s | 2 faces | SPLIT | det=18.1ms | F1:(343,405) 121x157 conf=0.82 | F2:(1543,404) 111x157 conf=0.81
+[FRAME 1209/1323] @24.18s | 2 faces | SPLIT | det=19.4ms | F1:(343,405) 119x157 conf=0.83 | F2:(1543,404) 111x158 conf=0.81
+[FRAME 1210/1323] @24.20s | 2 faces | SPLIT | det=16.1ms | F1:(343,405) 120x156 conf=0.82 | F2:(1541,403) 109x154 conf=0.83
+[FRAME 1211/1323] @24.22s | 2 faces | SPLIT | det=21.5ms | F1:(342,405) 120x156 conf=0.82 | F2:(1544,404) 109x157 conf=0.82
+[FRAME 1212/1323] @24.24s | 2 faces | SPLIT | det=18.0ms | F1:(341,405) 119x157 conf=0.81 | F2:(1545,402) 108x154 conf=0.83
+[FRAME 1213/1323] @24.26s | 2 faces | SPLIT | det=15.3ms | F1:(342,405) 120x157 conf=0.81 | F2:(1546,401) 111x153 conf=0.83
+[FRAME 1214/1323] @24.28s | 2 faces | SPLIT | det=15.1ms | F1:(342,405) 119x156 conf=0.82 | F2:(1547,401) 109x155 conf=0.83
+[FRAME 1215/1323] @24.30s | 2 faces | SPLIT | det=14.7ms | F1:(342,404) 119x157 conf=0.81 | F2:(1548,400) 108x153 conf=0.83
+[FRAME 1216/1323] @24.32s | 2 faces | SPLIT | det=16.8ms | F1:(343,404) 119x157 conf=0.82 | F2:(1549,401) 108x153 conf=0.83
+[FRAME 1217/1323] @24.34s | 2 faces | SPLIT | det=18.3ms | F1:(344,404) 117x157 conf=0.82 | F2:(1549,402) 111x155 conf=0.83
+[FRAME 1218/1323] @24.36s | 2 faces | SPLIT | det=19.3ms | F1:(346,404) 120x158 conf=0.83 | F2:(1550,402) 111x154 conf=0.83
+[FRAME 1219/1323] @24.38s | 1 faces | SPLIT | det=77.9ms | F1:(927,498) 235x217 conf=0.89
+[FRAME 1220/1323] @24.40s | 1 faces | SPLIT | det=71.1ms | F1:(927,498) 235x216 conf=0.88
+[FRAME 1221/1323] @24.42s | 1 faces | SPLIT | det=82.5ms | F1:(928,498) 237x217 conf=0.89
+[FRAME 1222/1323] @24.44s | 1 faces | SPLIT | det=80.6ms | F1:(929,500) 238x220 conf=0.89
+[FRAME 1223/1323] @24.46s | 1 faces | SPLIT | det=75.2ms | F1:(929,502) 239x224 conf=0.88
+[FRAME 1224/1323] @24.48s | 1 faces | SPLIT | det=85.6ms | F1:(929,503) 238x227 conf=0.89
+[FRAME 1225/1323] @24.50s | 1 faces | SPLIT | det=75.2ms | F1:(928,505) 236x231 conf=0.89
+[FRAME 1226/1323] @24.52s | 1 faces | SPLIT | det=97.7ms | F1:(928,508) 236x237 conf=0.89
+[FRAME 1227/1323] @24.54s | 1 faces | SPLIT | det=72.9ms | F1:(927,510) 235x240 conf=0.90
+[FRAME 1228/1323] @24.56s | 1 faces | SPLIT | det=85.2ms | F1:(927,511) 234x242 conf=0.90
+[FRAME 1229/1323] @24.58s | 1 faces | SPLIT | det=79.7ms | F1:(926,512) 233x245 conf=0.90
+[FRAME 1230/1323] @24.60s | 1 faces | SPLIT | det=82.0ms | F1:(926,512) 233x244 conf=0.90
+[FRAME 1231/1323] @24.62s | 1 faces | SPLIT | det=69.5ms | F1:(927,511) 234x242 conf=0.90
+[FRAME 1232/1323] @24.64s | 1 faces | SPLIT | det=80.0ms | F1:(927,511) 235x242 conf=0.90
+[FRAME 1233/1323] @24.66s | 1 faces | SPLIT | det=80.8ms | F1:(927,511) 235x243 conf=0.90
+[FRAME 1234/1323] @24.68s | 1 faces | SPLIT | det=73.6ms | F1:(928,512) 236x244 conf=0.90
+[FRAME 1235/1323] @24.70s | 1 faces | SPLIT | det=81.7ms | F1:(928,512) 237x245 conf=0.90
+[FRAME 1236/1323] @24.72s | 1 faces | SPLIT | det=78.3ms | F1:(929,513) 238x245 conf=0.90
+[FRAME 1237/1323] @24.74s | 1 faces | SPLIT | det=73.6ms | F1:(930,513) 241x246 conf=0.89
+[FRAME 1238/1323] @24.76s | 1 faces | SPLIT | det=79.6ms | F1:(931,513) 243x245 conf=0.90
+[FRAME 1239/1323] @24.78s | 1 faces | SPLIT | det=81.0ms | F1:(932,513) 244x247 conf=0.90
+[FRAME 1240/1323] @24.80s | 1 faces | SPLIT | det=73.8ms | F1:(901,514) 312x245 conf=0.89
+[FRAME 1241/1323] @24.82s | 1 faces | SPLIT | det=95.0ms | F1:(934,514) 248x246 conf=0.89
+[FRAME 1242/1323] @24.84s | 1 faces | SPLIT | det=70.5ms | F1:(935,515) 251x246 conf=0.89
+[FRAME 1243/1323] @24.86s | 1 faces | SPLIT | det=95.2ms | F1:(937,515) 255x247 conf=0.89
+[FRAME 1244/1323] @24.88s | 1 faces | SPLIT | det=74.6ms | F1:(939,513) 259x246 conf=0.89
+[FRAME 1245/1323] @24.90s | 1 faces | SPLIT | det=72.4ms | F1:(942,512) 264x244 conf=0.89
+[FRAME 1246/1323] @24.92s | 1 faces | SPLIT | det=75.7ms | F1:(945,512) 270x244 conf=0.88
+[FRAME 1247/1323] @24.94s | 1 faces | SPLIT | det=80.9ms | F1:(947,511) 274x243 conf=0.88
+[FRAME 1248/1323] @24.96s | 1 faces | SPLIT | det=78.4ms | F1:(949,511) 276x243 conf=0.88
+[FRAME 1249/1323] @24.98s | 1 faces | SPLIT | det=76.4ms | F1:(926,512) 322x244 conf=0.87
+[FRAME 1250/1323] @25.00s | 1 faces | SPLIT | det=89.0ms | F1:(951,515) 278x245 conf=0.88
+[FRAME 1251/1323] @25.02s | 1 faces | SPLIT | det=72.2ms | F1:(952,516) 280x247 conf=0.88
+[FRAME 1252/1323] @25.04s | 1 faces | SPLIT | det=70.2ms | F1:(953,516) 285x247 conf=0.88
+[FRAME 1253/1323] @25.06s | 1 faces | SPLIT | det=78.9ms | F1:(955,517) 286x248 conf=0.88
+[FRAME 1254/1323] @25.08s | 1 faces | SPLIT | det=78.2ms | F1:(956,517) 286x248 conf=0.88
+[FRAME 1255/1323] @25.10s | 1 faces | SPLIT | det=72.1ms | F1:(955,518) 285x248 conf=0.87
+[FRAME 1256/1323] @25.12s | 1 faces | SPLIT | det=70.8ms | F1:(956,517) 286x249 conf=0.87
+[FRAME 1257/1323] @25.14s | 1 faces | SPLIT | det=72.1ms | F1:(936,515) 333x248 conf=0.88
+[FRAME 1258/1323] @25.16s | 1 faces | SPLIT | det=75.1ms | F1:(958,517) 290x249 conf=0.87
+[FRAME 1259/1323] @25.18s | 1 faces | SPLIT | det=74.7ms | F1:(958,517) 292x249 conf=0.87
+[FRAME 1260/1323] @25.20s | 1 faces | SPLIT | det=76.2ms | F1:(958,519) 292x252 conf=0.87
+[FRAME 1261/1323] @25.22s | 1 faces | SPLIT | det=76.7ms | F1:(959,526) 293x265 conf=0.88
+[FRAME 1262/1323] @25.24s | 1 faces | SPLIT | det=74.0ms | F1:(959,530) 295x271 conf=0.88
+[FRAME 1263/1323] @25.26s | 1 faces | SPLIT | det=74.3ms | F1:(960,532) 297x274 conf=0.89
+[FRAME 1264/1323] @25.28s | 1 faces | SPLIT | det=84.7ms | F1:(962,531) 300x276 conf=0.89
+[FRAME 1265/1323] @25.30s | 1 faces | SPLIT | det=76.9ms | F1:(962,533) 301x278 conf=0.90
+[FRAME 1266/1323] @25.32s | 1 faces | SPLIT | det=77.3ms | F1:(962,534) 301x278 conf=0.90
+[FRAME 1267/1323] @25.34s | 1 faces | SPLIT | det=78.2ms | F1:(963,535) 300x279 conf=0.89
+[FRAME 1268/1323] @25.36s | 1 faces | SPLIT | det=87.2ms | F1:(963,535) 300x281 conf=0.89
+[FRAME 1269/1323] @25.38s | 1 faces | SPLIT | det=75.3ms | F1:(963,535) 300x280 conf=0.89
+[FRAME 1270/1323] @25.40s | 1 faces | SPLIT | det=81.9ms | F1:(963,536) 300x282 conf=0.89
+[FRAME 1271/1323] @25.42s | 1 faces | SPLIT | det=70.8ms | F1:(963,537) 301x284 conf=0.89
+[FRAME 1272/1323] @25.44s | 1 faces | SPLIT | det=77.7ms | F1:(964,536) 302x285 conf=0.89
+[FRAME 1273/1323] @25.46s | 1 faces | SPLIT | det=84.2ms | F1:(964,538) 301x287 conf=0.89
+[FRAME 1274/1323] @25.48s | 1 faces | SPLIT | det=82.0ms | F1:(964,541) 302x292 conf=0.89
+[FRAME 1275/1323] @25.50s | 1 faces | SPLIT | det=77.9ms | F1:(964,540) 302x291 conf=0.90
+[FRAME 1276/1323] @25.52s | 1 faces | SPLIT | det=78.5ms | F1:(963,540) 301x291 conf=0.90
+[FRAME 1277/1323] @25.54s | 1 faces | SPLIT | det=74.2ms | F1:(963,540) 300x290 conf=0.90
+[FRAME 1278/1323] @25.56s | 1 faces | SPLIT | det=71.1ms | F1:(962,539) 299x290 conf=0.90
+[FRAME 1279/1323] @25.58s | 1 faces | SPLIT | det=74.9ms | F1:(962,536) 299x285 conf=0.89
+[FRAME 1280/1323] @25.60s | 1 faces | SPLIT | det=75.6ms | F1:(962,535) 299x285 conf=0.89
+[FRAME 1281/1323] @25.62s | 1 faces | SPLIT | det=79.7ms | F1:(961,534) 299x282 conf=0.89
+[FRAME 1282/1323] @25.64s | 1 faces | SPLIT | det=79.1ms | F1:(961,532) 298x281 conf=0.89
+[FRAME 1283/1323] @25.66s | 1 faces | SPLIT | det=83.8ms | F1:(962,531) 298x279 conf=0.89
+[FRAME 1284/1323] @25.68s | 1 faces | SPLIT | det=76.5ms | F1:(959,532) 295x279 conf=0.89
+[FRAME 1285/1323] @25.70s | 1 faces | SPLIT | det=65.7ms | F1:(958,531) 294x279 conf=0.89
+[FRAME 1286/1323] @25.72s | 1 faces | SPLIT | det=76.5ms | F1:(956,532) 291x278 conf=0.89
+[FRAME 1287/1323] @25.74s | 1 faces | SPLIT | det=70.8ms | F1:(956,533) 290x279 conf=0.89
+[FRAME 1288/1323] @25.76s | 1 faces | SPLIT | det=80.5ms | F1:(954,537) 289x285 conf=0.89
+[FRAME 1289/1323] @25.78s | 1 faces | SPLIT | det=78.4ms | F1:(953,535) 287x283 conf=0.89
+[FRAME 1290/1323] @25.80s | 1 faces | SPLIT | det=86.4ms | F1:(953,535) 287x283 conf=0.89
+[FRAME 1291/1323] @25.82s | 1 faces | SPLIT | det=81.9ms | F1:(954,534) 288x282 conf=0.89
+[FRAME 1292/1323] @25.84s | 1 faces | SPLIT | det=77.9ms | F1:(953,532) 286x280 conf=0.89
+[FRAME 1293/1323] @25.86s | 1 faces | SPLIT | det=81.5ms | F1:(952,531) 284x279 conf=0.89
+[FRAME 1294/1323] @25.88s | 1 faces | SPLIT | det=84.9ms | F1:(952,531) 284x278 conf=0.89
+[FRAME 1295/1323] @25.90s | 1 faces | SPLIT | det=78.2ms | F1:(952,530) 284x276 conf=0.88
+[FRAME 1296/1323] @25.92s | 1 faces | SPLIT | det=82.8ms | F1:(950,529) 281x275 conf=0.89
+[FRAME 1297/1323] @25.94s | 1 faces | SPLIT | det=86.3ms | F1:(950,529) 280x275 conf=0.89
+[FRAME 1298/1323] @25.96s | 1 faces | SPLIT | det=69.3ms | F1:(949,530) 278x275 conf=0.89
+[FRAME 1299/1323] @25.98s | 1 faces | SPLIT | det=75.0ms | F1:(948,530) 276x276 conf=0.89
+[FRAME 1300/1323] @26.00s | 1 faces | SPLIT | det=81.5ms | F1:(918,531) 329x281 conf=0.89
+[FRAME 1301/1323] @26.02s | 1 faces | SPLIT | det=76.0ms | F1:(914,531) 333x282 conf=0.89
+[FRAME 1302/1323] @26.04s | 1 faces | SPLIT | det=77.1ms | F1:(910,531) 330x282 conf=0.89
+[FRAME 1303/1323] @26.06s | 1 faces | SPLIT | det=77.6ms | F1:(939,534) 259x282 conf=0.89
+[FRAME 1304/1323] @26.08s | 1 faces | SPLIT | det=76.1ms | F1:(936,532) 253x283 conf=0.89
+[FRAME 1305/1323] @26.10s | 1 faces | SPLIT | det=71.3ms | F1:(933,533) 246x283 conf=0.89
+[FRAME 1306/1323] @26.12s | 1 faces | SPLIT | det=69.5ms | F1:(929,534) 239x282 conf=0.89
+[FRAME 1307/1323] @26.14s | 1 faces | SPLIT | det=71.8ms | F1:(927,534) 234x282 conf=0.90
+[FRAME 1308/1323] @26.16s | 1 faces | SPLIT | det=77.9ms | F1:(925,533) 230x278 conf=0.90
+[FRAME 1309/1323] @26.18s | 1 faces | SPLIT | det=71.7ms | F1:(923,531) 227x281 conf=0.89
+[FRAME 1310/1323] @26.20s | 1 faces | SPLIT | det=78.4ms | F1:(920,531) 221x280 conf=0.90
+[FRAME 1311/1323] @26.22s | 1 faces | SPLIT | det=71.2ms | F1:(919,533) 218x278 conf=0.90
+[FRAME 1312/1323] @26.24s | 1 faces | SPLIT | det=78.1ms | F1:(917,531) 215x274 conf=0.90
+[FRAME 1313/1323] @26.26s | 1 faces | SPLIT | det=67.2ms | F1:(857,529) 331x274 conf=0.89
+[FRAME 1314/1323] @26.28s | 1 faces | SPLIT | det=78.6ms | F1:(855,528) 329x274 conf=0.90
+[FRAME 1315/1323] @26.30s | 2 faces | SPLIT | det=71.2ms | F1:(853,526) 328x268 conf=0.90 | F2:(913,526) 206x265 conf=0.89
+[LOG] 22:57:34 [info] JUMP @26.3s: 643px → INSTANT
+[DEBUG 22:57:34] [JUMP SPLIT] Frame 1315: dist1=521px, dist2=643px, threshold=200px
+[DEBUG 22:57:34]   P1: (346,406) → (853,526)
+[DEBUG 22:57:34]   P2: (1544,404) → (913,526)
+[FRAME 1316/1323] @26.32s | 1 faces | SPLIT | det=81.8ms | F1:(851,525) 325x266 conf=0.90
+[FRAME 1317/1323] @26.34s | 1 faces | SPLIT | det=86.8ms | F1:(849,525) 325x266 conf=0.90
+[FRAME 1318/1323] @26.36s | 2 faces | SPLIT | det=74.5ms | F1:(844,525) 327x269 conf=0.89 | F2:(909,526) 197x267 conf=0.89
+[FRAME 1319/1323] @26.38s | 2 faces | SPLIT | det=82.8ms | F1:(841,530) 329x277 conf=0.89 | F2:(906,531) 193x274 conf=0.89
+[FRAME 1320/1323] @26.40s | 2 faces | SPLIT | det=91.7ms | F1:(841,532) 326x281 conf=0.89 | F2:(906,531) 190x277 conf=0.89
+[TRACK P1] @26.4s | raw=(841,532) → smooth=(850,527) | delta=(-10.2,5.6) move=11.7px
+[TRACK P2] @26.4s | raw=(906,531) → smooth=(912,527) | delta=(-6.1,4.6) move=7.6px
+[FRAME 1321/1323] @26.42s | 2 faces | SPLIT | det=78.7ms | F1:(837,531) 326x277 conf=0.89 | F2:(905,530) 188x274 conf=0.89
+[FRAME 1322/1323] @26.44s | 2 faces | SPLIT | det=79.9ms | F1:(834,529) 328x273 conf=0.88 | F2:(904,528) 186x271 conf=0.89
+[LOG] 22:57:35 [info]
+[LOG] 22:57:35 [info] ╔══════════════════════════════════════════
+[LOG] 22:57:35 [info] ║ PROCESSING COMPLETE
+[LOG] 22:57:35 [info] ║ Total frames processed: 1323
+[LOG] 22:57:35 [info] ║ Segments used: 4
+[LOG] 22:57:35 [info] ║   SINGLE: frame 0-530 (10.6s)
+[LOG] 22:57:35 [info] ║   SPLIT: frame 530-705 (3.5s)
+[LOG] 22:57:35 [info] ║   SINGLE: frame 705-835 (2.6s)
+[LOG] 22:57:35 [info] ║   SPLIT: frame 835-1323 (9.8s)
+[LOG] 22:57:35 [info] ╚══════════════════════════════════════════
+[LOG] 22:57:36 [info] Exported: Politisi Cuma Paham Buzzword Ini Bedanya Profesional  Politisi_1.mp4

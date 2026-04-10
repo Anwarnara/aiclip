@@ -1,0 +1,1127 @@
+[LOG] 22:54:22 [info] Subtitle: Loaded 3559 words from transcription
+[LOG] 22:54:22 [info] Exporting clip 1/2: Politisi Cuma Paham Buzzword? Ini Bedanya Profesional & Politisi!
+[LOG] 22:54:22 [info] Subtitle: 3559 words → 752 segments
+[LOG] 22:54:22 [info] ╔══════════════════════════════════════════
+[LOG] 22:54:22 [info] ║ Processing clip: 489.2s - 515.7s
+[LOG] 22:54:22 [info] ║ Prescan: True
+[LOG] 22:54:22 [info] ║ Split Screen: True
+[LOG] 22:54:22 [info] ║ Dynamic Tracking: False
+[LOG] 22:54:22 [info] ║ Tracking Analyzer: True
+[LOG] 22:54:22 [info] ║ Smoothing: 85% | Speed: 50%
+[LOG] 22:54:22 [info] ║ → Lerp: 0.088 | Deadzone: 2px
+[LOG] 22:54:22 [info] ║ Mode: Full AI
+[LOG] 22:54:22 [info] ╚══════════════════════════════════════════
+[LOG] 22:54:45 [info] ━━━ STARTING PRESCAN MODE ━━━
+[LOG] 22:54:45 [info] ╔══════════════════════════════════════════
+[LOG] 22:54:45 [info] ║ PRESCAN START
+[LOG] 22:54:45 [info] ║ Video: 1323 frames, 50.0 fps, 26.5s
+[LOG] 22:54:45 [info] ║ Sample interval: every 5 frames
+[LOG] 22:54:45 [info] ║ Hysteresis: GAIN=5 (~0.5s), LOSE=20 (~2s)
+[LOG] 22:54:45 [info] ╚══════════════════════════════════════════
+[LOG] 22:54:45 [info]
+[LOG] 22:54:45 [info] Phase 1: Scanning all frames...
+Loading YOLO model from local: E:\App\Backup skrip\Auto Clip\models\yolov8n-face.pt
+YOLO model moved to GPU
+[DEBUG 22:54:47] [PRESCAN] Frame 0: RAW 2 faces: (350,426) conf=0.80 | (1528,421) conf=0.81
+[LOG] 22:54:47 [info]   @0.0s → 2 faces: (350,426) | (1528,421)
+[DEBUG 22:54:47] [PRESCAN] Frame 5: RAW 2 faces: (354,426) conf=0.80 | (1526,414) conf=0.81
+[LOG] 22:54:47 [info]   @0.1s → 2 faces: (354,426) | (1526,414)
+[DEBUG 22:54:47] [PRESCAN] Frame 10: RAW 2 faces: (357,425) conf=0.80 | (1527,417) conf=0.81
+[LOG] 22:54:47 [info]   @0.2s → 2 faces: (357,425) | (1527,417)
+[DEBUG 22:54:47] [PRESCAN] Frame 15: RAW 2 faces: (358,423) conf=0.80 | (1527,421) conf=0.81
+[LOG] 22:54:47 [info]   @0.3s → 2 faces: (358,423) | (1527,421)
+[DEBUG 22:54:47] [PRESCAN] Frame 20: RAW 2 faces: (361,424) conf=0.80 | (1528,420) conf=0.81
+[LOG] 22:54:47 [info]   @0.4s → 2 faces: (361,424) | (1528,420)
+[DEBUG 22:54:47] [PRESCAN] Frame 25: RAW 2 faces: (361,425) conf=0.81 | (1527,418) conf=0.80
+[LOG] 22:54:47 [info]   @0.5s → 2 faces: (361,425) | (1527,418)
+[DEBUG 22:54:47] [PRESCAN] Frame 30: RAW 2 faces: (363,428) conf=0.81 | (1524,420) conf=0.80
+[LOG] 22:54:47 [info]   @0.6s → 2 faces: (363,428) | (1524,420)
+[DEBUG 22:54:47] [PRESCAN] Frame 35: RAW 2 faces: (369,428) conf=0.81 | (1518,425) conf=0.81
+[LOG] 22:54:47 [info]   @0.7s → 2 faces: (369,428) | (1518,425)
+[DEBUG 22:54:47] [PRESCAN] Frame 40: RAW 2 faces: (378,434) conf=0.83 | (1518,425) conf=0.82
+[LOG] 22:54:47 [info]   @0.8s → 2 faces: (378,434) | (1518,425)
+[DEBUG 22:54:47] [PRESCAN] Frame 45: RAW 2 faces: (381,436) conf=0.82 | (1516,424) conf=0.80
+[LOG] 22:54:47 [info]   @0.9s → 2 faces: (381,436) | (1516,424)
+[DEBUG 22:54:47] [PRESCAN] Frame 50: RAW 2 faces: (381,438) conf=0.82 | (1516,424) conf=0.79
+[LOG] 22:54:47 [info]   @1.0s → 2 faces: (381,438) | (1516,424)
+[DEBUG 22:54:47] [PRESCAN] Frame 55: RAW 2 faces: (377,439) conf=0.84 | (1518,425) conf=0.80
+[LOG] 22:54:47 [info]   @1.1s → 2 faces: (377,439) | (1518,425)
+[DEBUG 22:54:47] [PRESCAN] Frame 60: RAW 2 faces: (375,437) conf=0.84 | (1518,425) conf=0.80
+[LOG] 22:54:47 [info]   @1.2s → 2 faces: (375,437) | (1518,425)
+[DEBUG 22:54:47] [PRESCAN] Frame 65: RAW 2 faces: (374,438) conf=0.83 | (1519,424) conf=0.80
+[LOG] 22:54:47 [info]   @1.3s → 2 faces: (374,438) | (1519,424)
+[DEBUG 22:54:47] [PRESCAN] Frame 70: RAW 2 faces: (372,437) conf=0.82 | (1519,425) conf=0.80
+[LOG] 22:54:47 [info]   @1.4s → 2 faces: (372,437) | (1519,425)
+[DEBUG 22:54:47] [PRESCAN] Frame 75: RAW 2 faces: (370,437) conf=0.83 | (1519,426) conf=0.80
+[LOG] 22:54:47 [info]   @1.5s → 2 faces: (370,437) | (1519,426)
+[DEBUG 22:54:48] [PRESCAN] Frame 80: RAW 1 faces: (938,549) conf=0.89
+[LOG] 22:54:48 [info]   @1.6s → 1 faces: (938,549)
+[DEBUG 22:54:48] [PRESCAN] Frame 85: RAW 1 faces: (940,549) conf=0.89
+[LOG] 22:54:48 [info]   @1.7s → 1 faces: (940,549)
+[DEBUG 22:54:48] [PRESCAN] Frame 90: RAW 1 faces: (940,550) conf=0.90
+[LOG] 22:54:48 [info]   @1.8s → 1 faces: (940,550)
+[DEBUG 22:54:48] [PRESCAN] Frame 95: RAW 1 faces: (940,545) conf=0.89
+[LOG] 22:54:48 [info]   @1.9s → 1 faces: (940,545)
+[DEBUG 22:54:48] [PRESCAN] Frame 100: RAW 1 faces: (941,545) conf=0.89
+[LOG] 22:54:48 [info]   @2.0s → 1 faces: (941,545)
+[DEBUG 22:54:48] [PRESCAN] Frame 105: RAW 1 faces: (945,550) conf=0.89
+[LOG] 22:54:48 [info]   @2.1s → 1 faces: (945,550)
+[DEBUG 22:54:48] [PRESCAN] Frame 110: RAW 1 faces: (944,551) conf=0.89
+[LOG] 22:54:48 [info]   @2.2s → 1 faces: (944,551)
+[DEBUG 22:54:48] [PRESCAN] Frame 115: RAW 1 faces: (944,553) conf=0.89
+[LOG] 22:54:48 [info]   @2.3s → 1 faces: (944,553)
+[DEBUG 22:54:49] [PRESCAN] Frame 120: RAW 1 faces: (944,551) conf=0.89
+[LOG] 22:54:49 [info]   @2.4s → 1 faces: (944,551)
+[DEBUG 22:54:49] [PRESCAN] Frame 125: RAW 1 faces: (947,552) conf=0.90
+[LOG] 22:54:49 [info]   @2.5s → 1 faces: (947,552)
+[DEBUG 22:54:49] [PRESCAN] Frame 130: RAW 1 faces: (955,549) conf=0.89
+[LOG] 22:54:49 [info]   @2.6s → 1 faces: (955,549)
+[DEBUG 22:54:49] [PRESCAN] Frame 135: RAW 1 faces: (960,550) conf=0.89
+[LOG] 22:54:49 [info]   @2.7s → 1 faces: (960,550)
+[DEBUG 22:54:49] [PRESCAN] Frame 140: RAW 1 faces: (954,552) conf=0.90
+[LOG] 22:54:49 [info]   @2.8s → 1 faces: (954,552)
+[DEBUG 22:54:49] [PRESCAN] Frame 145: RAW 1 faces: (954,553) conf=0.90
+[LOG] 22:54:49 [info]   @2.9s → 1 faces: (954,553)
+[DEBUG 22:54:49] [PRESCAN] Frame 150: RAW 1 faces: (954,553) conf=0.90
+[LOG] 22:54:49 [info]   @3.0s → 1 faces: (954,553)
+[DEBUG 22:54:49] [PRESCAN] Frame 155: RAW 1 faces: (949,553) conf=0.90
+[DEBUG 22:54:49] [PRESCAN] Frame 160: RAW 1 faces: (957,550) conf=0.90
+[DEBUG 22:54:49] [PRESCAN] Frame 165: RAW 1 faces: (948,550) conf=0.89
+[DEBUG 22:54:50] [PRESCAN] Frame 170: RAW 1 faces: (939,548) conf=0.89
+[DEBUG 22:54:50] [PRESCAN] Frame 175: RAW 1 faces: (933,550) conf=0.90
+[DEBUG 22:54:50] [PRESCAN] Frame 180: RAW 1 faces: (930,551) conf=0.91
+[DEBUG 22:54:50] [PRESCAN] Frame 185: RAW 1 faces: (931,554) conf=0.91
+[DEBUG 22:54:50] [PRESCAN] Frame 190: RAW 1 faces: (935,558) conf=0.91
+[DEBUG 22:54:50] [PRESCAN] Frame 195: RAW 1 faces: (942,553) conf=0.89
+[DEBUG 22:54:50] [PRESCAN] Frame 200: RAW 1 faces: (952,553) conf=0.90
+[DEBUG 22:54:50] [PRESCAN] Frame 205: RAW 1 faces: (959,553) conf=0.89
+[DEBUG 22:54:50] [PRESCAN] Frame 210: RAW 1 faces: (968,554) conf=0.90
+[DEBUG 22:54:50] [PRESCAN] Frame 215: RAW 1 faces: (960,552) conf=0.89
+[DEBUG 22:54:50] [PRESCAN] Frame 220: RAW 1 faces: (969,554) conf=0.90
+[DEBUG 22:54:51] [PRESCAN] Frame 225: RAW 1 faces: (973,555) conf=0.89
+[DEBUG 22:54:51] [PRESCAN] Frame 230: RAW 1 faces: (977,558) conf=0.89
+[DEBUG 22:54:51] [PRESCAN] Frame 235: RAW 1 faces: (1014,558) conf=0.88
+[DEBUG 22:54:51] [PRESCAN] Frame 240: RAW 1 faces: (981,566) conf=0.88
+[DEBUG 22:54:51] [PRESCAN] Frame 245: RAW 1 faces: (982,561) conf=0.88
+[LOG] 22:54:51 [info]   @4.9s → 1 faces: (982,561)
+[DEBUG 22:54:51] [PRESCAN] Frame 250: RAW 1 faces: (980,561) conf=0.88
+[DEBUG 22:54:51] [PRESCAN] Frame 255: RAW 1 faces: (1008,560) conf=0.88
+[DEBUG 22:54:51] [PRESCAN] Frame 260: RAW 1 faces: (1003,561) conf=0.89
+[DEBUG 22:54:51] [PRESCAN] Frame 265: RAW 1 faces: (1003,560) conf=0.89
+[DEBUG 22:54:51] [PRESCAN] Frame 270: RAW 1 faces: (1003,558) conf=0.89
+[DEBUG 22:54:51] [PRESCAN] Frame 275: RAW 1 faces: (981,553) conf=0.88
+[DEBUG 22:54:52] [PRESCAN] Frame 280: RAW 1 faces: (990,549) conf=0.87
+[DEBUG 22:54:52] [PRESCAN] Frame 285: RAW 1 faces: (1001,550) conf=0.86
+[DEBUG 22:54:52] [PRESCAN] Frame 290: RAW 1 faces: (1069,549) conf=0.88
+[DEBUG 22:54:52] [PRESCAN] Frame 295: RAW 2 faces: (1078,556) conf=0.87 | (1018,558) conf=0.78
+[DEBUG 22:54:52] [PRESCAN] Frame 300: RAW 2 faces: (1086,560) conf=0.86 | (1021,558) conf=0.77
+[DEBUG 22:54:52] [PRESCAN] Frame 305: RAW 2 faces: (1086,564) conf=0.86 | (1021,564) conf=0.80
+[DEBUG 22:54:52] [PRESCAN] Frame 310: RAW 2 faces: (1096,568) conf=0.86 | (1021,570) conf=0.79
+[DEBUG 22:54:52] [PRESCAN] Frame 315: RAW 2 faces: (1090,570) conf=0.86 | (1018,572) conf=0.76
+[DEBUG 22:54:52] [PRESCAN] Frame 320: RAW 2 faces: (1089,568) conf=0.86 | (1016,575) conf=0.81
+[DEBUG 22:54:52] [PRESCAN] Frame 325: RAW 2 faces: (1082,568) conf=0.86 | (1014,571) conf=0.85
+[DEBUG 22:54:53] [PRESCAN] Frame 330: RAW 2 faces: (1066,566) conf=0.87 | (1007,569) conf=0.84
+[DEBUG 22:54:53] [PRESCAN] Frame 330: DEDUP 2 → 1 faces (removed 1 duplicates)
+[DEBUG 22:54:53] [PRESCAN] Frame 335: RAW 1 faces: (1050,564) conf=0.87
+[DEBUG 22:54:53] [PRESCAN] Frame 340: RAW 1 faces: (984,559) conf=0.88
+[DEBUG 22:54:53] [PRESCAN] Frame 345: RAW 1 faces: (970,553) conf=0.90
+[DEBUG 22:54:53] [PRESCAN] Frame 350: RAW 1 faces: (959,557) conf=0.89
+[DEBUG 22:54:53] [PRESCAN] Frame 355: RAW 1 faces: (959,556) conf=0.91
+[DEBUG 22:54:53] [PRESCAN] Frame 360: RAW 1 faces: (946,553) conf=0.90
+[DEBUG 22:54:53] [PRESCAN] Frame 365: RAW 1 faces: (937,549) conf=0.90
+[DEBUG 22:54:53] [PRESCAN] Frame 370: RAW 1 faces: (934,550) conf=0.90
+[DEBUG 22:54:53] [PRESCAN] Frame 375: RAW 1 faces: (933,548) conf=0.90
+[DEBUG 22:54:53] [PRESCAN] Frame 380: RAW 1 faces: (935,549) conf=0.90
+[DEBUG 22:54:54] [PRESCAN] Frame 385: RAW 1 faces: (939,549) conf=0.90
+[DEBUG 22:54:54] [PRESCAN] Frame 390: RAW 1 faces: (947,548) conf=0.90
+[DEBUG 22:54:54] [PRESCAN] Frame 395: RAW 1 faces: (957,548) conf=0.90
+[DEBUG 22:54:54] [PRESCAN] Frame 400: RAW 1 faces: (953,553) conf=0.90
+[DEBUG 22:54:54] [PRESCAN] Frame 405: RAW 1 faces: (965,550) conf=0.90
+[DEBUG 22:54:54] [PRESCAN] Frame 410: RAW 1 faces: (960,550) conf=0.90
+[DEBUG 22:54:54] [PRESCAN] Frame 415: RAW 1 faces: (954,551) conf=0.90
+[DEBUG 22:54:54] [PRESCAN] Frame 420: RAW 1 faces: (948,548) conf=0.90
+[DEBUG 22:54:54] [PRESCAN] Frame 425: RAW 1 faces: (948,543) conf=0.89
+[DEBUG 22:54:54] [PRESCAN] Frame 430: RAW 1 faces: (949,552) conf=0.88
+[DEBUG 22:54:54] [PRESCAN] Frame 435: RAW 1 faces: (951,553) conf=0.88
+[DEBUG 22:54:55] [PRESCAN] Frame 440: RAW 1 faces: (938,551) conf=0.89
+[DEBUG 22:54:55] [PRESCAN] Frame 445: RAW 1 faces: (945,554) conf=0.89
+[DEBUG 22:54:55] [PRESCAN] Frame 450: RAW 1 faces: (960,548) conf=0.88
+[DEBUG 22:54:55] [PRESCAN] Frame 455: RAW 1 faces: (979,548) conf=0.88
+[DEBUG 22:54:55] [PRESCAN] Frame 460: RAW 1 faces: (990,542) conf=0.88
+[DEBUG 22:54:55] [PRESCAN] Frame 465: RAW 1 faces: (988,544) conf=0.89
+[DEBUG 22:54:55] [PRESCAN] Frame 470: RAW 1 faces: (990,552) conf=0.89
+[DEBUG 22:54:55] [PRESCAN] Frame 475: RAW 1 faces: (1014,561) conf=0.88
+[DEBUG 22:54:55] [PRESCAN] Frame 480: RAW 1 faces: (967,556) conf=0.90
+[DEBUG 22:54:55] [PRESCAN] Frame 485: RAW 1 faces: (963,558) conf=0.89
+[DEBUG 22:54:56] [PRESCAN] Frame 490: RAW 1 faces: (950,566) conf=0.89
+[DEBUG 22:54:56] [PRESCAN] Frame 495: RAW 1 faces: (936,568) conf=0.89
+[LOG] 22:54:56 [info]   @9.9s → 1 faces: (936,568)
+[DEBUG 22:54:56] [PRESCAN] Frame 500: RAW 1 faces: (930,561) conf=0.90
+[DEBUG 22:54:56] [PRESCAN] Frame 505: RAW 1 faces: (930,560) conf=0.90
+[DEBUG 22:54:56] [PRESCAN] Frame 510: RAW 1 faces: (935,557) conf=0.90
+[DEBUG 22:54:56] [PRESCAN] Frame 515: RAW 1 faces: (942,552) conf=0.89
+[DEBUG 22:54:56] [PRESCAN] Frame 520: RAW 1 faces: (949,552) conf=0.90
+[DEBUG 22:54:56] [PRESCAN] Frame 525: RAW 1 faces: (953,553) conf=0.90
+[DEBUG 22:54:56] [PRESCAN] Frame 530: RAW 2 faces: (379,440) conf=0.84 | (1522,394) conf=0.82
+[DEBUG 22:54:56] [PRESCAN] Frame 535: RAW 2 faces: (376,439) conf=0.83 | (1525,404) conf=0.81
+[DEBUG 22:54:56] [PRESCAN] Frame 540: RAW 2 faces: (372,441) conf=0.81 | (1524,402) conf=0.81
+[DEBUG 22:54:56] [PRESCAN] Frame 545: RAW 2 faces: (371,446) conf=0.81 | (1527,406) conf=0.81
+[DEBUG 22:54:56] [PRESCAN] Frame 550: RAW 2 faces: (373,444) conf=0.81 | (1527,412) conf=0.82
+[DEBUG 22:54:56] [PRESCAN] Frame 555: RAW 2 faces: (374,445) conf=0.82 | (1527,416) conf=0.82
+[DEBUG 22:54:56] [PRESCAN] Frame 560: RAW 2 faces: (375,452) conf=0.81 | (1530,410) conf=0.82
+[DEBUG 22:54:57] [PRESCAN] Frame 565: RAW 2 faces: (378,446) conf=0.83 | (1530,413) conf=0.83
+[DEBUG 22:54:57] [PRESCAN] Frame 570: RAW 2 faces: (381,443) conf=0.81 | (1531,409) conf=0.81
+[DEBUG 22:54:57] [PRESCAN] Frame 575: RAW 2 faces: (386,443) conf=0.82 | (1531,410) conf=0.81
+[DEBUG 22:54:57] [PRESCAN] Frame 580: RAW 2 faces: (388,442) conf=0.83 | (1531,412) conf=0.82
+[DEBUG 22:54:57] [PRESCAN] Frame 585: RAW 2 faces: (385,435) conf=0.81 | (1532,411) conf=0.81
+[DEBUG 22:54:57] [PRESCAN] Frame 590: RAW 2 faces: (381,436) conf=0.83 | (1535,412) conf=0.81
+[DEBUG 22:54:57] [PRESCAN] Frame 595: RAW 2 faces: (376,440) conf=0.83 | (1533,413) conf=0.82
+[DEBUG 22:54:57] [PRESCAN] Frame 600: RAW 2 faces: (369,440) conf=0.83 | (1533,414) conf=0.82
+[DEBUG 22:54:57] [PRESCAN] Frame 605: RAW 2 faces: (363,443) conf=0.81 | (1532,416) conf=0.82
+[DEBUG 22:54:57] [PRESCAN] Frame 610: RAW 2 faces: (365,444) conf=0.82 | (1530,416) conf=0.81
+[DEBUG 22:54:57] [PRESCAN] Frame 615: RAW 2 faces: (368,442) conf=0.82 | (1529,416) conf=0.82
+[DEBUG 22:54:57] [PRESCAN] Frame 620: RAW 2 faces: (374,440) conf=0.83 | (1529,417) conf=0.81
+[DEBUG 22:54:57] [PRESCAN] Frame 625: RAW 2 faces: (377,442) conf=0.82 | (1530,418) conf=0.81
+[DEBUG 22:54:57] [PRESCAN] Frame 630: RAW 2 faces: (386,446) conf=0.81 | (1533,417) conf=0.82
+[DEBUG 22:54:57] [PRESCAN] Frame 635: RAW 2 faces: (393,440) conf=0.82 | (1532,415) conf=0.82
+[DEBUG 22:54:57] [PRESCAN] Frame 640: RAW 2 faces: (399,444) conf=0.83 | (1534,414) conf=0.81
+[DEBUG 22:54:57] [PRESCAN] Frame 645: RAW 2 faces: (399,445) conf=0.83 | (1537,413) conf=0.81
+[DEBUG 22:54:57] [PRESCAN] Frame 650: RAW 2 faces: (398,441) conf=0.84 | (1537,413) conf=0.81
+[DEBUG 22:54:57] [PRESCAN] Frame 655: RAW 2 faces: (394,440) conf=0.83 | (1535,412) conf=0.81
+[DEBUG 22:54:57] [PRESCAN] Frame 660: RAW 2 faces: (390,441) conf=0.82 | (1537,412) conf=0.82
+[DEBUG 22:54:57] [PRESCAN] Frame 665: RAW 2 faces: (383,441) conf=0.81 | (1538,411) conf=0.82
+[DEBUG 22:54:57] [PRESCAN] Frame 670: RAW 2 faces: (379,443) conf=0.82 | (1538,411) conf=0.82
+[DEBUG 22:54:57] [PRESCAN] Frame 675: RAW 2 faces: (379,448) conf=0.81 | (1535,411) conf=0.81
+[DEBUG 22:54:57] [PRESCAN] Frame 680: RAW 2 faces: (381,449) conf=0.81 | (1537,412) conf=0.81
+[DEBUG 22:54:57] [PRESCAN] Frame 685: RAW 2 faces: (385,446) conf=0.81 | (1537,414) conf=0.81
+[DEBUG 22:54:57] [PRESCAN] Frame 690: RAW 2 faces: (385,448) conf=0.82 | (1537,413) conf=0.81
+[DEBUG 22:54:57] [PRESCAN] Frame 695: RAW 2 faces: (386,452) conf=0.80 | (1537,414) conf=0.81
+[DEBUG 22:54:57] [PRESCAN] Frame 700: RAW 2 faces: (387,451) conf=0.85 | (1537,415) conf=0.81
+[DEBUG 22:54:58] [PRESCAN] Frame 705: RAW 1 faces: (957,562) conf=0.90
+[DEBUG 22:54:58] [PRESCAN] Frame 710: RAW 1 faces: (957,561) conf=0.90
+[DEBUG 22:54:58] [PRESCAN] Frame 715: RAW 1 faces: (957,560) conf=0.90
+[DEBUG 22:54:58] [PRESCAN] Frame 720: RAW 1 faces: (961,555) conf=0.90
+[DEBUG 22:54:58] [PRESCAN] Frame 725: RAW 1 faces: (962,538) conf=0.89
+[DEBUG 22:54:58] [PRESCAN] Frame 730: RAW 1 faces: (959,533) conf=0.88
+[DEBUG 22:54:58] [PRESCAN] Frame 735: RAW 1 faces: (959,533) conf=0.89
+[DEBUG 22:54:58] [PRESCAN] Frame 740: RAW 1 faces: (963,525) conf=0.89
+[DEBUG 22:54:58] [PRESCAN] Frame 745: RAW 1 faces: (967,520) conf=0.88
+[LOG] 22:54:58 [info]   @14.9s → 1 faces: (967,520)
+[DEBUG 22:54:58] [PRESCAN] Frame 750: RAW 1 faces: (959,510) conf=0.88
+[DEBUG 22:54:59] [PRESCAN] Frame 755: RAW 1 faces: (964,509) conf=0.89
+[DEBUG 22:54:59] [PRESCAN] Frame 760: RAW 1 faces: (965,507) conf=0.89
+[DEBUG 22:54:59] [PRESCAN] Frame 765: RAW 1 faces: (964,507) conf=0.88
+[DEBUG 22:54:59] [PRESCAN] Frame 770: RAW 1 faces: (964,510) conf=0.89
+[DEBUG 22:54:59] [PRESCAN] Frame 775: RAW 1 faces: (964,503) conf=0.89
+[DEBUG 22:54:59] [PRESCAN] Frame 780: RAW 1 faces: (965,507) conf=0.89
+[DEBUG 22:54:59] [PRESCAN] Frame 785: RAW 1 faces: (963,510) conf=0.89
+[DEBUG 22:54:59] [PRESCAN] Frame 790: RAW 1 faces: (961,519) conf=0.89
+[DEBUG 22:54:59] [PRESCAN] Frame 795: RAW 1 faces: (961,512) conf=0.89
+[DEBUG 22:54:59] [PRESCAN] Frame 800: RAW 1 faces: (961,509) conf=0.89
+[DEBUG 22:54:59] [PRESCAN] Frame 805: RAW 1 faces: (960,509) conf=0.90
+[DEBUG 22:55:00] [PRESCAN] Frame 810: RAW 1 faces: (960,511) conf=0.89
+[DEBUG 22:55:00] [PRESCAN] Frame 815: RAW 1 faces: (955,513) conf=0.89
+[DEBUG 22:55:00] [PRESCAN] Frame 820: RAW 1 faces: (944,516) conf=0.89
+[DEBUG 22:55:00] [PRESCAN] Frame 825: RAW 1 faces: (952,520) conf=0.89
+[DEBUG 22:55:00] [PRESCAN] Frame 830: RAW 1 faces: (952,528) conf=0.89
+[DEBUG 22:55:00] [PRESCAN] Frame 835: RAW 2 faces: (1074,427) conf=0.83 | (805,149) conf=0.77
+[DEBUG 22:55:00] [PRESCAN] Frame 840: RAW 2 faces: (1076,418) conf=0.84 | (806,149) conf=0.78
+[DEBUG 22:55:00] [PRESCAN] Frame 845: RAW 2 faces: (1078,436) conf=0.84 | (807,149) conf=0.78
+[DEBUG 22:55:00] [PRESCAN] Frame 850: RAW 2 faces: (1075,448) conf=0.84 | (807,150) conf=0.78
+[DEBUG 22:55:00] [PRESCAN] Frame 855: RAW 2 faces: (1072,450) conf=0.84 | (806,150) conf=0.78
+[DEBUG 22:55:00] [PRESCAN] Frame 860: RAW 1 faces: (954,544) conf=0.90
+[DEBUG 22:55:00] [PRESCAN] Frame 865: RAW 1 faces: (942,546) conf=0.90
+[DEBUG 22:55:00] [PRESCAN] Frame 870: RAW 1 faces: (917,553) conf=0.90
+[DEBUG 22:55:00] [PRESCAN] Frame 875: RAW 1 faces: (931,545) conf=0.87
+[DEBUG 22:55:01] [PRESCAN] Frame 880: RAW 1 faces: (965,542) conf=0.81
+[DEBUG 22:55:01] [PRESCAN] Frame 885: RAW 1 faces: (979,543) conf=0.85
+[DEBUG 22:55:01] [PRESCAN] Frame 890: RAW 1 faces: (1044,538) conf=0.78
+[DEBUG 22:55:01] [PRESCAN] Frame 895: RAW 1 faces: (1059,530) conf=0.81
+[DEBUG 22:55:01] [PRESCAN] Frame 900: RAW 1 faces: (1010,542) conf=0.86
+[DEBUG 22:55:01] [PRESCAN] Frame 905: RAW 2 faces: (1119,541) conf=0.88 | (1026,538) conf=0.82
+[DEBUG 22:55:01] [PRESCAN] Frame 910: RAW 2 faces: (1122,538) conf=0.85 | (1029,468) conf=0.66
+[DEBUG 22:55:01] [PRESCAN] Frame 915: RAW 2 faces: (1116,465) conf=0.86 | (1028,529) conf=0.69
+[DEBUG 22:55:01] [PRESCAN] Frame 920: RAW 2 faces: (1133,532) conf=0.86 | (1032,458) conf=0.75
+[DEBUG 22:55:01] [PRESCAN] Frame 925: RAW 2 faces: (1152,530) conf=0.86 | (1043,458) conf=0.74
+[DEBUG 22:55:02] [PRESCAN] Frame 930: RAW 2 faces: (1158,532) conf=0.87 | (1045,458) conf=0.72
+[DEBUG 22:55:02] [PRESCAN] Frame 935: RAW 2 faces: (1152,531) conf=0.86 | (1044,457) conf=0.75
+[DEBUG 22:55:02] [PRESCAN] Frame 940: RAW 2 faces: (1124,458) conf=0.85 | (1031,452) conf=0.75
+[DEBUG 22:55:02] [PRESCAN] Frame 945: RAW 2 faces: (1112,530) conf=0.86 | (1021,523) conf=0.83
+[DEBUG 22:55:02] [PRESCAN] Frame 950: RAW 2 faces: (1095,529) conf=0.86 | (1017,523) conf=0.86
+[DEBUG 22:55:02] [PRESCAN] Frame 955: RAW 2 faces: (1076,443) conf=0.85 | (1012,522) conf=0.86
+[DEBUG 22:55:02] [PRESCAN] Frame 960: RAW 1 faces: (1010,523) conf=0.85
+[DEBUG 22:55:02] [PRESCAN] Frame 965: RAW 1 faces: (1064,449) conf=0.86
+[DEBUG 22:55:02] [PRESCAN] Frame 970: RAW 1 faces: (1002,523) conf=0.87
+[DEBUG 22:55:02] [PRESCAN] Frame 975: RAW 1 faces: (995,526) conf=0.87
+[DEBUG 22:55:02] [PRESCAN] Frame 980: RAW 1 faces: (994,525) conf=0.86
+[DEBUG 22:55:03] [PRESCAN] Frame 985: RAW 1 faces: (992,530) conf=0.88
+[DEBUG 22:55:03] [PRESCAN] Frame 990: RAW 1 faces: (1040,554) conf=0.88
+[DEBUG 22:55:03] [PRESCAN] Frame 995: RAW 1 faces: (1032,533) conf=0.87
+[LOG] 22:55:03 [info]   @19.9s → 1 faces: (1032,533)
+[DEBUG 22:55:03] [PRESCAN] Frame 1000: RAW 1 faces: (1028,541) conf=0.89
+[DEBUG 22:55:03] [PRESCAN] Frame 1005: RAW 1 faces: (979,541) conf=0.88
+[DEBUG 22:55:03] [PRESCAN] Frame 1010: RAW 1 faces: (974,531) conf=0.89
+[DEBUG 22:55:03] [PRESCAN] Frame 1015: RAW 1 faces: (974,537) conf=0.89
+[DEBUG 22:55:03] [PRESCAN] Frame 1020: RAW 1 faces: (974,531) conf=0.88
+[DEBUG 22:55:03] [PRESCAN] Frame 1025: RAW 1 faces: (978,531) conf=0.88
+[DEBUG 22:55:03] [PRESCAN] Frame 1030: RAW 1 faces: (979,531) conf=0.87
+[DEBUG 22:55:04] [PRESCAN] Frame 1035: RAW 1 faces: (977,531) conf=0.87
+[DEBUG 22:55:04] [PRESCAN] Frame 1040: RAW 1 faces: (968,531) conf=0.89
+[DEBUG 22:55:04] [PRESCAN] Frame 1045: RAW 1 faces: (961,512) conf=0.90
+[DEBUG 22:55:04] [PRESCAN] Frame 1050: RAW 1 faces: (953,505) conf=0.89
+[DEBUG 22:55:04] [PRESCAN] Frame 1055: RAW 2 faces: (1543,419) conf=0.82 | (362,405) conf=0.85
+[DEBUG 22:55:04] [PRESCAN] Frame 1060: RAW 2 faces: (359,404) conf=0.83 | (1535,420) conf=0.83
+[DEBUG 22:55:04] [PRESCAN] Frame 1065: RAW 2 faces: (358,401) conf=0.80 | (1528,417) conf=0.81
+[DEBUG 22:55:04] [PRESCAN] Frame 1070: RAW 2 faces: (356,397) conf=0.80 | (1537,419) conf=0.83
+[DEBUG 22:55:04] [PRESCAN] Frame 1075: RAW 2 faces: (1541,421) conf=0.82 | (357,394) conf=0.79
+[DEBUG 22:55:04] [PRESCAN] Frame 1080: RAW 2 faces: (1536,415) conf=0.82 | (358,392) conf=0.80
+[DEBUG 22:55:04] [PRESCAN] Frame 1085: RAW 2 faces: (358,391) conf=0.80 | (1534,413) conf=0.82
+[DEBUG 22:55:04] [PRESCAN] Frame 1090: RAW 2 faces: (1537,414) conf=0.83 | (356,388) conf=0.80
+[DEBUG 22:55:04] [PRESCAN] Frame 1095: RAW 2 faces: (1534,409) conf=0.82 | (358,391) conf=0.80
+[DEBUG 22:55:04] [PRESCAN] Frame 1100: RAW 2 faces: (1534,411) conf=0.82 | (362,396) conf=0.79
+[DEBUG 22:55:04] [PRESCAN] Frame 1105: RAW 2 faces: (364,402) conf=0.81 | (1534,410) conf=0.80
+[DEBUG 22:55:04] [PRESCAN] Frame 1110: RAW 2 faces: (371,412) conf=0.82 | (1536,414) conf=0.81
+[DEBUG 22:55:04] [PRESCAN] Frame 1115: RAW 2 faces: (377,425) conf=0.82 | (1534,410) conf=0.81
+[DEBUG 22:55:04] [PRESCAN] Frame 1120: RAW 2 faces: (387,430) conf=0.81 | (1534,413) conf=0.81
+[DEBUG 22:55:04] [PRESCAN] Frame 1125: RAW 2 faces: (392,432) conf=0.81 | (1532,411) conf=0.82
+[DEBUG 22:55:04] [PRESCAN] Frame 1130: RAW 2 faces: (396,439) conf=0.81 | (1533,411) conf=0.81
+[DEBUG 22:55:04] [PRESCAN] Frame 1135: RAW 2 faces: (398,444) conf=0.82 | (1533,410) conf=0.80
+[DEBUG 22:55:05] [PRESCAN] Frame 1140: RAW 2 faces: (395,442) conf=0.82 | (1532,411) conf=0.80
+[DEBUG 22:55:05] [PRESCAN] Frame 1145: RAW 2 faces: (394,446) conf=0.82 | (1531,410) conf=0.80
+[DEBUG 22:55:05] [PRESCAN] Frame 1150: RAW 2 faces: (396,444) conf=0.82 | (1531,410) conf=0.81
+[DEBUG 22:55:05] [PRESCAN] Frame 1155: RAW 2 faces: (398,438) conf=0.81 | (1531,409) conf=0.79
+[DEBUG 22:55:05] [PRESCAN] Frame 1160: RAW 2 faces: (401,435) conf=0.82 | (1532,409) conf=0.81
+[DEBUG 22:55:05] [PRESCAN] Frame 1165: RAW 2 faces: (404,431) conf=0.82 | (1534,410) conf=0.81
+[DEBUG 22:55:05] [PRESCAN] Frame 1170: RAW 2 faces: (401,431) conf=0.83 | (1536,410) conf=0.82
+[DEBUG 22:55:05] [PRESCAN] Frame 1175: RAW 2 faces: (395,425) conf=0.82 | (1536,409) conf=0.82
+[DEBUG 22:55:05] [PRESCAN] Frame 1180: RAW 2 faces: (380,417) conf=0.83 | (1537,409) conf=0.81
+[DEBUG 22:55:05] [PRESCAN] Frame 1185: RAW 2 faces: (367,408) conf=0.83 | (1539,410) conf=0.83
+[DEBUG 22:55:05] [PRESCAN] Frame 1190: RAW 2 faces: (353,406) conf=0.82 | (1538,409) conf=0.81
+[DEBUG 22:55:05] [PRESCAN] Frame 1195: RAW 2 faces: (345,403) conf=0.82 | (1538,407) conf=0.81
+[DEBUG 22:55:05] [PRESCAN] Frame 1200: RAW 2 faces: (346,404) conf=0.82 | (1540,405) conf=0.81
+[DEBUG 22:55:05] [PRESCAN] Frame 1205: RAW 2 faces: (345,404) conf=0.82 | (1541,405) conf=0.82
+[DEBUG 22:55:05] [PRESCAN] Frame 1210: RAW 2 faces: (343,405) conf=0.82 | (1541,403) conf=0.83
+[DEBUG 22:55:05] [PRESCAN] Frame 1215: RAW 2 faces: (342,404) conf=0.81 | (1548,400) conf=0.83
+[DEBUG 22:55:05] [PRESCAN] Frame 1220: RAW 1 faces: (927,498) conf=0.88
+[DEBUG 22:55:05] [PRESCAN] Frame 1225: RAW 1 faces: (928,505) conf=0.89
+[DEBUG 22:55:05] [PRESCAN] Frame 1230: RAW 1 faces: (926,512) conf=0.90
+[DEBUG 22:55:05] [PRESCAN] Frame 1235: RAW 1 faces: (928,512) conf=0.90
+[DEBUG 22:55:06] [PRESCAN] Frame 1240: RAW 1 faces: (901,514) conf=0.89
+[DEBUG 22:55:06] [PRESCAN] Frame 1245: RAW 1 faces: (942,512) conf=0.89
+[LOG] 22:55:06 [info]   @24.9s → 1 faces: (942,512)
+[DEBUG 22:55:06] [PRESCAN] Frame 1250: RAW 1 faces: (951,515) conf=0.88
+[DEBUG 22:55:06] [PRESCAN] Frame 1255: RAW 1 faces: (955,518) conf=0.87
+[DEBUG 22:55:06] [PRESCAN] Frame 1260: RAW 1 faces: (958,519) conf=0.87
+[DEBUG 22:55:06] [PRESCAN] Frame 1265: RAW 1 faces: (962,533) conf=0.90
+[DEBUG 22:55:06] [PRESCAN] Frame 1270: RAW 1 faces: (963,536) conf=0.89
+[DEBUG 22:55:06] [PRESCAN] Frame 1275: RAW 1 faces: (964,540) conf=0.90
+[DEBUG 22:55:06] [PRESCAN] Frame 1280: RAW 1 faces: (962,535) conf=0.89
+[DEBUG 22:55:06] [PRESCAN] Frame 1285: RAW 1 faces: (958,531) conf=0.89
+[DEBUG 22:55:06] [PRESCAN] Frame 1290: RAW 1 faces: (953,535) conf=0.89
+[DEBUG 22:55:07] [PRESCAN] Frame 1295: RAW 1 faces: (952,530) conf=0.88
+[DEBUG 22:55:07] [PRESCAN] Frame 1300: RAW 1 faces: (918,531) conf=0.89
+[DEBUG 22:55:07] [PRESCAN] Frame 1305: RAW 1 faces: (933,533) conf=0.89
+[DEBUG 22:55:07] [PRESCAN] Frame 1310: RAW 1 faces: (920,531) conf=0.90
+[DEBUG 22:55:07] [PRESCAN] Frame 1315: RAW 2 faces: (853,526) conf=0.90 | (913,526) conf=0.89
+[DEBUG 22:55:07] [PRESCAN] Frame 1320: RAW 2 faces: (841,532) conf=0.89 | (906,531) conf=0.89
+[LOG] 22:55:07 [info]
+[LOG] 22:55:07 [info] ╔══════════════════════════════════════════
+[LOG] 22:55:07 [info] ║ Phase 2: POSTER DETECTION
+[LOG] 22:55:07 [info] ║ Analyzing 265 samples for static faces
+[LOG] 22:55:07 [info] ╚══════════════════════════════════════════
+[LOG] 22:55:07 [info]   Thresholds:
+[LOG] 22:55:07 [info]     High presence (>=79 samples): variance < 5px
+[LOG] 22:55:07 [info]     Low presence (>=21 samples): variance < 2px
+[LOG] 22:55:07 [info]
+[DEBUG 22:55:07] [POSTER CHECK] Grid (4, 5): pos=(375,433) presence=74/265 (27.9%) variance=29.3px threshold=2px → HUMAN
+[LOG] 22:55:07 [info]   👤 HUMAN at (375,433)
+[LOG] 22:55:07 [info]       Presence: 74/265 (27.9%) [LOW]
+[LOG] 22:55:07 [info]       Variance: 29.3px >= 2px
+[DEBUG 22:55:07] [POSTER CHECK] Grid (19, 5): pos=(1533,412) presence=74/265 (27.9%) variance=9.1px threshold=2px → HUMAN
+[LOG] 22:55:07 [info]   👤 HUMAN at (1533,412)
+[LOG] 22:55:07 [info]       Presence: 74/265 (27.9%) [LOW]
+[LOG] 22:55:07 [info]       Variance: 9.1px >= 2px
+[DEBUG 22:55:07] [POSTER CHECK] Grid (11, 6): pos=(943,541) presence=76/265 (28.7%) variance=28.5px threshold=2px → HUMAN
+[LOG] 22:55:07 [info]   👤 HUMAN at (943,541)
+[LOG] 22:55:07 [info]       Presence: 76/265 (28.7%) [LOW]
+[LOG] 22:55:07 [info]       Variance: 28.5px >= 2px
+[DEBUG 22:55:07] [POSTER CHECK] Grid (12, 6): pos=(981,535) presence=68/265 (25.7%) variance=38.1px threshold=2px → HUMAN
+[LOG] 22:55:07 [info]   👤 HUMAN at (981,535)
+[LOG] 22:55:07 [info]       Presence: 68/265 (25.7%) [LOW]
+[LOG] 22:55:07 [info]       Variance: 38.1px >= 2px
+[LOG] 22:55:07 [info]
+[LOG] 22:55:07 [info]   ★ RESULT: No posters detected, all faces will be tracked
+[LOG] 22:55:07 [info]
+[LOG] 22:55:07 [info] ╔══════════════════════════════════════════
+[LOG] 22:55:07 [info] ║ Phase 3: MODE ANALYSIS (with poster filter)
+[LOG] 22:55:07 [info] ╚══════════════════════════════════════════
+[LOG] 22:55:07 [info]   Mode logic: 2+ faces = SPLIT, 1 face = SINGLE
+[LOG] 22:55:07 [info]   @0.0s → 2 faces → SPLIT: (350,426) | (1528,421)
+[LOG] 22:55:07 [info]   @0.1s → 2 faces → SPLIT: (354,426) | (1526,414)
+[LOG] 22:55:07 [info]   @0.2s → 2 faces → SPLIT: (357,425) | (1527,417)
+[LOG] 22:55:07 [info]   @0.3s → 2 faces → SPLIT: (358,423) | (1527,421)
+[LOG] 22:55:07 [info]   @0.4s → 2 faces → SPLIT: (361,424) | (1528,420)
+[LOG] 22:55:07 [info]   @0.5s → 2 faces → SPLIT: (361,425) | (1527,418)
+[LOG] 22:55:07 [info]   @0.6s → 2 faces → SPLIT: (363,428) | (1524,420)
+[LOG] 22:55:07 [info]   @0.7s → 2 faces → SPLIT: (369,428) | (1518,425)
+[LOG] 22:55:07 [info]   @0.8s → 2 faces → SPLIT: (378,434) | (1518,425)
+[LOG] 22:55:07 [info]   @0.9s → 2 faces → SPLIT: (381,436) | (1516,424)
+[LOG] 22:55:07 [info]   @1.0s → 2 faces → SPLIT: (381,438) | (1516,424)
+[LOG] 22:55:07 [info]   @1.1s → 2 faces → SPLIT: (377,439) | (1518,425)
+[LOG] 22:55:07 [info]   @1.2s → 2 faces → SPLIT: (375,437) | (1518,425)
+[LOG] 22:55:07 [info]   @1.3s → 2 faces → SPLIT: (374,438) | (1519,424)
+[LOG] 22:55:07 [info]   @1.4s → 2 faces → SPLIT: (372,437) | (1519,425)
+[LOG] 22:55:07 [info]   @1.5s → 2 faces → SPLIT: (370,437) | (1519,426)
+[LOG] 22:55:07 [info]   @1.6s → 1 faces → SINGLE: (938,549)
+[LOG] 22:55:07 [info]   @1.7s → 1 faces → SINGLE: (940,549)
+[LOG] 22:55:07 [info]   @1.8s → 1 faces → SINGLE: (940,550)
+[LOG] 22:55:07 [info]   @1.9s → 1 faces → SINGLE: (940,545)
+[LOG] 22:55:07 [info]   @2.0s → 1 faces → SINGLE: (941,545)
+[LOG] 22:55:07 [info]   @2.1s → 1 faces → SINGLE: (945,550)
+[LOG] 22:55:07 [info]   @2.2s → 1 faces → SINGLE: (944,551)
+[LOG] 22:55:07 [info]   @2.3s → 1 faces → SINGLE: (944,553)
+[LOG] 22:55:07 [info]   @2.4s → 1 faces → SINGLE: (944,551)
+[LOG] 22:55:07 [info]   @2.5s → 1 faces → SINGLE: (947,552)
+[LOG] 22:55:07 [info]   @2.6s → 1 faces → SINGLE: (955,549)
+[LOG] 22:55:07 [info]   @2.7s → 1 faces → SINGLE: (960,550)
+[LOG] 22:55:07 [info]   @2.8s → 1 faces → SINGLE: (954,552)
+[LOG] 22:55:07 [info]   @2.9s → 1 faces → SINGLE: (954,553)
+[LOG] 22:55:07 [info]   @3.0s → 1 faces → SINGLE: (954,553)
+[LOG] 22:55:07 [info]   @4.9s → 1 faces → SINGLE: (982,561)
+[LOG] 22:55:07 [info]   @9.9s → 1 faces → SINGLE: (936,568)
+[LOG] 22:55:07 [info]   @14.9s → 1 faces → SINGLE: (967,520)
+[LOG] 22:55:07 [info]   @19.9s → 1 faces → SINGLE: (1032,533)
+[LOG] 22:55:07 [info]   @24.9s → 1 faces → SINGLE: (942,512)
+[LOG] 22:55:07 [info]
+[LOG] 22:55:07 [info] ╔══════════════════════════════════════════
+[LOG] 22:55:07 [info] ║ BUILDING SEGMENTS (Asymmetric Hysteresis)
+[LOG] 22:55:07 [info] ║ GAIN (1→2): 5 samples
+[LOG] 22:55:07 [info] ║ LOSE (2→1): 20 samples
+[LOG] 22:55:07 [info] ╚══════════════════════════════════════════
+[LOG] 22:55:07 [info] First 5 samples: [2, 2, 2, 2, 2]
+[LOG] 22:55:07 [info] Average: 2.00 → Initial mode: SPLIT
+[LOG] 22:55:07 [info]   @1.6s: 1 faces → pending SINGLE [LOSE] (1/20)
+[LOG] 22:55:07 [info]   ✓ SEGMENT: frame 0-80 (1.6s) = SPLIT
+[SEGMENT 1] frames 0-80 (0.0s-1.6s, 1.6s) = SPLIT | face counts: 2f:16x
+[LOG] 22:55:07 [info]   ★ MODE SWITCH at 3.5s: SPLIT → SINGLE
+[LOG] 22:55:07 [info]   @5.9s: 2 faces → pending SPLIT [GAIN] (1/5)
+[LOG] 22:55:07 [info]   ✓ SEGMENT: frame 80-295 (4.3s) = SINGLE
+[SEGMENT 2] frames 80-295 (1.6s-5.9s, 4.3s) = SINGLE | face counts: 1f:43x
+[LOG] 22:55:07 [info]   ★ MODE SWITCH at 6.3s: SINGLE → SPLIT
+[LOG] 22:55:07 [info]   @6.6s: 1 faces → pending SINGLE [LOSE] (1/20)
+[LOG] 22:55:07 [info]   ✓ SEGMENT: frame 295-330 (0.7s) = SPLIT
+[SEGMENT 3] frames 295-330 (5.9s-6.6s, 0.7s) = SPLIT | face counts: 2f:7x
+[LOG] 22:55:07 [info]   ★ MODE SWITCH at 8.5s: SPLIT → SINGLE
+[LOG] 22:55:07 [info]   @10.6s: 2 faces → pending SPLIT [GAIN] (1/5)
+[LOG] 22:55:07 [info]   ✓ SEGMENT: frame 330-530 (4.0s) = SINGLE
+[SEGMENT 4] frames 330-530 (6.6s-10.6s, 4.0s) = SINGLE | face counts: 1f:40x
+[LOG] 22:55:07 [info]   ★ MODE SWITCH at 11.0s: SINGLE → SPLIT
+[LOG] 22:55:07 [info]   @14.1s: 1 faces → pending SINGLE [LOSE] (1/20)
+[LOG] 22:55:07 [info]   ✓ SEGMENT: frame 530-705 (3.5s) = SPLIT
+[SEGMENT 5] frames 530-705 (10.6s-14.1s, 3.5s) = SPLIT | face counts: 2f:35x
+[LOG] 22:55:07 [info]   ★ MODE SWITCH at 16.0s: SPLIT → SINGLE
+[LOG] 22:55:07 [info]   @16.7s: 2 faces → pending SPLIT [GAIN] (1/5)
+[LOG] 22:55:07 [info]   ✓ SEGMENT: frame 705-835 (2.6s) = SINGLE
+[SEGMENT 6] frames 705-835 (14.1s-16.7s, 2.6s) = SINGLE | face counts: 1f:26x
+[LOG] 22:55:07 [info]   ★ MODE SWITCH at 17.1s: SINGLE → SPLIT
+[LOG] 22:55:07 [info]   @17.2s: 1 faces → pending SINGLE [LOSE] (1/20)
+[LOG] 22:55:07 [info]   @18.1s: back to SPLIT, reset pending
+[LOG] 22:55:07 [info]   @19.2s: 1 faces → pending SINGLE [LOSE] (1/20)
+[LOG] 22:55:07 [info]   @21.1s: back to SPLIT, reset pending
+[LOG] 22:55:07 [info]   @24.4s: 1 faces → pending SINGLE [LOSE] (1/20)
+[LOG] 22:55:07 [info]   @26.3s: back to SPLIT, reset pending
+[LOG] 22:55:07 [info]   ✓ FINAL SEGMENT: frame 835-1323 (9.8s) = SPLIT
+[SEGMENT 7] frames 835-1323 (16.7s-26.5s, 9.8s) = SPLIT | face counts: 1f:47x, 2f:51x
+[LOG] 22:55:07 [info]   ⚠️ SHORT SPLIT: frame 0-80 (1.6s < 2.0s) → CONVERT TO SINGLE
+[LOG] 22:55:07 [info]   ⚠️ SHORT SPLIT: frame 295-330 (0.7s < 2.0s) → CONVERT TO SINGLE
+[LOG] 22:55:07 [info]   ✓ MERGED: 7 → 4 segments
+[LOG] 22:55:07 [info]
+[LOG] 22:55:07 [info] ╔══════════════════════════════════════════
+[LOG] 22:55:07 [info] ║ PRESCAN STATISTICS
+[LOG] 22:55:07 [info] ║ Total samples: 265
+[LOG] 22:55:07 [info] ║ Average faces: 1.41
+[LOG] 22:55:07 [info] ║ Posters filtered: 0
+[LOG] 22:55:07 [info] ║ Distribution (after filtering):
+[LOG] 22:55:07 [info] ║   0 faces: 0 (0.0%) → SINGLE
+[LOG] 22:55:07 [info] ║   1 face:  156 (58.9%) → SINGLE
+[LOG] 22:55:07 [info] ║   2+ faces: 109 (41.1%) → SPLIT
+[LOG] 22:55:07 [info] ╚══════════════════════════════════════════
+[LOG] 22:55:07 [info]
+[LOG] 22:55:07 [info] ╔══════════════════════════════════════════
+[LOG] 22:55:07 [info] ║ PRESCAN DECISION: 4 SEGMENT(S)
+[LOG] 22:55:07 [info] ╠══════════════════════════════════════════
+[LOG] 22:55:07 [info] ║ 📊 MODE BREAKDOWN:
+[LOG] 22:55:07 [info] ║    SPLIT: 2 segment(s), 663 frames (50.1%)
+[LOG] 22:55:07 [info] ║    SINGLE: 2 segment(s), 660 frames (49.9%)
+[LOG] 22:55:07 [info] ╠══════════════════════════════════════════
+[LOG] 22:55:07 [info] ║ 📋 SEGMENTS:
+[LOG] 22:55:07 [info] ║    [1] SINGLE: 0-530 (10.6s)
+[LOG] 22:55:07 [info] ║    [2] SPLIT: 530-705 (3.5s)
+[LOG] 22:55:07 [info] ║    [3] SINGLE: 705-835 (2.6s)
+[LOG] 22:55:07 [info] ║    [4] SPLIT: 835-1323 (9.8s)
+[LOG] 22:55:07 [info] ╚══════════════════════════════════════════
+[LOG] 22:55:07 [info] Prescan complete: 4 segment(s), 0 static face(s) filtered
+[LOG] 22:55:07 [info]
+[LOG] 22:55:07 [info] ╔══════════════════════════════════════════
+[LOG] 22:55:07 [info] ║ PROCESSING START
+[LOG] 22:55:07 [info] ║ Total frames: 1323, FPS: 50.0
+[LOG] 22:55:07 [info] ║ Segments from prescan: 4
+[LOG] 22:55:07 [info] ║   → Frame 0-530 (10.6s): SINGLE
+[LOG] 22:55:07 [info] ║   → Frame 530-705 (3.5s): SPLIT
+[LOG] 22:55:07 [info] ║   → Frame 705-835 (2.6s): SINGLE
+[LOG] 22:55:07 [info] ║   → Frame 835-1323 (9.8s): SPLIT
+[LOG] 22:55:07 [info] ╚══════════════════════════════════════════
+[DEBUG 22:55:07] ============================================================
+[DEBUG 22:55:07] DEBUG MODE ENABLED - Detailed tracking logs active
+[DEBUG 22:55:07] ============================================================
+[DEBUG 22:55:07] Video: 1323 frames @ 50.0 FPS
+[DEBUG 22:55:07] Tracking settings:
+[DEBUG 22:55:07]   - smoothing: 0.85
+[DEBUG 22:55:07]   - tracking_speed: 0.5
+[DEBUG 22:55:07]   - deadzone: 40
+[DEBUG 22:55:07]   - lerp_factor: 0.088
+[DEBUG 22:55:07]   - effective_deadzone: 2.3px
+[DEBUG 22:55:07]   - split_screen: True
+[DEBUG 22:55:07]   - prescan: True
+[DEBUG 22:55:07] Segments: 4
+[DEBUG 22:55:07]   [0] frames 0-530 (10.6s) = SINGLE
+[DEBUG 22:55:07]   [1] frames 530-705 (3.5s) = SPLIT
+[DEBUG 22:55:07]   [2] frames 705-835 (2.6s) = SINGLE
+[DEBUG 22:55:07]   [3] frames 835-1323 (9.8s) = SPLIT
+[DEBUG 22:55:07] ============================================================
+[FRAME 0/1323] @0.00s | 2 faces | SINGLE | det=15.1ms | F1:(350,426) 115x160 conf=0.80 | F2:(1528,421) 108x150 conf=0.81
+[LOG] 22:55:07 [info] TRACK @0.0s → 2 faces → SINGLE: (350,426) | (1528,421)
+[LOG] 22:55:07 [info] Init SPLIT: P1(top)=(1528,421), P2(bottom)=(350,426)
+[LOG] 22:55:07 [info] JUMP @0.0s: 621px → INSTANT to (350,426)
+[DEBUG 22:55:07] [JUMP SINGLE] Frame 0: distance=621px, threshold=200px
+[DEBUG 22:55:07]   (960,540) → (350,426)
+[FRAME 1/1323] @0.02s | 2 faces | SINGLE | det=14.4ms | F1:(351,426) 114x161 conf=0.81 | F2:(1528,420) 108x150 conf=0.83
+[FRAME 2/1323] @0.04s | 2 faces | SINGLE | det=17.3ms | F1:(352,426) 112x160 conf=0.80 | F2:(1528,418) 105x149 conf=0.82
+[FRAME 3/1323] @0.06s | 2 faces | SINGLE | det=21.7ms | F1:(352,426) 111x159 conf=0.80 | F2:(1528,415) 105x149 conf=0.81
+[FRAME 4/1323] @0.08s | 2 faces | SINGLE | det=14.1ms | F1:(353,426) 112x161 conf=0.80 | F2:(1528,415) 105x148 conf=0.82
+[FRAME 5/1323] @0.10s | 2 faces | SINGLE | det=13.5ms | F1:(354,426) 110x160 conf=0.80 | F2:(1526,414) 105x148 conf=0.81
+[FRAME 6/1323] @0.12s | 2 faces | SINGLE | det=17.0ms | F1:(354,427) 109x159 conf=0.80 | F2:(1526,414) 105x147 conf=0.81
+[FRAME 7/1323] @0.14s | 2 faces | SINGLE | det=13.8ms | F1:(354,427) 109x158 conf=0.80 | F2:(1526,414) 105x148 conf=0.82
+[FRAME 8/1323] @0.16s | 2 faces | SINGLE | det=15.2ms | F1:(356,426) 112x157 conf=0.80 | F2:(1528,416) 105x150 conf=0.82
+[FRAME 9/1323] @0.18s | 2 faces | SINGLE | det=17.5ms | F1:(356,426) 116x158 conf=0.80 | F2:(1527,416) 103x149 conf=0.81
+[FRAME 10/1323] @0.20s | 2 faces | SINGLE | det=21.2ms | F1:(357,425) 115x159 conf=0.80 | F2:(1527,417) 103x149 conf=0.81
+[FRAME 11/1323] @0.22s | 2 faces | SINGLE | det=16.4ms | F1:(356,425) 115x157 conf=0.80 | F2:(1526,418) 105x147 conf=0.81
+[FRAME 12/1323] @0.24s | 2 faces | SINGLE | det=14.2ms | F1:(357,425) 117x158 conf=0.80 | F2:(1526,418) 104x147 conf=0.81
+[FRAME 13/1323] @0.26s | 2 faces | SINGLE | det=13.9ms | F1:(357,424) 115x159 conf=0.80 | F2:(1525,420) 105x147 conf=0.80
+[FRAME 14/1323] @0.28s | 2 faces | SINGLE | det=14.5ms | F1:(356,424) 117x160 conf=0.80 | F2:(1527,420) 103x147 conf=0.80
+[FRAME 15/1323] @0.30s | 2 faces | SINGLE | det=13.1ms | F1:(358,423) 119x162 conf=0.80 | F2:(1527,421) 103x147 conf=0.81
+[FRAME 16/1323] @0.32s | 2 faces | SINGLE | det=17.0ms | F1:(358,422) 118x161 conf=0.80 | F2:(1526,421) 105x147 conf=0.81
+[FRAME 17/1323] @0.34s | 2 faces | SINGLE | det=16.7ms | F1:(359,423) 120x161 conf=0.80 | F2:(1527,421) 103x147 conf=0.80
+[FRAME 18/1323] @0.36s | 2 faces | SINGLE | det=13.7ms | F1:(359,424) 118x160 conf=0.80 | F2:(1527,421) 103x147 conf=0.81
+[FRAME 19/1323] @0.38s | 2 faces | SINGLE | det=14.9ms | F1:(360,423) 121x161 conf=0.80 | F2:(1528,421) 105x148 conf=0.82
+[FRAME 20/1323] @0.40s | 2 faces | SINGLE | det=15.2ms | F1:(361,424) 123x160 conf=0.80 | F2:(1528,420) 105x148 conf=0.81
+[FRAME 21/1323] @0.42s | 2 faces | SINGLE | det=15.5ms | F1:(363,423) 124x161 conf=0.80 | F2:(1527,419) 102x147 conf=0.80
+[FRAME 22/1323] @0.44s | 2 faces | SINGLE | det=14.4ms | F1:(361,424) 121x161 conf=0.80 | F2:(1526,418) 105x148 conf=0.81
+[FRAME 23/1323] @0.46s | 2 faces | SINGLE | det=14.6ms | F1:(361,425) 121x162 conf=0.80 | F2:(1526,418) 105x146 conf=0.81
+[FRAME 24/1323] @0.48s | 2 faces | SINGLE | det=14.2ms | F1:(360,425) 119x161 conf=0.80 | F2:(1527,418) 102x146 conf=0.80
+[FRAME 25/1323] @0.50s | 2 faces | SINGLE | det=14.0ms | F1:(361,425) 120x160 conf=0.81 | F2:(1527,418) 102x146 conf=0.80
+[FRAME 26/1323] @0.52s | 2 faces | SINGLE | det=13.2ms | F1:(362,424) 123x159 conf=0.82 | F2:(1527,418) 102x146 conf=0.80
+[FRAME 27/1323] @0.54s | 2 faces | SINGLE | det=14.2ms | F1:(362,424) 122x159 conf=0.83 | F2:(1526,418) 105x147 conf=0.81
+[FRAME 28/1323] @0.56s | 2 faces | SINGLE | det=15.6ms | F1:(361,427) 121x159 conf=0.80 | F2:(1525,418) 102x147 conf=0.81
+[FRAME 29/1323] @0.58s | 2 faces | SINGLE | det=16.2ms | F1:(361,427) 121x159 conf=0.80 | F2:(1524,419) 102x147 conf=0.80
+[FRAME 30/1323] @0.60s | 2 faces | SINGLE | det=20.8ms | F1:(363,428) 120x159 conf=0.81 | F2:(1524,420) 103x149 conf=0.80
+[TRACK P1] @0.6s | raw=(363,428) → smooth=(359,425) | delta=(4.2,2.8) move=5.0px
+[FRAME 31/1323] @0.62s | 2 faces | SINGLE | det=16.9ms | F1:(363,429) 118x158 conf=0.81 | F2:(1522,421) 102x149 conf=0.80
+[FRAME 32/1323] @0.64s | 2 faces | SINGLE | det=15.6ms | F1:(365,428) 121x160 conf=0.81 | F2:(1521,423) 102x150 conf=0.79
+[FRAME 33/1323] @0.66s | 2 faces | SINGLE | det=17.2ms | F1:(366,426) 122x159 conf=0.83 | F2:(1519,424) 102x148 conf=0.80
+[FRAME 34/1323] @0.68s | 2 faces | SINGLE | det=14.2ms | F1:(368,427) 123x159 conf=0.81 | F2:(1518,425) 102x148 conf=0.81
+[FRAME 35/1323] @0.70s | 2 faces | SINGLE | det=17.0ms | F1:(369,428) 123x157 conf=0.81 | F2:(1518,425) 103x147 conf=0.81
+[FRAME 36/1323] @0.72s | 2 faces | SINGLE | det=19.1ms | F1:(370,429) 120x159 conf=0.81 | F2:(1519,425) 102x147 conf=0.81
+[FRAME 37/1323] @0.74s | 2 faces | SINGLE | det=17.0ms | F1:(371,431) 123x160 conf=0.81 | F2:(1518,425) 103x147 conf=0.81
+[FRAME 38/1323] @0.76s | 2 faces | SINGLE | det=14.1ms | F1:(373,432) 120x161 conf=0.82 | F2:(1518,425) 102x147 conf=0.82
+[FRAME 39/1323] @0.78s | 2 faces | SINGLE | det=16.2ms | F1:(375,434) 120x160 conf=0.83 | F2:(1518,425) 102x147 conf=0.82
+[FRAME 40/1323] @0.80s | 2 faces | SINGLE | det=16.4ms | F1:(378,434) 115x160 conf=0.83 | F2:(1518,425) 102x147 conf=0.82
+[FRAME 41/1323] @0.82s | 2 faces | SINGLE | det=14.8ms | F1:(379,434) 115x160 conf=0.82 | F2:(1518,425) 102x147 conf=0.81
+[FRAME 42/1323] @0.84s | 2 faces | SINGLE | det=14.0ms | F1:(382,435) 114x159 conf=0.82 | F2:(1517,424) 100x147 conf=0.81
+[FRAME 43/1323] @0.86s | 2 faces | SINGLE | det=20.9ms | F1:(381,435) 113x162 conf=0.82 | F2:(1517,424) 100x147 conf=0.81
+[FRAME 44/1323] @0.88s | 2 faces | SINGLE | det=19.5ms | F1:(380,436) 111x159 conf=0.81 | F2:(1516,424) 102x147 conf=0.80
+[FRAME 45/1323] @0.90s | 2 faces | SINGLE | det=15.7ms | F1:(381,436) 113x159 conf=0.82 | F2:(1516,424) 102x147 conf=0.80
+[FRAME 46/1323] @0.92s | 2 faces | SINGLE | det=18.8ms | F1:(382,437) 114x158 conf=0.82 | F2:(1518,424) 102x147 conf=0.80
+[FRAME 47/1323] @0.94s | 2 faces | SINGLE | det=14.2ms | F1:(382,437) 112x157 conf=0.82 | F2:(1516,424) 102x147 conf=0.80
+[FRAME 48/1323] @0.96s | 2 faces | SINGLE | det=13.9ms | F1:(382,437) 112x157 conf=0.82 | F2:(1516,424) 102x147 conf=0.80
+[FRAME 49/1323] @0.98s | 2 faces | SINGLE | det=14.2ms | F1:(381,437) 113x158 conf=0.82 | F2:(1516,424) 102x147 conf=0.80
+[FRAME 50/1323] @1.00s | 2 faces | SINGLE | det=14.8ms | F1:(381,438) 113x156 conf=0.82 | F2:(1516,424) 102x145 conf=0.79
+[FRAME 51/1323] @1.02s | 2 faces | SINGLE | det=14.4ms | F1:(381,438) 112x156 conf=0.82 | F2:(1516,425) 102x146 conf=0.80
+[FRAME 52/1323] @1.04s | 2 faces | SINGLE | det=15.3ms | F1:(380,439) 111x158 conf=0.83 | F2:(1516,425) 102x146 conf=0.80
+[FRAME 53/1323] @1.06s | 2 faces | SINGLE | det=19.5ms | F1:(378,439) 113x157 conf=0.83 | F2:(1516,425) 102x146 conf=0.80
+[FRAME 54/1323] @1.08s | 2 faces | SINGLE | det=20.4ms | F1:(378,439) 114x158 conf=0.83 | F2:(1518,425) 102x145 conf=0.80
+[FRAME 55/1323] @1.10s | 2 faces | SINGLE | det=15.5ms | F1:(377,439) 116x158 conf=0.84 | F2:(1518,425) 102x145 conf=0.80
+[FRAME 56/1323] @1.12s | 2 faces | SINGLE | det=16.8ms | F1:(377,438) 115x159 conf=0.84 | F2:(1518,425) 102x145 conf=0.80
+[FRAME 57/1323] @1.14s | 2 faces | SINGLE | det=14.3ms | F1:(376,438) 117x160 conf=0.84 | F2:(1518,426) 102x144 conf=0.81
+[FRAME 58/1323] @1.16s | 2 faces | SINGLE | det=16.2ms | F1:(375,437) 117x159 conf=0.84 | F2:(1518,425) 102x145 conf=0.81
+[FRAME 59/1323] @1.18s | 2 faces | SINGLE | det=15.5ms | F1:(375,438) 118x158 conf=0.84 | F2:(1518,425) 101x145 conf=0.80
+[FRAME 60/1323] @1.20s | 2 faces | SINGLE | det=19.5ms | F1:(375,437) 117x157 conf=0.84 | F2:(1518,425) 101x145 conf=0.80
+[TRACK P1] @1.2s | raw=(375,437) → smooth=(376,436) | delta=(-1.1,1.3) move=1.7px
+[FRAME 61/1323] @1.22s | 2 faces | SINGLE | det=16.3ms | F1:(375,437) 117x157 conf=0.84 | F2:(1518,425) 101x146 conf=0.80
+[FRAME 62/1323] @1.24s | 2 faces | SINGLE | det=17.2ms | F1:(375,437) 117x157 conf=0.84 | F2:(1519,424) 102x146 conf=0.80
+[FRAME 63/1323] @1.26s | 2 faces | SINGLE | det=15.5ms | F1:(375,438) 120x158 conf=0.83 | F2:(1519,424) 99x146 conf=0.80
+[FRAME 64/1323] @1.28s | 2 faces | SINGLE | det=17.2ms | F1:(374,438) 120x158 conf=0.83 | F2:(1519,424) 99x146 conf=0.80
+[FRAME 65/1323] @1.30s | 2 faces | SINGLE | det=18.3ms | F1:(374,438) 120x157 conf=0.83 | F2:(1519,424) 102x146 conf=0.80
+[FRAME 66/1323] @1.32s | 2 faces | SINGLE | det=18.0ms | F1:(373,438) 121x160 conf=0.83 | F2:(1519,424) 102x146 conf=0.80
+[FRAME 67/1323] @1.34s | 2 faces | SINGLE | det=18.1ms | F1:(373,438) 123x162 conf=0.83 | F2:(1519,424) 102x147 conf=0.81
+[FRAME 68/1323] @1.36s | 2 faces | SINGLE | det=18.7ms | F1:(373,438) 122x162 conf=0.83 | F2:(1519,424) 102x147 conf=0.81
+[FRAME 69/1323] @1.38s | 2 faces | SINGLE | det=16.4ms | F1:(373,438) 122x162 conf=0.82 | F2:(1519,424) 102x147 conf=0.81
+[FRAME 70/1323] @1.40s | 2 faces | SINGLE | det=16.9ms | F1:(372,437) 121x160 conf=0.82 | F2:(1519,425) 102x146 conf=0.80
+[FRAME 71/1323] @1.42s | 2 faces | SINGLE | det=16.6ms | F1:(372,437) 121x160 conf=0.82 | F2:(1519,425) 102x146 conf=0.80
+[FRAME 72/1323] @1.44s | 2 faces | SINGLE | det=16.2ms | F1:(372,437) 121x159 conf=0.83 | F2:(1519,425) 102x145 conf=0.80
+[FRAME 73/1323] @1.46s | 2 faces | SINGLE | det=23.9ms | F1:(372,437) 120x160 conf=0.82 | F2:(1519,425) 102x145 conf=0.81
+[FRAME 74/1323] @1.48s | 2 faces | SINGLE | det=23.8ms | F1:(371,437) 122x160 conf=0.83 | F2:(1519,426) 102x147 conf=0.80
+[FRAME 75/1323] @1.50s | 2 faces | SINGLE | det=30.0ms | F1:(370,437) 123x159 conf=0.83 | F2:(1519,426) 102x147 conf=0.80
+[FRAME 76/1323] @1.52s | 2 faces | SINGLE | det=30.3ms | F1:(370,438) 123x160 conf=0.83 | F2:(1519,426) 102x145 conf=0.81
+[FRAME 77/1323] @1.54s | 2 faces | SINGLE | det=25.3ms | F1:(370,437) 122x161 conf=0.82 | F2:(1519,426) 102x146 conf=0.81
+[FRAME 78/1323] @1.56s | 2 faces | SINGLE | det=25.4ms | F1:(370,438) 122x162 conf=0.82 | F2:(1519,426) 102x146 conf=0.81
+[FRAME 79/1323] @1.58s | 1 faces | SINGLE | det=138.5ms | F1:(938,548) 257x316 conf=0.89
+[LOG] 22:55:14 [info] JUMP @1.6s: 576px → INSTANT to (938,548)
+[DEBUG 22:55:14] [JUMP SINGLE] Frame 79: distance=576px, threshold=200px
+[DEBUG 22:55:14]   (373,436) → (938,548)
+[FRAME 80/1323] @1.60s | 1 faces | SINGLE | det=78.7ms | F1:(938,549) 257x319 conf=0.89
+[FRAME 81/1323] @1.62s | 1 faces | SINGLE | det=87.3ms | F1:(939,548) 258x317 conf=0.89
+[FRAME 82/1323] @1.64s | 1 faces | SINGLE | det=80.9ms | F1:(939,549) 259x318 conf=0.89
+[FRAME 83/1323] @1.66s | 1 faces | SINGLE | det=86.7ms | F1:(939,549) 259x318 conf=0.89
+[FRAME 84/1323] @1.68s | 1 faces | SINGLE | det=78.0ms | F1:(940,549) 260x319 conf=0.89
+[FRAME 85/1323] @1.70s | 1 faces | SINGLE | det=81.9ms | F1:(940,549) 260x318 conf=0.89
+[FRAME 86/1323] @1.72s | 1 faces | SINGLE | det=79.8ms | F1:(941,549) 262x318 conf=0.89
+[FRAME 87/1323] @1.74s | 1 faces | SINGLE | det=83.2ms | F1:(940,548) 261x317 conf=0.89
+[FRAME 88/1323] @1.76s | 1 faces | SINGLE | det=73.4ms | F1:(940,548) 261x316 conf=0.89
+[FRAME 89/1323] @1.78s | 1 faces | SINGLE | det=75.2ms | F1:(940,550) 261x320 conf=0.90
+[FRAME 90/1323] @1.80s | 1 faces | SINGLE | det=87.9ms | F1:(940,550) 261x321 conf=0.90
+[TRACK P1] @1.8s | raw=(940,550) → smooth=(938,548) | delta=(1.7,2.0) move=2.6px
+[FRAME 91/1323] @1.82s | 1 faces | SINGLE | det=82.7ms | F1:(941,550) 262x321 conf=0.89
+[FRAME 92/1323] @1.84s | 1 faces | SINGLE | det=81.9ms | F1:(940,549) 261x319 conf=0.89
+[FRAME 93/1323] @1.86s | 1 faces | SINGLE | det=78.0ms | F1:(940,547) 261x315 conf=0.89
+[FRAME 94/1323] @1.88s | 1 faces | SINGLE | det=82.3ms | F1:(940,547) 260x314 conf=0.89
+[FRAME 95/1323] @1.90s | 1 faces | SINGLE | det=71.5ms | F1:(940,545) 261x311 conf=0.89
+[FRAME 96/1323] @1.92s | 1 faces | SINGLE | det=86.4ms | F1:(940,544) 261x308 conf=0.89
+[FRAME 97/1323] @1.94s | 1 faces | SINGLE | det=79.0ms | F1:(940,544) 261x309 conf=0.89
+[FRAME 98/1323] @1.96s | 1 faces | SINGLE | det=82.0ms | F1:(940,544) 261x309 conf=0.89
+[FRAME 99/1323] @1.98s | 1 faces | SINGLE | det=84.9ms | F1:(940,544) 261x309 conf=0.89
+[FRAME 100/1323] @2.00s | 1 faces | SINGLE | det=79.6ms | F1:(941,545) 262x310 conf=0.89
+[FRAME 101/1323] @2.02s | 1 faces | SINGLE | det=71.5ms | F1:(942,546) 264x312 conf=0.89
+[FRAME 102/1323] @2.04s | 1 faces | SINGLE | det=75.0ms | F1:(943,547) 267x314 conf=0.89
+[FRAME 103/1323] @2.06s | 1 faces | SINGLE | det=73.3ms | F1:(944,549) 268x318 conf=0.89
+[FRAME 104/1323] @2.08s | 1 faces | SINGLE | det=81.0ms | F1:(944,550) 269x320 conf=0.89
+[FRAME 105/1323] @2.10s | 1 faces | SINGLE | det=94.1ms | F1:(945,550) 270x321 conf=0.89
+[FRAME 106/1323] @2.12s | 1 faces | SINGLE | det=80.9ms | F1:(944,551) 268x323 conf=0.89
+[FRAME 107/1323] @2.14s | 1 faces | SINGLE | det=76.6ms | F1:(944,552) 268x325 conf=0.89
+[FRAME 108/1323] @2.16s | 1 faces | SINGLE | det=81.5ms | F1:(944,552) 268x324 conf=0.89
+[FRAME 109/1323] @2.18s | 1 faces | SINGLE | det=83.7ms | F1:(944,552) 268x324 conf=0.89
+[FRAME 110/1323] @2.20s | 1 faces | SINGLE | det=76.5ms | F1:(944,551) 268x323 conf=0.89
+[FRAME 111/1323] @2.22s | 1 faces | SINGLE | det=76.1ms | F1:(943,552) 267x325 conf=0.89
+[FRAME 112/1323] @2.24s | 1 faces | SINGLE | det=87.5ms | F1:(943,552) 267x324 conf=0.89
+[FRAME 113/1323] @2.26s | 1 faces | SINGLE | det=71.5ms | F1:(943,552) 267x325 conf=0.89
+[FRAME 114/1323] @2.28s | 1 faces | SINGLE | det=84.1ms | F1:(943,554) 267x328 conf=0.90
+[FRAME 115/1323] @2.30s | 1 faces | SINGLE | det=77.0ms | F1:(944,553) 268x327 conf=0.89
+[FRAME 116/1323] @2.32s | 1 faces | SINGLE | det=75.2ms | F1:(944,553) 268x327 conf=0.89
+[FRAME 117/1323] @2.34s | 1 faces | SINGLE | det=78.5ms | F1:(944,552) 269x324 conf=0.89
+[FRAME 118/1323] @2.36s | 1 faces | SINGLE | det=77.5ms | F1:(944,551) 268x323 conf=0.89
+[FRAME 119/1323] @2.38s | 1 faces | SINGLE | det=82.8ms | F1:(944,551) 268x322 conf=0.89
+[FRAME 120/1323] @2.40s | 1 faces | SINGLE | det=84.1ms | F1:(944,551) 269x322 conf=0.89
+[TRACK P1] @2.4s | raw=(944,551) → smooth=(942,550) | delta=(2.2,0.6) move=2.2px
+[FRAME 121/1323] @2.42s | 1 faces | SINGLE | det=80.2ms | F1:(944,551) 268x323 conf=0.90
+[FRAME 122/1323] @2.44s | 1 faces | SINGLE | det=73.9ms | F1:(944,551) 269x323 conf=0.90
+[FRAME 123/1323] @2.46s | 1 faces | SINGLE | det=78.5ms | F1:(946,551) 273x322 conf=0.89
+[FRAME 124/1323] @2.48s | 1 faces | SINGLE | det=80.4ms | F1:(946,551) 273x323 conf=0.89
+[FRAME 125/1323] @2.50s | 1 faces | SINGLE | det=75.6ms | F1:(947,552) 275x324 conf=0.90
+[FRAME 126/1323] @2.52s | 1 faces | SINGLE | det=80.8ms | F1:(947,551) 275x323 conf=0.89
+[FRAME 127/1323] @2.54s | 1 faces | SINGLE | det=76.0ms | F1:(948,551) 277x320 conf=0.90
+[FRAME 128/1323] @2.56s | 1 faces | SINGLE | det=85.3ms | F1:(950,550) 280x321 conf=0.90
+[FRAME 129/1323] @2.58s | 1 faces | SINGLE | det=74.9ms | F1:(951,550) 283x321 conf=0.89
+[FRAME 130/1323] @2.60s | 1 faces | SINGLE | det=75.1ms | F1:(955,549) 291x318 conf=0.89
+[FRAME 131/1323] @2.62s | 1 faces | SINGLE | det=80.2ms | F1:(956,549) 292x318 conf=0.89
+[FRAME 132/1323] @2.64s | 1 faces | SINGLE | det=81.3ms | F1:(957,550) 294x318 conf=0.89
+[FRAME 133/1323] @2.66s | 1 faces | SINGLE | det=75.8ms | F1:(957,549) 294x318 conf=0.89
+[FRAME 134/1323] @2.68s | 1 faces | SINGLE | det=89.2ms | F1:(958,549) 297x318 conf=0.89
+[FRAME 135/1323] @2.70s | 1 faces | SINGLE | det=73.7ms | F1:(960,550) 298x320 conf=0.89
+[FRAME 136/1323] @2.72s | 1 faces | SINGLE | det=79.1ms | F1:(946,552) 315x325 conf=0.89
+[FRAME 137/1323] @2.74s | 1 faces | SINGLE | det=71.4ms | F1:(948,556) 315x332 conf=0.89
+[FRAME 138/1323] @2.76s | 1 faces | SINGLE | det=75.8ms | F1:(950,555) 316x330 conf=0.89
+[FRAME 139/1323] @2.78s | 1 faces | SINGLE | det=89.8ms | F1:(951,554) 313x329 conf=0.90
+[FRAME 140/1323] @2.80s | 1 faces | SINGLE | det=84.9ms | F1:(954,552) 312x325 conf=0.90
+[FRAME 141/1323] @2.82s | 1 faces | SINGLE | det=78.8ms | F1:(953,553) 313x326 conf=0.90
+[FRAME 142/1323] @2.84s | 1 faces | SINGLE | det=74.6ms | F1:(954,554) 311x328 conf=0.90
+[FRAME 143/1323] @2.86s | 1 faces | SINGLE | det=81.6ms | F1:(954,553) 311x326 conf=0.90
+[FRAME 144/1323] @2.88s | 1 faces | SINGLE | det=74.3ms | F1:(954,553) 311x327 conf=0.90
+[FRAME 145/1323] @2.90s | 1 faces | SINGLE | det=72.7ms | F1:(954,553) 311x326 conf=0.90
+[FRAME 146/1323] @2.92s | 1 faces | SINGLE | det=77.3ms | F1:(954,553) 311x326 conf=0.90
+[FRAME 147/1323] @2.94s | 1 faces | SINGLE | det=77.8ms | F1:(954,553) 311x326 conf=0.90
+[FRAME 148/1323] @2.96s | 1 faces | SINGLE | det=76.8ms | F1:(954,553) 311x326 conf=0.90
+[FRAME 149/1323] @2.98s | 1 faces | SINGLE | det=73.9ms | F1:(954,553) 311x326 conf=0.90
+[FRAME 150/1323] @3.00s | 1 faces | SINGLE | det=77.0ms | F1:(954,553) 311x326 conf=0.90
+[LOG] 22:55:24 [info] TRACK @3.0s → 1 faces → SINGLE: (954,553)
+[TRACK P1] @3.0s | raw=(954,553) → smooth=(952,552) | delta=(2.2,1.3) move=2.6px
+[FRAME 151/1323] @3.02s | 1 faces | SINGLE | det=76.7ms | F1:(954,555) 312x330 conf=0.90
+[FRAME 152/1323] @3.04s | 1 faces | SINGLE | det=83.4ms | F1:(953,555) 313x331 conf=0.90
+[FRAME 153/1323] @3.06s | 1 faces | SINGLE | det=74.3ms | F1:(951,555) 313x331 conf=0.90
+[FRAME 154/1323] @3.08s | 1 faces | SINGLE | det=78.4ms | F1:(952,554) 316x329 conf=0.90
+[FRAME 155/1323] @3.10s | 1 faces | SINGLE | det=75.0ms | F1:(949,553) 318x327 conf=0.90
+[FRAME 156/1323] @3.12s | 1 faces | SINGLE | det=66.7ms | F1:(962,552) 303x324 conf=0.90
+[FRAME 157/1323] @3.14s | 1 faces | SINGLE | det=69.0ms | F1:(959,551) 299x323 conf=0.90
+[FRAME 158/1323] @3.16s | 1 faces | SINGLE | det=67.8ms | F1:(960,551) 299x322 conf=0.90
+[FRAME 159/1323] @3.18s | 1 faces | SINGLE | det=73.4ms | F1:(958,550) 297x321 conf=0.90
+[FRAME 160/1323] @3.20s | 1 faces | SINGLE | det=74.8ms | F1:(957,550) 295x321 conf=0.90
+[FRAME 161/1323] @3.22s | 1 faces | SINGLE | det=81.6ms | F1:(956,549) 293x319 conf=0.90
+[FRAME 162/1323] @3.24s | 1 faces | SINGLE | det=86.7ms | F1:(956,549) 292x318 conf=0.90
+[FRAME 163/1323] @3.26s | 1 faces | SINGLE | det=72.3ms | F1:(953,550) 287x320 conf=0.89
+[FRAME 164/1323] @3.28s | 1 faces | SINGLE | det=74.7ms | F1:(951,550) 282x321 conf=0.90
+[FRAME 165/1323] @3.30s | 1 faces | SINGLE | det=74.3ms | F1:(948,550) 277x320 conf=0.89
+[FRAME 166/1323] @3.32s | 1 faces | SINGLE | det=80.2ms | F1:(946,549) 273x319 conf=0.89
+[FRAME 167/1323] @3.34s | 1 faces | SINGLE | det=82.4ms | F1:(945,550) 270x321 conf=0.89
+[FRAME 168/1323] @3.36s | 1 faces | SINGLE | det=78.0ms | F1:(943,549) 267x318 conf=0.89
+[FRAME 169/1323] @3.38s | 1 faces | SINGLE | det=82.1ms | F1:(941,548) 263x317 conf=0.89
+[FRAME 170/1323] @3.40s | 1 faces | SINGLE | det=74.0ms | F1:(939,548) 259x316 conf=0.89
+[FRAME 171/1323] @3.42s | 1 faces | SINGLE | det=81.6ms | F1:(938,548) 256x316 conf=0.89
+[FRAME 172/1323] @3.44s | 1 faces | SINGLE | det=75.0ms | F1:(905,549) 322x318 conf=0.90
+[FRAME 173/1323] @3.46s | 1 faces | SINGLE | det=77.0ms | F1:(935,548) 251x316 conf=0.90
+[FRAME 174/1323] @3.48s | 1 faces | SINGLE | det=83.7ms | F1:(934,548) 249x317 conf=0.90
+[FRAME 175/1323] @3.50s | 1 faces | SINGLE | det=85.7ms | F1:(933,550) 247x320 conf=0.90
+[FRAME 176/1323] @3.52s | 1 faces | SINGLE | det=75.7ms | F1:(932,551) 245x322 conf=0.90
+[FRAME 177/1323] @3.54s | 1 faces | SINGLE | det=78.7ms | F1:(932,551) 244x323 conf=0.90
+[FRAME 178/1323] @3.56s | 1 faces | SINGLE | det=73.5ms | F1:(931,551) 242x322 conf=0.91
+[FRAME 179/1323] @3.58s | 1 faces | SINGLE | det=82.0ms | F1:(931,551) 242x323 conf=0.91
+[FRAME 180/1323] @3.60s | 1 faces | SINGLE | det=81.3ms | F1:(930,551) 241x323 conf=0.91
+[TRACK P1] @3.6s | raw=(930,551) → smooth=(938,550) | delta=(-8.7,0.7) move=8.8px
+[FRAME 181/1323] @3.62s | 1 faces | SINGLE | det=85.3ms | F1:(930,550) 241x321 conf=0.91
+[FRAME 182/1323] @3.64s | 1 faces | SINGLE | det=75.2ms | F1:(930,552) 241x324 conf=0.91
+[FRAME 183/1323] @3.66s | 1 faces | SINGLE | det=75.7ms | F1:(930,552) 241x324 conf=0.91
+[FRAME 184/1323] @3.68s | 1 faces | SINGLE | det=73.2ms | F1:(931,553) 242x327 conf=0.91
+[FRAME 185/1323] @3.70s | 1 faces | SINGLE | det=71.7ms | F1:(931,554) 242x328 conf=0.91
+[FRAME 186/1323] @3.72s | 1 faces | SINGLE | det=81.2ms | F1:(931,555) 243x330 conf=0.91
+[FRAME 187/1323] @3.74s | 1 faces | SINGLE | det=79.3ms | F1:(932,556) 245x333 conf=0.91
+[FRAME 188/1323] @3.76s | 1 faces | SINGLE | det=79.5ms | F1:(933,559) 246x338 conf=0.91
+[FRAME 189/1323] @3.78s | 1 faces | SINGLE | det=71.9ms | F1:(934,559) 248x339 conf=0.91
+[FRAME 190/1323] @3.80s | 1 faces | SINGLE | det=73.7ms | F1:(935,558) 250x337 conf=0.91
+[FRAME 191/1323] @3.82s | 1 faces | SINGLE | det=73.9ms | F1:(936,558) 252x336 conf=0.91
+[FRAME 192/1323] @3.84s | 1 faces | SINGLE | det=72.9ms | F1:(937,556) 254x332 conf=0.90
+[FRAME 193/1323] @3.86s | 1 faces | SINGLE | det=78.7ms | F1:(938,554) 257x328 conf=0.90
+[FRAME 194/1323] @3.88s | 1 faces | SINGLE | det=70.5ms | F1:(911,552) 324x324 conf=0.90
+[FRAME 195/1323] @3.90s | 1 faces | SINGLE | det=79.7ms | F1:(942,553) 264x326 conf=0.89
+[FRAME 196/1323] @3.92s | 1 faces | SINGLE | det=76.8ms | F1:(944,553) 268x327 conf=0.89
+[FRAME 197/1323] @3.94s | 1 faces | SINGLE | det=83.7ms | F1:(947,554) 274x328 conf=0.90
+[FRAME 198/1323] @3.96s | 1 faces | SINGLE | det=79.2ms | F1:(948,552) 276x325 conf=0.90
+[FRAME 199/1323] @3.98s | 1 faces | SINGLE | det=79.5ms | F1:(950,553) 281x326 conf=0.90
+[FRAME 200/1323] @4.00s | 1 faces | SINGLE | det=72.3ms | F1:(952,553) 285x327 conf=0.90
+[FRAME 201/1323] @4.02s | 1 faces | SINGLE | det=79.9ms | F1:(954,552) 288x325 conf=0.90
+[FRAME 202/1323] @4.04s | 1 faces | SINGLE | det=87.2ms | F1:(956,552) 292x325 conf=0.90
+[FRAME 203/1323] @4.06s | 1 faces | SINGLE | det=83.5ms | F1:(957,553) 294x327 conf=0.90
+[FRAME 204/1323] @4.08s | 1 faces | SINGLE | det=83.3ms | F1:(959,553) 298x326 conf=0.89
+[FRAME 205/1323] @4.10s | 1 faces | SINGLE | det=76.9ms | F1:(959,553) 298x326 conf=0.89
+[FRAME 206/1323] @4.12s | 1 faces | SINGLE | det=82.8ms | F1:(944,553) 317x326 conf=0.89
+[FRAME 207/1323] @4.14s | 1 faces | SINGLE | det=82.7ms | F1:(948,553) 317x326 conf=0.89
+[FRAME 208/1323] @4.16s | 1 faces | SINGLE | det=77.7ms | F1:(951,553) 314x327 conf=0.89
+[FRAME 209/1323] @4.18s | 1 faces | SINGLE | det=81.2ms | F1:(952,553) 313x327 conf=0.89
+[FRAME 210/1323] @4.20s | 1 faces | SINGLE | det=82.9ms | F1:(968,554) 317x329 conf=0.90
+[TRACK P1] @4.2s | raw=(968,554) → smooth=(949,554) | delta=(21.2,0.3) move=21.2px
+[FRAME 211/1323] @4.22s | 1 faces | SINGLE | det=84.0ms | F1:(970,553) 320x326 conf=0.91
+[FRAME 212/1323] @4.24s | 1 faces | SINGLE | det=78.4ms | F1:(956,553) 307x327 conf=0.90
+[FRAME 213/1323] @4.26s | 1 faces | SINGLE | det=78.6ms | F1:(957,554) 306x329 conf=0.90
+[FRAME 214/1323] @4.28s | 1 faces | SINGLE | det=74.7ms | F1:(958,552) 304x324 conf=0.90
+[FRAME 215/1323] @4.30s | 1 faces | SINGLE | det=78.2ms | F1:(960,552) 299x324 conf=0.89
+[FRAME 216/1323] @4.32s | 1 faces | SINGLE | det=79.9ms | F1:(978,552) 321x324 conf=0.89
+[FRAME 217/1323] @4.34s | 1 faces | SINGLE | det=80.6ms | F1:(963,552) 292x324 conf=0.89
+[FRAME 218/1323] @4.36s | 1 faces | SINGLE | det=79.5ms | F1:(963,553) 289x326 conf=0.89
+[FRAME 219/1323] @4.38s | 1 faces | SINGLE | det=73.4ms | F1:(966,552) 285x325 conf=0.90
+[FRAME 220/1323] @4.40s | 1 faces | SINGLE | det=74.4ms | F1:(969,554) 281x328 conf=0.90
+[FRAME 221/1323] @4.42s | 1 faces | SINGLE | det=70.0ms | F1:(971,554) 278x329 conf=0.90
+[FRAME 222/1323] @4.44s | 1 faces | SINGLE | det=74.1ms | F1:(971,553) 278x327 conf=0.90
+[FRAME 223/1323] @4.46s | 1 faces | SINGLE | det=87.7ms | F1:(972,555) 276x330 conf=0.90
+[FRAME 224/1323] @4.48s | 1 faces | SINGLE | det=74.3ms | F1:(972,554) 275x329 conf=0.90
+[FRAME 225/1323] @4.50s | 1 faces | SINGLE | det=76.5ms | F1:(973,555) 274x330 conf=0.89
+[FRAME 226/1323] @4.52s | 1 faces | SINGLE | det=72.6ms | F1:(974,555) 271x331 conf=0.89
+[FRAME 227/1323] @4.54s | 1 faces | SINGLE | det=79.9ms | F1:(976,559) 268x339 conf=0.89
+[FRAME 228/1323] @4.56s | 1 faces | SINGLE | det=80.2ms | F1:(976,560) 267x341 conf=0.89
+[FRAME 229/1323] @4.58s | 1 faces | SINGLE | det=73.6ms | F1:(976,560) 268x340 conf=0.89
+[FRAME 230/1323] @4.60s | 1 faces | SINGLE | det=76.3ms | F1:(977,558) 265x337 conf=0.89
+[FRAME 231/1323] @4.62s | 1 faces | SINGLE | det=78.4ms | F1:(977,557) 266x335 conf=0.89
+[FRAME 232/1323] @4.64s | 1 faces | SINGLE | det=72.8ms | F1:(978,554) 264x329 conf=0.88
+[FRAME 233/1323] @4.66s | 1 faces | SINGLE | det=79.0ms | F1:(1012,555) 327x330 conf=0.88
+[FRAME 234/1323] @4.68s | 1 faces | SINGLE | det=79.8ms | F1:(1013,556) 328x330 conf=0.88
+[FRAME 235/1323] @4.70s | 1 faces | SINGLE | det=76.6ms | F1:(1014,558) 330x334 conf=0.88
+[FRAME 236/1323] @4.72s | 1 faces | SINGLE | det=85.2ms | F1:(1016,557) 335x335 conf=0.88
+[FRAME 237/1323] @4.74s | 1 faces | SINGLE | det=79.1ms | F1:(1017,559) 335x339 conf=0.88
+[FRAME 238/1323] @4.76s | 1 faces | SINGLE | det=75.8ms | F1:(981,565) 257x347 conf=0.88
+[FRAME 239/1323] @4.78s | 1 faces | SINGLE | det=82.5ms | F1:(981,566) 257x349 conf=0.88
+[FRAME 240/1323] @4.80s | 1 faces | SINGLE | det=81.6ms | F1:(981,566) 257x349 conf=0.88
+[TRACK P1] @4.8s | raw=(981,566) → smooth=(985,558) | delta=(-4.3,8.4) move=9.5px
+[FRAME 241/1323] @4.82s | 1 faces | SINGLE | det=79.8ms | F1:(1013,564) 326x344 conf=0.88
+[FRAME 242/1323] @4.84s | 1 faces | SINGLE | det=80.1ms | F1:(982,564) 255x344 conf=0.88
+[FRAME 243/1323] @4.86s | 1 faces | SINGLE | det=86.7ms | F1:(982,561) 255x339 conf=0.88
+[FRAME 244/1323] @4.88s | 1 faces | SINGLE | det=94.0ms | F1:(982,561) 255x338 conf=0.88
+[FRAME 245/1323] @4.90s | 1 faces | SINGLE | det=92.2ms | F1:(982,561) 255x337 conf=0.88
+[FRAME 246/1323] @4.92s | 1 faces | SINGLE | det=82.4ms | F1:(981,561) 257x337 conf=0.88
+[FRAME 247/1323] @4.94s | 1 faces | SINGLE | det=85.4ms | F1:(981,560) 257x335 conf=0.88
+[FRAME 248/1323] @4.96s | 1 faces | SINGLE | det=87.6ms | F1:(980,560) 259x338 conf=0.88
+[FRAME 249/1323] @4.98s | 1 faces | SINGLE | det=81.1ms | F1:(980,560) 259x338 conf=0.88
+[FRAME 250/1323] @5.00s | 1 faces | SINGLE | det=77.6ms | F1:(980,561) 259x338 conf=0.88
+[FRAME 251/1323] @5.02s | 1 faces | SINGLE | det=80.1ms | F1:(980,560) 259x337 conf=0.88
+[FRAME 252/1323] @5.04s | 1 faces | SINGLE | det=71.2ms | F1:(979,560) 261x336 conf=0.88
+[FRAME 253/1323] @5.06s | 1 faces | SINGLE | det=78.5ms | F1:(979,559) 261x335 conf=0.88
+[FRAME 254/1323] @5.08s | 1 faces | SINGLE | det=80.7ms | F1:(1007,560) 319x336 conf=0.88
+[FRAME 255/1323] @5.10s | 1 faces | SINGLE | det=76.5ms | F1:(1008,560) 320x336 conf=0.88
+[FRAME 256/1323] @5.12s | 1 faces | SINGLE | det=86.2ms | F1:(1007,560) 320x337 conf=0.88
+[FRAME 257/1323] @5.14s | 1 faces | SINGLE | det=65.9ms | F1:(978,558) 264x337 conf=0.88
+[FRAME 258/1323] @5.16s | 1 faces | SINGLE | det=79.7ms | F1:(1006,560) 320x337 conf=0.88
+[FRAME 259/1323] @5.18s | 1 faces | SINGLE | det=83.8ms | F1:(1005,561) 320x336 conf=0.88
+[FRAME 260/1323] @5.20s | 1 faces | SINGLE | det=75.0ms | F1:(1003,561) 318x337 conf=0.89
+[FRAME 261/1323] @5.22s | 1 faces | SINGLE | det=88.5ms | F1:(1003,561) 318x336 conf=0.89
+[FRAME 262/1323] @5.24s | 1 faces | SINGLE | det=81.3ms | F1:(1003,561) 317x336 conf=0.89
+[FRAME 263/1323] @5.26s | 1 faces | SINGLE | det=73.6ms | F1:(1003,560) 317x335 conf=0.89
+[FRAME 264/1323] @5.28s | 1 faces | SINGLE | det=75.6ms | F1:(1003,560) 316x335 conf=0.89
+[FRAME 265/1323] @5.30s | 1 faces | SINGLE | det=92.1ms | F1:(1003,560) 316x335 conf=0.89
+[FRAME 266/1323] @5.32s | 1 faces | SINGLE | det=79.2ms | F1:(1003,560) 316x335 conf=0.89
+[FRAME 267/1323] @5.34s | 1 faces | SINGLE | det=81.9ms | F1:(1003,560) 316x335 conf=0.89
+[FRAME 268/1323] @5.36s | 1 faces | SINGLE | det=78.6ms | F1:(1002,560) 315x335 conf=0.89
+[FRAME 269/1323] @5.38s | 1 faces | SINGLE | det=76.5ms | F1:(1003,559) 316x333 conf=0.89
+[FRAME 270/1323] @5.40s | 1 faces | SINGLE | det=81.4ms | F1:(1003,558) 314x331 conf=0.89
+[TRACK P1] @5.4s | raw=(1003,558) → smooth=(998,559) | delta=(5.0,-1.3) move=5.1px
+[FRAME 271/1323] @5.42s | 1 faces | SINGLE | det=83.2ms | F1:(1003,559) 314x332 conf=0.88
+[FRAME 272/1323] @5.44s | 1 faces | SINGLE | det=69.3ms | F1:(1005,557) 320x333 conf=0.88
+[FRAME 273/1323] @5.46s | 1 faces | SINGLE | det=80.9ms | F1:(1007,557) 325x330 conf=0.88
+[FRAME 274/1323] @5.48s | 1 faces | SINGLE | det=77.8ms | F1:(1005,557) 319x334 conf=0.88
+[FRAME 275/1323] @5.50s | 1 faces | SINGLE | det=75.1ms | F1:(981,553) 257x326 conf=0.88
+[FRAME 276/1323] @5.52s | 1 faces | SINGLE | det=70.0ms | F1:(1015,554) 326x327 conf=0.88
+[FRAME 277/1323] @5.54s | 1 faces | SINGLE | det=83.0ms | F1:(983,552) 254x324 conf=0.88
+[FRAME 278/1323] @5.56s | 1 faces | SINGLE | det=82.7ms | F1:(986,551) 247x323 conf=0.88
+[FRAME 279/1323] @5.58s | 1 faces | SINGLE | det=76.9ms | F1:(988,550) 243x320 conf=0.88
+[FRAME 280/1323] @5.60s | 1 faces | SINGLE | det=88.4ms | F1:(990,549) 240x319 conf=0.87
+[FRAME 281/1323] @5.62s | 1 faces | SINGLE | det=78.6ms | F1:(992,548) 236x316 conf=0.87
+[FRAME 282/1323] @5.64s | 1 faces | SINGLE | det=76.3ms | F1:(993,549) 233x318 conf=0.87
+[FRAME 283/1323] @5.66s | 1 faces | SINGLE | det=75.7ms | F1:(995,550) 230x320 conf=0.87
+[FRAME 284/1323] @5.68s | 1 faces | SINGLE | det=83.1ms | F1:(997,550) 225x321 conf=0.87
+[FRAME 285/1323] @5.70s | 1 faces | SINGLE | det=90.4ms | F1:(1001,550) 217x320 conf=0.86
+[FRAME 286/1323] @5.72s | 1 faces | SINGLE | det=74.7ms | F1:(1052,549) 298x319 conf=0.86
+[FRAME 287/1323] @5.74s | 1 faces | SINGLE | det=79.6ms | F1:(1056,550) 303x321 conf=0.87
+[FRAME 288/1323] @5.76s | 1 faces | SINGLE | det=83.2ms | F1:(1058,549) 295x319 conf=0.87
+[FRAME 289/1323] @5.78s | 1 faces | SINGLE | det=80.6ms | F1:(1065,550) 296x320 conf=0.87
+[FRAME 290/1323] @5.80s | 1 faces | SINGLE | det=73.4ms | F1:(1069,549) 290x319 conf=0.88
+[FRAME 291/1323] @5.82s | 1 faces | SINGLE | det=74.4ms | F1:(1070,552) 289x322 conf=0.87
+[FRAME 292/1323] @5.84s | 1 faces | SINGLE | det=76.5ms | F1:(1071,555) 290x322 conf=0.86
+[FRAME 293/1323] @5.86s | 1 faces | SINGLE | det=78.2ms | F1:(1074,554) 291x323 conf=0.86
+[FRAME 294/1323] @5.88s | 2 faces | SINGLE | det=80.1ms | F1:(1017,558) 185x336 conf=0.79 | F2:(1078,556) 297x326 conf=0.87
+[FRAME 295/1323] @5.90s | 2 faces | SINGLE | det=75.8ms | F1:(1018,558) 184x336 conf=0.78 | F2:(1078,556) 297x325 conf=0.87
+[FRAME 296/1323] @5.92s | 2 faces | SINGLE | det=75.7ms | F1:(1019,558) 182x336 conf=0.76 | F2:(1082,555) 299x327 conf=0.87
+[FRAME 297/1323] @5.94s | 2 faces | SINGLE | det=69.3ms | F1:(1019,557) 181x334 conf=0.77 | F2:(1080,556) 293x331 conf=0.86
+[FRAME 298/1323] @5.96s | 2 faces | SINGLE | det=76.7ms | F1:(1021,557) 178x335 conf=0.77 | F2:(1082,558) 297x333 conf=0.86
+[FRAME 299/1323] @5.98s | 2 faces | SINGLE | det=82.7ms | F1:(1021,557) 177x335 conf=0.77 | F2:(1084,558) 299x333 conf=0.86
+[FRAME 300/1323] @6.00s | 2 faces | SINGLE | det=81.6ms | F1:(1021,558) 178x336 conf=0.77 | F2:(1086,560) 300x336 conf=0.86
+[LOG] 22:55:45 [info] TRACK @6.0s → 2 faces → SINGLE: (1021,558) | (1086,560)
+[TRACK P1] @6.0s | raw=(1086,560) → smooth=(1056,555) | delta=(32.9,6.0) move=33.5px
+[FRAME 301/1323] @6.02s | 2 faces | SINGLE | det=78.2ms | F1:(1021,561) 177x343 conf=0.75 | F2:(1085,562) 296x339 conf=0.86
+[FRAME 302/1323] @6.04s | 2 faces | SINGLE | det=84.0ms | F1:(1021,563) 177x347 conf=0.79 | F2:(1086,561) 296x338 conf=0.87
+[FRAME 303/1323] @6.06s | 2 faces | SINGLE | det=76.0ms | F1:(1021,562) 177x344 conf=0.81 | F2:(1083,562) 293x340 conf=0.86
+[FRAME 304/1323] @6.08s | 2 faces | SINGLE | det=73.9ms | F1:(1022,563) 176x346 conf=0.78 | F2:(1084,563) 292x341 conf=0.86
+[FRAME 305/1323] @6.10s | 2 faces | SINGLE | det=83.2ms | F1:(1021,564) 177x349 conf=0.80 | F2:(1086,564) 296x343 conf=0.86
+[FRAME 306/1323] @6.12s | 2 faces | SINGLE | det=76.6ms | F1:(1021,566) 177x352 conf=0.78 | F2:(1090,563) 299x345 conf=0.86
+[FRAME 307/1323] @6.14s | 2 faces | SINGLE | det=77.4ms | F1:(1021,567) 178x355 conf=0.77 | F2:(1090,564) 302x347 conf=0.85
+[FRAME 308/1323] @6.16s | 2 faces | SINGLE | det=73.6ms | F1:(1021,569) 177x356 conf=0.78 | F2:(1092,566) 309x348 conf=0.86
+[FRAME 309/1323] @6.18s | 2 faces | SINGLE | det=69.5ms | F1:(1020,569) 179x355 conf=0.77 | F2:(1095,566) 318x349 conf=0.86
+[FRAME 310/1323] @6.20s | 2 faces | SINGLE | det=83.6ms | F1:(1021,570) 178x353 conf=0.79 | F2:(1096,568) 320x350 conf=0.86
+[FRAME 311/1323] @6.22s | 2 faces | SINGLE | det=81.4ms | F1:(1019,571) 181x357 conf=0.77 | F2:(1094,568) 320x351 conf=0.86
+[FRAME 312/1323] @6.24s | 2 faces | SINGLE | det=86.0ms | F1:(1020,570) 180x356 conf=0.77 | F2:(1092,569) 317x352 conf=0.86
+[FRAME 313/1323] @6.26s | 2 faces | SINGLE | det=82.0ms | F1:(1019,571) 182x358 conf=0.78 | F2:(1092,569) 315x352 conf=0.86
+[FRAME 314/1323] @6.28s | 2 faces | SINGLE | det=70.9ms | F1:(1018,573) 183x361 conf=0.78 | F2:(1089,570) 311x353 conf=0.86
+[FRAME 315/1323] @6.30s | 2 faces | SINGLE | det=83.2ms | F1:(1018,572) 184x360 conf=0.76 | F2:(1090,570) 311x353 conf=0.86
+[FRAME 316/1323] @6.32s | 2 faces | SINGLE | det=76.9ms | F1:(1018,573) 184x353 conf=0.78 | F2:(1093,569) 313x353 conf=0.86
+[FRAME 317/1323] @6.34s | 2 faces | SINGLE | det=72.6ms | F1:(1018,575) 184x357 conf=0.78 | F2:(1089,571) 313x352 conf=0.86
+[FRAME 318/1323] @6.36s | 2 faces | SINGLE | det=81.1ms | F1:(1017,575) 186x356 conf=0.79 | F2:(1089,570) 317x352 conf=0.86
+[FRAME 319/1323] @6.38s | 2 faces | SINGLE | det=68.5ms | F1:(1017,576) 186x356 conf=0.80 | F2:(1090,568) 318x351 conf=0.86
+[FRAME 320/1323] @6.40s | 2 faces | SINGLE | det=87.5ms | F1:(1016,575) 188x358 conf=0.81 | F2:(1089,568) 321x351 conf=0.86
+[FRAME 321/1323] @6.42s | 2 faces | SINGLE | det=76.6ms | F1:(1016,572) 188x357 conf=0.83 | F2:(1088,569) 324x351 conf=0.86
+[FRAME 322/1323] @6.44s | 2 faces | SINGLE | det=72.2ms | F1:(1016,573) 188x356 conf=0.84 | F2:(1085,568) 322x351 conf=0.86
+[FRAME 323/1323] @6.46s | 2 faces | SINGLE | det=76.0ms | F1:(1015,573) 190x355 conf=0.83 | F2:(1085,568) 322x349 conf=0.86
+[FRAME 324/1323] @6.48s | 2 faces | SINGLE | det=70.8ms | F1:(1014,573) 191x357 conf=0.83 | F2:(1083,568) 325x348 conf=0.86
+[FRAME 325/1323] @6.50s | 2 faces | SINGLE | det=83.0ms | F1:(1014,571) 191x355 conf=0.85 | F2:(1082,568) 329x348 conf=0.86
+[FRAME 326/1323] @6.52s | 2 faces | SINGLE | det=68.3ms | F1:(1014,571) 191x351 conf=0.84 | F2:(1082,567) 327x347 conf=0.86
+[FRAME 327/1323] @6.54s | 2 faces | SINGLE | det=83.1ms | F1:(1012,572) 196x351 conf=0.83 | F2:(1078,567) 325x346 conf=0.86
+[FRAME 328/1323] @6.56s | 1 faces | SINGLE | det=67.3ms | F1:(1076,566) 325x346 conf=0.86
+[FRAME 329/1323] @6.58s | 1 faces | SINGLE | det=82.1ms | F1:(1068,567) 319x347 conf=0.86
+[FRAME 330/1323] @6.60s | 1 faces | SINGLE | det=75.4ms | F1:(1066,566) 318x347 conf=0.87
+[TRACK P1] @6.6s | raw=(1066,566) → smooth=(1081,566) | delta=(-15.9,-0.0) move=15.9px
+[FRAME 331/1323] @6.62s | 1 faces | SINGLE | det=73.4ms | F1:(1062,567) 315x345 conf=0.86
+[FRAME 332/1323] @6.64s | 1 faces | SINGLE | det=78.7ms | F1:(1061,567) 314x343 conf=0.86
+[FRAME 333/1323] @6.66s | 1 faces | SINGLE | det=82.5ms | F1:(1058,566) 312x344 conf=0.86
+[FRAME 334/1323] @6.68s | 1 faces | SINGLE | det=74.5ms | F1:(1056,564) 321x343 conf=0.86
+[FRAME 335/1323] @6.70s | 1 faces | SINGLE | det=69.3ms | F1:(1050,564) 326x342 conf=0.87
+[FRAME 336/1323] @6.72s | 1 faces | SINGLE | det=69.2ms | F1:(993,563) 233x344 conf=0.87
+[FRAME 337/1323] @6.74s | 1 faces | SINGLE | det=73.7ms | F1:(992,562) 235x340 conf=0.87
+[FRAME 338/1323] @6.76s | 1 faces | SINGLE | det=71.0ms | F1:(1036,561) 335x336 conf=0.88
+[FRAME 339/1323] @6.78s | 1 faces | SINGLE | det=65.1ms | F1:(987,560) 245x333 conf=0.88
+[FRAME 340/1323] @6.80s | 1 faces | SINGLE | det=68.4ms | F1:(984,559) 252x332 conf=0.88
+[FRAME 341/1323] @6.82s | 1 faces | SINGLE | det=76.2ms | F1:(1009,558) 319x336 conf=0.88
+[FRAME 342/1323] @6.84s | 1 faces | SINGLE | det=74.6ms | F1:(999,557) 317x331 conf=0.88
+[FRAME 343/1323] @6.86s | 1 faces | SINGLE | det=72.5ms | F1:(997,556) 314x331 conf=0.88
+[FRAME 344/1323] @6.88s | 1 faces | SINGLE | det=82.8ms | F1:(972,554) 276x329 conf=0.89
+[FRAME 345/1323] @6.90s | 1 faces | SINGLE | det=76.6ms | F1:(970,553) 280x326 conf=0.90
+[FRAME 346/1323] @6.92s | 1 faces | SINGLE | det=76.1ms | F1:(967,553) 285x326 conf=0.90
+[FRAME 347/1323] @6.94s | 1 faces | SINGLE | det=76.7ms | F1:(964,553) 291x326 conf=0.89
+[FRAME 348/1323] @6.96s | 1 faces | SINGLE | det=69.5ms | F1:(961,552) 295x325 conf=0.89
+[FRAME 349/1323] @6.98s | 1 faces | SINGLE | det=73.9ms | F1:(959,554) 300x328 conf=0.89
+[FRAME 350/1323] @7.00s | 1 faces | SINGLE | det=67.8ms | F1:(959,557) 301x335 conf=0.89
+[FRAME 351/1323] @7.02s | 1 faces | SINGLE | det=78.5ms | F1:(955,556) 309x333 conf=0.89
+[FRAME 352/1323] @7.04s | 1 faces | SINGLE | det=88.5ms | F1:(967,558) 309x332 conf=0.90
+[FRAME 353/1323] @7.06s | 1 faces | SINGLE | det=78.1ms | F1:(964,556) 307x333 conf=0.91
+[FRAME 354/1323] @7.08s | 1 faces | SINGLE | det=81.2ms | F1:(962,555) 302x330 conf=0.91
+[FRAME 355/1323] @7.10s | 1 faces | SINGLE | det=79.4ms | F1:(959,556) 297x328 conf=0.91
+[FRAME 356/1323] @7.12s | 1 faces | SINGLE | det=75.3ms | F1:(955,556) 291x333 conf=0.90
+[FRAME 357/1323] @7.14s | 1 faces | SINGLE | det=71.0ms | F1:(953,557) 287x335 conf=0.90
+[FRAME 358/1323] @7.16s | 1 faces | SINGLE | det=77.2ms | F1:(950,556) 281x332 conf=0.91
+[FRAME 359/1323] @7.18s | 1 faces | SINGLE | det=75.4ms | F1:(948,555) 277x331 conf=0.90
+[FRAME 360/1323] @7.20s | 1 faces | SINGLE | det=83.2ms | F1:(946,553) 273x326 conf=0.90
+[TRACK P1] @7.2s | raw=(946,553) → smooth=(973,557) | delta=(-29.3,-4.7) move=29.7px
+[FRAME 361/1323] @7.22s | 1 faces | SINGLE | det=73.8ms | F1:(943,551) 267x323 conf=0.89
+[FRAME 362/1323] @7.24s | 1 faces | SINGLE | det=79.4ms | F1:(941,550) 262x320 conf=0.90
+[FRAME 363/1323] @7.26s | 1 faces | SINGLE | det=70.9ms | F1:(939,550) 259x320 conf=0.90
+[FRAME 364/1323] @7.28s | 1 faces | SINGLE | det=77.0ms | F1:(938,549) 257x318 conf=0.90
+[FRAME 365/1323] @7.30s | 1 faces | SINGLE | det=82.2ms | F1:(937,549) 255x318 conf=0.90
+[FRAME 366/1323] @7.32s | 1 faces | SINGLE | det=72.5ms | F1:(936,549) 253x319 conf=0.90
+[FRAME 367/1323] @7.34s | 1 faces | SINGLE | det=71.4ms | F1:(935,549) 251x319 conf=0.90
+[FRAME 368/1323] @7.36s | 1 faces | SINGLE | det=78.8ms | F1:(935,550) 250x319 conf=0.90
+[FRAME 369/1323] @7.38s | 1 faces | SINGLE | det=80.3ms | F1:(934,550) 249x319 conf=0.90
+[FRAME 370/1323] @7.40s | 1 faces | SINGLE | det=69.9ms | F1:(934,550) 248x319 conf=0.90
+[FRAME 371/1323] @7.42s | 1 faces | SINGLE | det=70.7ms | F1:(933,551) 247x320 conf=0.90
+[FRAME 372/1323] @7.44s | 1 faces | SINGLE | det=80.0ms | F1:(933,550) 247x320 conf=0.90
+[FRAME 373/1323] @7.46s | 1 faces | SINGLE | det=72.8ms | F1:(933,550) 246x320 conf=0.90
+[FRAME 374/1323] @7.48s | 1 faces | SINGLE | det=66.8ms | F1:(933,549) 246x319 conf=0.90
+[FRAME 375/1323] @7.50s | 1 faces | SINGLE | det=78.2ms | F1:(933,548) 247x317 conf=0.90
+[FRAME 376/1323] @7.52s | 1 faces | SINGLE | det=74.7ms | F1:(933,549) 247x316 conf=0.90
+[FRAME 377/1323] @7.54s | 1 faces | SINGLE | det=74.0ms | F1:(934,548) 248x315 conf=0.90
+[FRAME 378/1323] @7.56s | 1 faces | SINGLE | det=69.7ms | F1:(934,548) 248x315 conf=0.90
+[FRAME 379/1323] @7.58s | 1 faces | SINGLE | det=82.1ms | F1:(934,549) 249x316 conf=0.90
+[FRAME 380/1323] @7.60s | 1 faces | SINGLE | det=67.7ms | F1:(935,549) 250x317 conf=0.90
+[FRAME 381/1323] @7.62s | 1 faces | SINGLE | det=71.5ms | F1:(936,548) 252x317 conf=0.90
+[FRAME 382/1323] @7.64s | 1 faces | SINGLE | det=75.4ms | F1:(936,549) 253x318 conf=0.90
+[FRAME 383/1323] @7.66s | 1 faces | SINGLE | det=70.4ms | F1:(938,549) 256x319 conf=0.90
+[FRAME 384/1323] @7.68s | 1 faces | SINGLE | det=82.6ms | F1:(938,549) 257x319 conf=0.90
+[FRAME 385/1323] @7.70s | 1 faces | SINGLE | det=69.4ms | F1:(939,549) 259x319 conf=0.90
+[FRAME 386/1323] @7.72s | 1 faces | SINGLE | det=79.4ms | F1:(940,549) 261x319 conf=0.89
+[FRAME 387/1323] @7.74s | 1 faces | SINGLE | det=74.1ms | F1:(942,549) 265x319 conf=0.89
+[FRAME 388/1323] @7.76s | 1 faces | SINGLE | det=75.1ms | F1:(945,548) 270x317 conf=0.89
+[FRAME 389/1323] @7.78s | 1 faces | SINGLE | det=71.6ms | F1:(947,548) 274x316 conf=0.90
+[FRAME 390/1323] @7.80s | 1 faces | SINGLE | det=74.6ms | F1:(947,548) 275x316 conf=0.90
+[TRACK P1] @7.8s | raw=(947,548) → smooth=(941,550) | delta=(6.2,-2.1) move=6.5px
+[FRAME 391/1323] @7.82s | 1 faces | SINGLE | det=72.7ms | F1:(949,550) 278x316 conf=0.90
+[FRAME 392/1323] @7.84s | 1 faces | SINGLE | det=83.8ms | F1:(951,549) 282x317 conf=0.90
+[FRAME 393/1323] @7.86s | 1 faces | SINGLE | det=80.3ms | F1:(953,549) 287x314 conf=0.90
+[FRAME 394/1323] @7.88s | 1 faces | SINGLE | det=73.0ms | F1:(955,548) 291x313 conf=0.90
+[FRAME 395/1323] @7.90s | 1 faces | SINGLE | det=86.9ms | F1:(957,548) 292x316 conf=0.90
+[FRAME 396/1323] @7.92s | 1 faces | SINGLE | det=74.0ms | F1:(959,548) 296x316 conf=0.90
+[FRAME 397/1323] @7.94s | 1 faces | SINGLE | det=71.6ms | F1:(960,548) 299x317 conf=0.89
+[FRAME 398/1323] @7.96s | 1 faces | SINGLE | det=86.7ms | F1:(962,550) 303x321 conf=0.89
+[FRAME 399/1323] @7.98s | 1 faces | SINGLE | det=80.5ms | F1:(951,552) 316x325 conf=0.89
+[FRAME 400/1323] @8.00s | 1 faces | SINGLE | det=76.6ms | F1:(953,553) 313x327 conf=0.90
+[FRAME 401/1323] @8.02s | 1 faces | SINGLE | det=72.7ms | F1:(954,553) 312x326 conf=0.90
+[FRAME 402/1323] @8.04s | 1 faces | SINGLE | det=74.9ms | F1:(954,551) 312x322 conf=0.90
+[FRAME 403/1323] @8.06s | 1 faces | SINGLE | det=69.2ms | F1:(967,552) 310x320 conf=0.90
+[FRAME 404/1323] @8.08s | 1 faces | SINGLE | det=76.7ms | F1:(965,551) 307x319 conf=0.90
+[FRAME 405/1323] @8.10s | 1 faces | SINGLE | det=72.0ms | F1:(965,550) 306x318 conf=0.90
+[FRAME 406/1323] @8.12s | 1 faces | SINGLE | det=73.5ms | F1:(963,550) 304x320 conf=0.90
+[FRAME 407/1323] @8.14s | 1 faces | SINGLE | det=82.0ms | F1:(962,550) 303x320 conf=0.90
+[FRAME 408/1323] @8.16s | 1 faces | SINGLE | det=80.8ms | F1:(961,549) 301x319 conf=0.90
+[FRAME 409/1323] @8.18s | 1 faces | SINGLE | det=83.8ms | F1:(960,550) 299x320 conf=0.90
+[FRAME 410/1323] @8.20s | 1 faces | SINGLE | det=71.6ms | F1:(960,550) 298x318 conf=0.90
+[FRAME 411/1323] @8.22s | 1 faces | SINGLE | det=82.5ms | F1:(959,551) 297x320 conf=0.90
+[FRAME 412/1323] @8.24s | 1 faces | SINGLE | det=74.9ms | F1:(959,551) 296x323 conf=0.90
+[FRAME 413/1323] @8.26s | 1 faces | SINGLE | det=73.5ms | F1:(957,551) 293x322 conf=0.90
+[FRAME 414/1323] @8.28s | 1 faces | SINGLE | det=74.9ms | F1:(955,552) 291x319 conf=0.90
+[FRAME 415/1323] @8.30s | 1 faces | SINGLE | det=94.4ms | F1:(954,551) 289x317 conf=0.90
+[FRAME 416/1323] @8.32s | 1 faces | SINGLE | det=73.3ms | F1:(953,551) 286x317 conf=0.90
+[FRAME 417/1323] @8.34s | 1 faces | SINGLE | det=81.0ms | F1:(952,551) 284x317 conf=0.90
+[FRAME 418/1323] @8.36s | 1 faces | SINGLE | det=73.7ms | F1:(950,547) 281x313 conf=0.90
+[FRAME 419/1323] @8.38s | 1 faces | SINGLE | det=78.8ms | F1:(949,547) 278x312 conf=0.90
+[FRAME 420/1323] @8.40s | 1 faces | SINGLE | det=77.5ms | F1:(948,548) 277x310 conf=0.90
+[TRACK P1] @8.4s | raw=(948,548) → smooth=(954,550) | delta=(-6.8,-2.0) move=7.1px
+[FRAME 421/1323] @8.42s | 1 faces | SINGLE | det=75.4ms | F1:(948,548) 276x310 conf=0.90
+[FRAME 422/1323] @8.44s | 1 faces | SINGLE | det=72.6ms | F1:(948,544) 276x303 conf=0.90
+[FRAME 423/1323] @8.46s | 1 faces | SINGLE | det=76.0ms | F1:(947,542) 275x298 conf=0.90
+[FRAME 424/1323] @8.48s | 1 faces | SINGLE | det=82.9ms | F1:(947,541) 275x299 conf=0.89
+[FRAME 425/1323] @8.50s | 1 faces | SINGLE | det=87.9ms | F1:(948,543) 276x305 conf=0.89
+[FRAME 426/1323] @8.52s | 1 faces | SINGLE | det=72.3ms | F1:(948,544) 277x307 conf=0.89
+[FRAME 427/1323] @8.54s | 1 faces | SINGLE | det=74.6ms | F1:(950,548) 280x313 conf=0.89
+[FRAME 428/1323] @8.56s | 1 faces | SINGLE | det=79.0ms | F1:(948,549) 277x319 conf=0.89
+[FRAME 429/1323] @8.58s | 1 faces | SINGLE | det=77.9ms | F1:(948,551) 277x322 conf=0.88
+[FRAME 430/1323] @8.60s | 1 faces | SINGLE | det=80.1ms | F1:(949,552) 278x323 conf=0.88
+[FRAME 431/1323] @8.62s | 1 faces | SINGLE | det=74.8ms | F1:(949,554) 278x325 conf=0.88
+[FRAME 432/1323] @8.64s | 1 faces | SINGLE | det=77.1ms | F1:(948,553) 277x327 conf=0.88
+[FRAME 433/1323] @8.66s | 1 faces | SINGLE | det=72.6ms | F1:(949,553) 278x327 conf=0.88
+[FRAME 434/1323] @8.68s | 1 faces | SINGLE | det=79.4ms | F1:(956,554) 288x328 conf=0.88
+[FRAME 435/1323] @8.70s | 1 faces | SINGLE | det=80.4ms | F1:(951,553) 282x327 conf=0.88
+[FRAME 436/1323] @8.72s | 1 faces | SINGLE | det=77.6ms | F1:(937,554) 340x328 conf=0.88
+[FRAME 437/1323] @8.74s | 1 faces | SINGLE | det=79.4ms | F1:(951,554) 282x325 conf=0.89
+[FRAME 438/1323] @8.76s | 1 faces | SINGLE | det=80.3ms | F1:(951,551) 282x321 conf=0.89
+[FRAME 439/1323] @8.78s | 1 faces | SINGLE | det=75.7ms | F1:(951,550) 282x321 conf=0.89
+[FRAME 440/1323] @8.80s | 1 faces | SINGLE | det=74.3ms | F1:(938,551) 336x323 conf=0.89
+[FRAME 441/1323] @8.82s | 1 faces | SINGLE | det=78.1ms | F1:(938,551) 337x322 conf=0.89
+[FRAME 442/1323] @8.84s | 1 faces | SINGLE | det=77.9ms | F1:(952,552) 284x321 conf=0.89
+[FRAME 443/1323] @8.86s | 1 faces | SINGLE | det=75.3ms | F1:(941,553) 326x327 conf=0.89
+[FRAME 444/1323] @8.88s | 1 faces | SINGLE | det=84.0ms | F1:(945,554) 324x328 conf=0.89
+[FRAME 445/1323] @8.90s | 1 faces | SINGLE | det=83.8ms | F1:(945,554) 323x328 conf=0.89
+[FRAME 446/1323] @8.92s | 1 faces | SINGLE | det=80.8ms | F1:(949,555) 319x330 conf=0.89
+[FRAME 447/1323] @8.94s | 1 faces | SINGLE | det=72.8ms | F1:(953,552) 313x324 conf=0.89
+[FRAME 448/1323] @8.96s | 1 faces | SINGLE | det=76.5ms | F1:(957,549) 306x319 conf=0.89
+[FRAME 449/1323] @8.98s | 1 faces | SINGLE | det=77.5ms | F1:(959,549) 302x318 conf=0.89
+[FRAME 450/1323] @9.00s | 1 faces | SINGLE | det=77.7ms | F1:(960,548) 300x316 conf=0.88
+[LOG] 22:56:02 [info] TRACK @9.0s → 1 faces → SINGLE: (960,548)
+[TRACK P1] @9.0s | raw=(960,548) → smooth=(950,551) | delta=(10.6,-3.1) move=11.0px
+[FRAME 451/1323] @9.02s | 1 faces | SINGLE | det=81.5ms | F1:(963,547) 294x314 conf=0.88
+[FRAME 452/1323] @9.04s | 1 faces | SINGLE | det=77.3ms | F1:(968,545) 284x311 conf=0.88
+[FRAME 453/1323] @9.06s | 1 faces | SINGLE | det=80.7ms | F1:(971,545) 278x307 conf=0.88
+[FRAME 454/1323] @9.08s | 1 faces | SINGLE | det=86.0ms | F1:(976,547) 268x312 conf=0.88
+[FRAME 455/1323] @9.10s | 1 faces | SINGLE | det=74.9ms | F1:(979,548) 262x314 conf=0.88
+[FRAME 456/1323] @9.12s | 1 faces | SINGLE | det=77.1ms | F1:(980,545) 259x311 conf=0.88
+[FRAME 457/1323] @9.14s | 1 faces | SINGLE | det=75.6ms | F1:(1035,546) 356x312 conf=0.88
+[FRAME 458/1323] @9.16s | 1 faces | SINGLE | det=77.6ms | F1:(1037,543) 354x306 conf=0.88
+[FRAME 459/1323] @9.18s | 1 faces | SINGLE | det=76.4ms | F1:(988,542) 243x304 conf=0.88
+[FRAME 460/1323] @9.20s | 1 faces | SINGLE | det=82.7ms | F1:(990,542) 240x305 conf=0.88
+[FRAME 461/1323] @9.22s | 1 faces | SINGLE | det=78.2ms | F1:(990,544) 240x309 conf=0.89
+[FRAME 462/1323] @9.24s | 1 faces | SINGLE | det=79.2ms | F1:(988,545) 244x311 conf=0.89
+[FRAME 463/1323] @9.26s | 1 faces | SINGLE | det=70.0ms | F1:(988,544) 243x309 conf=0.89
+[FRAME 464/1323] @9.28s | 1 faces | SINGLE | det=79.6ms | F1:(989,544) 242x309 conf=0.89
+[FRAME 465/1323] @9.30s | 1 faces | SINGLE | det=78.4ms | F1:(988,544) 243x309 conf=0.89
+[FRAME 466/1323] @9.32s | 1 faces | SINGLE | det=91.3ms | F1:(990,545) 240x310 conf=0.89
+[FRAME 467/1323] @9.34s | 1 faces | SINGLE | det=75.1ms | F1:(990,546) 240x313 conf=0.89
+[FRAME 468/1323] @9.36s | 1 faces | SINGLE | det=79.4ms | F1:(990,549) 240x318 conf=0.89
+[FRAME 469/1323] @9.38s | 1 faces | SINGLE | det=76.4ms | F1:(990,550) 240x320 conf=0.89
+[FRAME 470/1323] @9.40s | 1 faces | SINGLE | det=77.9ms | F1:(990,552) 240x323 conf=0.89
+[FRAME 471/1323] @9.42s | 1 faces | SINGLE | det=72.3ms | F1:(988,554) 243x329 conf=0.89
+[FRAME 472/1323] @9.44s | 1 faces | SINGLE | det=81.4ms | F1:(990,555) 240x329 conf=0.89
+[FRAME 473/1323] @9.46s | 1 faces | SINGLE | det=91.9ms | F1:(1024,559) 318x334 conf=0.89
+[FRAME 474/1323] @9.48s | 1 faces | SINGLE | det=78.6ms | F1:(1021,559) 318x338 conf=0.89
+[FRAME 475/1323] @9.50s | 1 faces | SINGLE | det=84.1ms | F1:(1014,561) 314x340 conf=0.88
+[FRAME 476/1323] @9.52s | 1 faces | SINGLE | det=83.8ms | F1:(979,560) 257x340 conf=0.89
+[FRAME 477/1323] @9.54s | 1 faces | SINGLE | det=88.3ms | F1:(976,560) 264x340 conf=0.90
+[FRAME 478/1323] @9.56s | 1 faces | SINGLE | det=82.6ms | F1:(973,559) 273x339 conf=0.91
+[FRAME 479/1323] @9.58s | 1 faces | SINGLE | det=80.3ms | F1:(971,558) 278x336 conf=0.90
+[FRAME 480/1323] @9.60s | 1 faces | SINGLE | det=82.9ms | F1:(967,556) 283x333 conf=0.90
+[TRACK P1] @9.6s | raw=(967,556) → smooth=(986,554) | delta=(-20.4,2.4) move=20.5px
+[FRAME 481/1323] @9.62s | 1 faces | SINGLE | det=81.1ms | F1:(962,556) 295x332 conf=0.89
+[FRAME 482/1323] @9.64s | 1 faces | SINGLE | det=71.5ms | F1:(959,555) 299x330 conf=0.89
+[FRAME 483/1323] @9.66s | 1 faces | SINGLE | det=69.8ms | F1:(957,557) 305x334 conf=0.90
+[FRAME 484/1323] @9.68s | 1 faces | SINGLE | det=78.0ms | F1:(956,557) 308x335 conf=0.90
+[FRAME 485/1323] @9.70s | 1 faces | SINGLE | det=78.8ms | F1:(963,558) 304x336 conf=0.89
+[FRAME 486/1323] @9.72s | 1 faces | SINGLE | det=81.7ms | F1:(958,560) 296x340 conf=0.90
+[FRAME 487/1323] @9.74s | 1 faces | SINGLE | det=81.0ms | F1:(956,561) 293x341 conf=0.89
+[FRAME 488/1323] @9.76s | 1 faces | SINGLE | det=83.0ms | F1:(936,563) 324x344 conf=0.89
+[FRAME 489/1323] @9.78s | 1 faces | SINGLE | det=76.5ms | F1:(932,565) 326x345 conf=0.89
+[FRAME 490/1323] @9.80s | 1 faces | SINGLE | det=75.1ms | F1:(950,566) 280x344 conf=0.89
+[FRAME 491/1323] @9.82s | 1 faces | SINGLE | det=78.5ms | F1:(947,567) 274x346 conf=0.89
+[FRAME 492/1323] @9.84s | 1 faces | SINGLE | det=84.7ms | F1:(943,568) 267x350 conf=0.88
+[FRAME 493/1323] @9.86s | 1 faces | SINGLE | det=70.5ms | F1:(940,568) 261x350 conf=0.89
+[FRAME 494/1323] @9.88s | 1 faces | SINGLE | det=80.6ms | F1:(938,568) 257x350 conf=0.89
+[FRAME 495/1323] @9.90s | 1 faces | SINGLE | det=73.6ms | F1:(936,568) 253x351 conf=0.89
+[FRAME 496/1323] @9.92s | 1 faces | SINGLE | det=88.4ms | F1:(935,565) 250x351 conf=0.89
+[FRAME 497/1323] @9.94s | 1 faces | SINGLE | det=90.7ms | F1:(933,565) 246x349 conf=0.90
+[FRAME 498/1323] @9.96s | 1 faces | SINGLE | det=70.5ms | F1:(932,563) 244x347 conf=0.90
+[FRAME 499/1323] @9.98s | 1 faces | SINGLE | det=75.2ms | F1:(931,561) 242x343 conf=0.90
+[FRAME 500/1323] @10.00s | 1 faces | SINGLE | det=75.2ms | F1:(930,561) 241x342 conf=0.90
+[FRAME 501/1323] @10.02s | 1 faces | SINGLE | det=68.2ms | F1:(930,560) 240x340 conf=0.90
+[FRAME 502/1323] @10.04s | 1 faces | SINGLE | det=80.1ms | F1:(930,560) 240x340 conf=0.90
+[FRAME 503/1323] @10.06s | 1 faces | SINGLE | det=79.0ms | F1:(930,559) 240x339 conf=0.90
+[FRAME 504/1323] @10.08s | 1 faces | SINGLE | det=76.6ms | F1:(930,559) 240x339 conf=0.90
+[FRAME 505/1323] @10.10s | 1 faces | SINGLE | det=71.0ms | F1:(930,560) 241x340 conf=0.90
+[FRAME 506/1323] @10.12s | 1 faces | SINGLE | det=76.0ms | F1:(931,561) 243x342 conf=0.90
+[FRAME 507/1323] @10.14s | 1 faces | SINGLE | det=71.8ms | F1:(932,560) 244x341 conf=0.90
+[FRAME 508/1323] @10.16s | 1 faces | SINGLE | det=69.8ms | F1:(932,559) 244x339 conf=0.90
+[FRAME 509/1323] @10.18s | 1 faces | SINGLE | det=82.3ms | F1:(934,558) 248x336 conf=0.90
+[FRAME 510/1323] @10.20s | 1 faces | SINGLE | det=79.1ms | F1:(935,557) 250x334 conf=0.90
+[TRACK P1] @10.2s | raw=(935,557) → smooth=(938,561) | delta=(-3.1,-4.1) move=5.1px
+[FRAME 511/1323] @10.22s | 1 faces | SINGLE | det=84.6ms | F1:(936,555) 253x331 conf=0.90
+[FRAME 512/1323] @10.24s | 1 faces | SINGLE | det=77.0ms | F1:(905,554) 328x329 conf=0.90
+[FRAME 513/1323] @10.26s | 1 faces | SINGLE | det=80.3ms | F1:(908,553) 324x326 conf=0.90
+[FRAME 514/1323] @10.28s | 1 faces | SINGLE | det=72.9ms | F1:(912,552) 324x325 conf=0.89
+[FRAME 515/1323] @10.30s | 1 faces | SINGLE | det=75.7ms | F1:(942,552) 265x325 conf=0.89
+[FRAME 516/1323] @10.32s | 1 faces | SINGLE | det=71.8ms | F1:(918,552) 328x323 conf=0.89
+[FRAME 517/1323] @10.34s | 1 faces | SINGLE | det=80.0ms | F1:(945,553) 270x326 conf=0.89
+[FRAME 518/1323] @10.36s | 1 faces | SINGLE | det=77.1ms | F1:(947,552) 274x324 conf=0.90
+[FRAME 519/1323] @10.38s | 1 faces | SINGLE | det=94.6ms | F1:(948,552) 276x325 conf=0.90
+[FRAME 520/1323] @10.40s | 1 faces | SINGLE | det=82.9ms | F1:(949,552) 278x324 conf=0.90
+[FRAME 521/1323] @10.42s | 1 faces | SINGLE | det=77.1ms | F1:(950,553) 281x326 conf=0.90
+[FRAME 522/1323] @10.44s | 1 faces | SINGLE | det=80.4ms | F1:(952,553) 284x326 conf=0.90
+[FRAME 523/1323] @10.46s | 1 faces | SINGLE | det=78.0ms | F1:(953,552) 286x325 conf=0.90
+[FRAME 524/1323] @10.48s | 1 faces | SINGLE | det=74.9ms | F1:(953,554) 286x326 conf=0.90
+[FRAME 525/1323] @10.50s | 1 faces | SINGLE | det=75.5ms | F1:(953,553) 287x326 conf=0.90
+[FRAME 526/1323] @10.52s | 1 faces | SINGLE | det=83.0ms | F1:(953,552) 286x323 conf=0.90
+[FRAME 527/1323] @10.54s | 1 faces | SINGLE | det=71.7ms | F1:(953,551) 286x318 conf=0.91
+[FRAME 528/1323] @10.56s | 2 faces | SINGLE | det=17.5ms | F1:(380,439) 122x159 conf=0.83 | F2:(1522,392) 102x143 conf=0.81
+[LOG] 22:56:12 [info] JUMP @10.6s: 575px → INSTANT to (380,439)
+[DEBUG 22:56:12] [JUMP SINGLE] Frame 528: distance=575px, threshold=200px
+[DEBUG 22:56:12]   (944,554) → (380,439)
+[FRAME 529/1323] @10.58s | 2 faces | SINGLE | det=16.8ms | F1:(380,439) 120x159 conf=0.84 | F2:(1521,393) 103x143 conf=0.82
+[FRAME 530/1323] @10.60s | 2 faces | SPLIT | det=16.8ms | F1:(379,440) 119x160 conf=0.84 | F2:(1522,394) 102x144 conf=0.82
+[LOG] 22:56:12 [info] MODE SWITCH @10.6s: SINGLE → SPLIT
+
+============================================================
+MODE SWITCH: SINGLE → SPLIT @ frame 530 (10.60s)
+  Faces: 2 | Positions: (379,440) | (1522,394)
+  Reason: face_count=2, segment_mode=split
+============================================================
+
+[LOG] 22:56:12 [info]   → INSTANT P1=(1522,394), P2=(379,440)
+[FRAME 531/1323] @10.62s | 2 faces | SPLIT | det=14.1ms | F1:(378,439) 119x159 conf=0.83 | F2:(1522,397) 102x148 conf=0.82
+[FRAME 532/1323] @10.64s | 2 faces | SPLIT | det=18.8ms | F1:(378,438) 119x159 conf=0.83 | F2:(1523,400) 104x154 conf=0.81
+[FRAME 533/1323] @10.66s | 2 faces | SPLIT | det=16.1ms | F1:(377,439) 119x159 conf=0.83 | F2:(1523,402) 105x155 conf=0.81
+[FRAME 534/1323] @10.68s | 2 faces | SPLIT | det=17.8ms | F1:(378,439) 120x159 conf=0.83 | F2:(1524,404) 107x156 conf=0.81
+[FRAME 535/1323] @10.70s | 2 faces | SPLIT | det=16.0ms | F1:(376,439) 121x159 conf=0.83 | F2:(1525,404) 108x155 conf=0.81
+[FRAME 536/1323] @10.72s | 2 faces | SPLIT | det=17.5ms | F1:(374,439) 123x159 conf=0.82 | F2:(1525,404) 105x156 conf=0.81
+[FRAME 537/1323] @10.74s | 2 faces | SPLIT | det=16.4ms | F1:(374,439) 124x160 conf=0.82 | F2:(1525,403) 105x155 conf=0.81
+[FRAME 538/1323] @10.76s | 2 faces | SPLIT | det=15.8ms | F1:(374,441) 124x157 conf=0.82 | F2:(1525,403) 105x154 conf=0.82
+[FRAME 539/1323] @10.78s | 2 faces | SPLIT | det=17.8ms | F1:(373,440) 123x159 conf=0.82 | F2:(1524,402) 107x155 conf=0.82
+[FRAME 540/1323] @10.80s | 2 faces | SPLIT | det=18.6ms | F1:(372,441) 125x161 conf=0.81 | F2:(1524,402) 107x155 conf=0.81
+[TRACK P1] @10.8s | raw=(1524,402) → smooth=(1523,399) | delta=(1.3,3.3) move=3.5px
+[TRACK P2] @10.8s | raw=(372,441) → smooth=(377,440) | delta=(-5.2,1.0) move=5.3px
+[FRAME 541/1323] @10.82s | 2 faces | SPLIT | det=14.7ms | F1:(372,443) 124x160 conf=0.81 | F2:(1525,402) 105x155 conf=0.82
+[FRAME 542/1323] @10.84s | 2 faces | SPLIT | det=16.2ms | F1:(371,444) 124x160 conf=0.80 | F2:(1525,403) 108x156 conf=0.82
+[FRAME 543/1323] @10.86s | 2 faces | SPLIT | det=16.5ms | F1:(371,445) 124x159 conf=0.80 | F2:(1525,404) 108x156 conf=0.82
+[FRAME 544/1323] @10.88s | 2 faces | SPLIT | det=16.8ms | F1:(370,445) 123x159 conf=0.81 | F2:(1525,405) 108x156 conf=0.81
+[FRAME 545/1323] @10.90s | 2 faces | SPLIT | det=15.0ms | F1:(371,446) 122x158 conf=0.81 | F2:(1527,406) 108x155 conf=0.81
+[FRAME 546/1323] @10.92s | 2 faces | SPLIT | det=17.4ms | F1:(371,445) 123x159 conf=0.81 | F2:(1526,409) 106x153 conf=0.81
+[FRAME 547/1323] @10.94s | 2 faces | SPLIT | det=16.3ms | F1:(371,445) 122x159 conf=0.82 | F2:(1527,410) 108x152 conf=0.81
+[FRAME 548/1323] @10.96s | 2 faces | SPLIT | det=14.0ms | F1:(372,445) 121x159 conf=0.82 | F2:(1526,410) 110x153 conf=0.81
+[FRAME 549/1323] @10.98s | 2 faces | SPLIT | det=15.5ms | F1:(373,445) 120x159 conf=0.82 | F2:(1526,411) 110x154 conf=0.81
+[FRAME 550/1323] @11.00s | 2 faces | SPLIT | det=15.4ms | F1:(373,444) 120x159 conf=0.81 | F2:(1527,412) 108x153 conf=0.82
+[FRAME 551/1323] @11.02s | 2 faces | SPLIT | det=17.8ms | F1:(373,443) 119x159 conf=0.82 | F2:(1526,414) 111x151 conf=0.82
+[FRAME 552/1323] @11.04s | 2 faces | SPLIT | det=19.2ms | F1:(373,443) 119x157 conf=0.82 | F2:(1527,416) 108x150 conf=0.82
+[FRAME 553/1323] @11.06s | 2 faces | SPLIT | det=15.8ms | F1:(373,442) 120x159 conf=0.82 | F2:(1526,417) 110x150 conf=0.82
+[FRAME 554/1323] @11.08s | 2 faces | SPLIT | det=15.3ms | F1:(373,443) 120x157 conf=0.82 | F2:(1527,416) 108x151 conf=0.82
+[FRAME 555/1323] @11.10s | 2 faces | SPLIT | det=16.4ms | F1:(374,445) 120x154 conf=0.82 | F2:(1527,416) 108x152 conf=0.82
+[FRAME 556/1323] @11.12s | 2 faces | SPLIT | det=18.0ms | F1:(374,446) 118x156 conf=0.81 | F2:(1526,414) 110x153 conf=0.82
+[FRAME 557/1323] @11.14s | 2 faces | SPLIT | det=16.1ms | F1:(375,447) 120x157 conf=0.81 | F2:(1527,412) 109x153 conf=0.82
+[FRAME 558/1323] @11.16s | 2 faces | SPLIT | det=23.2ms | F1:(376,448) 120x158 conf=0.81 | F2:(1528,411) 108x155 conf=0.81
+[FRAME 559/1323] @11.18s | 2 faces | SPLIT | det=20.1ms | F1:(376,450) 124x160 conf=0.81 | F2:(1527,411) 109x156 conf=0.81
+[FRAME 560/1323] @11.20s | 2 faces | SPLIT | det=16.4ms | F1:(375,452) 125x158 conf=0.81 | F2:(1530,410) 108x157 conf=0.82
+[FRAME 561/1323] @11.22s | 2 faces | SPLIT | det=17.6ms | F1:(375,452) 126x158 conf=0.81 | F2:(1530,410) 107x158 conf=0.82
+[FRAME 562/1323] @11.24s | 2 faces | SPLIT | det=17.8ms | F1:(375,450) 127x157 conf=0.82 | F2:(1529,411) 105x156 conf=0.81
+[FRAME 563/1323] @11.26s | 2 faces | SPLIT | det=25.6ms | F1:(376,450) 127x156 conf=0.82 | F2:(1530,411) 107x156 conf=0.82
+[FRAME 564/1323] @11.28s | 2 faces | SPLIT | det=33.3ms | F1:(376,447) 125x157 conf=0.82 | F2:(1530,413) 107x154 conf=0.83
+[FRAME 565/1323] @11.30s | 2 faces | SPLIT | det=16.9ms | F1:(378,446) 127x157 conf=0.83 | F2:(1530,413) 108x155 conf=0.83
+[FRAME 566/1323] @11.32s | 2 faces | SPLIT | det=18.3ms | F1:(378,445) 126x158 conf=0.83 | F2:(1530,413) 108x154 conf=0.83
+[FRAME 567/1323] @11.34s | 2 faces | SPLIT | det=16.9ms | F1:(379,445) 124x156 conf=0.82 | F2:(1530,412) 107x153 conf=0.83
+[FRAME 568/1323] @11.36s | 2 faces | SPLIT | det=16.5ms | F1:(379,444) 125x156 conf=0.82 | F2:(1529,411) 105x153 conf=0.82
+[FRAME 569/1323] @11.38s | 2 faces | SPLIT | det=16.7ms | F1:(380,443) 123x156 conf=0.82 | F2:(1531,410) 105x153 conf=0.81
+[FRAME 570/1323] @11.40s | 2 faces | SPLIT | det=20.0ms | F1:(381,443) 124x156 conf=0.81 | F2:(1531,409) 105x153 conf=0.81
+[TRACK P1] @11.4s | raw=(1531,409) → smooth=(1528,410) | delta=(3.1,-1.3) move=3.4px
+[TRACK P2] @11.4s | raw=(381,443) → smooth=(376,446) | delta=(5.2,-2.9) move=5.9px
+[FRAME 571/1323] @11.42s | 2 faces | SPLIT | det=18.0ms | F1:(382,444) 120x156 conf=0.82 | F2:(1531,409) 105x152 conf=0.81
+[FRAME 572/1323] @11.44s | 2 faces | SPLIT | det=20.1ms | F1:(383,443) 121x153 conf=0.81 | F2:(1531,409) 105x152 conf=0.81
+[FRAME 573/1323] @11.46s | 2 faces | SPLIT | det=18.1ms | F1:(384,443) 119x154 conf=0.81 | F2:(1530,409) 107x153 conf=0.80
+[FRAME 574/1323] @11.48s | 2 faces | SPLIT | det=18.0ms | F1:(386,443) 118x153 conf=0.81 | F2:(1530,410) 108x153 conf=0.80
+[FRAME 575/1323] @11.50s | 2 faces | SPLIT | det=19.3ms | F1:(386,443) 118x153 conf=0.82 | F2:(1531,410) 105x153 conf=0.81
+[FRAME 576/1323] @11.52s | 2 faces | SPLIT | det=17.7ms | F1:(387,443) 118x153 conf=0.82 | F2:(1530,410) 107x153 conf=0.81
+[FRAME 577/1323] @11.54s | 2 faces | SPLIT | det=17.3ms | F1:(387,443) 117x153 conf=0.82 | F2:(1531,410) 105x153 conf=0.81
+[FRAME 578/1323] @11.56s | 2 faces | SPLIT | det=21.7ms | F1:(387,443) 117x153 conf=0.82 | F2:(1531,411) 105x152 conf=0.81
+[FRAME 579/1323] @11.58s | 2 faces | SPLIT | det=20.0ms | F1:(388,443) 118x152 conf=0.83 | F2:(1531,412) 105x152 conf=0.82
+[FRAME 580/1323] @11.60s | 2 faces | SPLIT | det=20.7ms | F1:(388,442) 117x152 conf=0.83 | F2:(1531,412) 105x152 conf=0.82
+[FRAME 581/1323] @11.62s | 2 faces | SPLIT | det=18.3ms | F1:(388,440) 119x153 conf=0.82 | F2:(1532,412) 106x152 conf=0.82
+[FRAME 582/1323] @11.64s | 2 faces | SPLIT | det=16.9ms | F1:(388,438) 119x155 conf=0.82 | F2:(1532,412) 105x153 conf=0.82
+[FRAME 583/1323] @11.66s | 2 faces | SPLIT | det=16.9ms | F1:(388,437) 120x155 conf=0.82 | F2:(1532,412) 105x153 conf=0.82
+[FRAME 584/1323] @11.68s | 2 faces | SPLIT | det=18.7ms | F1:(386,436) 118x158 conf=0.81 | F2:(1532,412) 105x153 conf=0.81
+[FRAME 585/1323] @11.70s | 2 faces | SPLIT | det=20.4ms | F1:(385,435) 120x159 conf=0.81 | F2:(1532,411) 105x153 conf=0.81
+[FRAME 586/1323] @11.72s | 2 faces | SPLIT | det=17.2ms | F1:(384,435) 121x160 conf=0.81 | F2:(1533,411) 103x152 conf=0.81
+[FRAME 587/1323] @11.74s | 2 faces | SPLIT | det=24.1ms | F1:(383,435) 121x160 conf=0.81 | F2:(1534,410) 105x151 conf=0.81
+[FRAME 588/1323] @11.76s | 2 faces | SPLIT | det=19.7ms | F1:(383,435) 120x160 conf=0.82 | F2:(1535,410) 104x151 conf=0.81
+[FRAME 589/1323] @11.78s | 2 faces | SPLIT | det=31.5ms | F1:(382,435) 120x161 conf=0.82 | F2:(1535,411) 104x152 conf=0.81
+[FRAME 590/1323] @11.80s | 2 faces | SPLIT | det=31.1ms | F1:(381,436) 119x161 conf=0.83 | F2:(1535,412) 104x152 conf=0.81
+[FRAME 591/1323] @11.82s | 2 faces | SPLIT | det=25.9ms | F1:(380,438) 120x162 conf=0.85 | F2:(1535,413) 104x152 conf=0.81
