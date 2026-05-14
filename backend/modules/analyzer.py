@@ -157,92 +157,140 @@ class ClipAnalyzer:
 
 TUGAS: {clip_count_instruction} dari transkrip berikut.
 
-🎯 PRIORITAS #1: KONTEKS LENGKAP
-Penonton harus LANGSUNG PAHAM apa yang terjadi tanpa perlu menonton video penuh.
-Durasi {min_clip_duration}-{max_clip_duration} detik adalah SARAN FLEKSIBEL.
+🎯 PRIORITAS ABSOLUT: MOMEN LENGKAP, TIDAK TERPOTONG, TIDAK NANGGUNG
+Setiap clip harus merupakan satu MOMEN UTUH — ada pembukaan, isi, dan penutup yang jelas.
+Penonton harus LANGSUNG PAHAM tanpa konteks tambahan dari video asli.
+Durasi {min_clip_duration}-{max_clip_duration} detik adalah PANDUAN FLEKSIBEL — boleh lebih panjang jika diperlukan untuk momen yang utuh.
 
 📋 FORMAT TRANSKRIP:
 Setiap kata punya timestamp: [MM:SS.s]kata
 Contoh: [00:05.2]Halo [00:05.8]semuanya
 
-🔑 ATURAN PEMOTONGAN YANG BENAR:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚫 LARANGAN KERAS (CLIP AKAN DITOLAK JIKA MELANGGAR):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-1️⃣ MULAI CLIP DENGAN KONTEKS:
-   ❌ SALAH: "...jadi akhirnya saya nge-grab"
-   ✅ BENAR: "Saya seorang dokter spesialis, tapi gaji saya cuma 1.5 juta, jadi akhirnya saya nge-grab"
+❌ DILARANG memulai clip di tengah kalimat atau di tengah cerita
+❌ DILARANG mengakhiri clip saat pembicara masih menjelaskan sesuatu
+❌ DILARANG membuat clip yang menggantung (ending tidak jelas)
+❌ DILARANG memotong di tengah tanya-jawab (harus include pertanyaan DAN jawaban lengkap)
+❌ DILARANG memulai dengan kata sambung tanpa konteks: "jadi", "makanya", "terus", "nah", "tapi"
+❌ DILARANG mengakhiri dengan kata yang mengindikasikan kelanjutan: "terus...", "dan...", "jadi nanti..."
 
-   - Jika ada cerita, MULAI dari awal cerita (siapa, apa, mengapa)
-   - Jika ada pertanyaan, SERTAKAN pertanyaan + jawaban lengkap
-   - Jika ada konflik, SERTAKAN setup + klimaks + resolusi
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ ATURAN PEMOTONGAN YANG BENAR:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-2️⃣ AKHIRI CLIP DENGAN KESIMPULAN:
-   ❌ SALAH: "...terus akhirnya..." (menggantung)
-   ✅ BENAR: "...terus akhirnya saya berhasil menolong ibu itu melahirkan" (lengkap)
+1️⃣ START — AWAL YANG JELAS:
+   ✅ Mulai dari AWAL topik/cerita/pertanyaan
+   ✅ Penonton langsung tahu: SIAPA bicara, TENTANG APA, KONTEKS apa
+   ✅ Jika cerita, mulai dari setup (latar belakang yang diperlukan)
+   ✅ Jika tanya-jawab, mulai dari PERTANYAAN
 
-   - Pastikan ada ending yang jelas (kesimpulan/reaksi/punchline)
-   - Jangan potong di tengah penjelasan
+   Contoh BENAR: "Gue dulu itu dokter spesialis ya, gajinya cuma 1.5 juta..."
+   Contoh SALAH: "...jadi akhirnya gue nge-grab deh" (penonton bingung kenapa)
 
-3️⃣ CLIP HARUS MANDIRI:
-   Tanyakan: "Jika penonton HANYA melihat clip ini, apakah mereka paham?"
-   - Siapa yang berbicara harus jelas
-   - Topik apa yang dibahas harus jelas
-   - Tidak ada referensi ke "tadi", "itu", "yang saya bilang sebelumnya"
+2️⃣ END — PENUTUP YANG TUNTAS:
+   ✅ Akhiri SETELAH kesimpulan/punchline/reaksi/jawaban final
+   ✅ Pastikan kalimat terakhir SELESAI (tidak terpotong tengah kata/frase)
+   ✅ Jika ada punchline/joke, SERTAKAN reaksi (tawa/komentar) setelahnya
+   ✅ Jika cerita, akhiri setelah RESOLUSI atau KESIMPULAN pembicara
 
-🧠 CARA MENENTUKAN START & END:
+   Contoh BENAR: "...dan akhirnya pasien itu selamat. Itu pengalaman paling berkesan."
+   Contoh SALAH: "...terus akhirnya dia..." (menggantung, penonton frustrasi)
 
-LANGKAH 1: Temukan MOMEN VIRAL (bagian paling menarik)
-LANGKAH 2: Mundur ke BELAKANG untuk menemukan AWAL KONTEKS
-   - Kapan topik ini mulai dibahas?
-   - Apa setup/latar belakang yang diperlukan?
-LANGKAH 3: Maju ke DEPAN untuk menemukan AKHIR LENGKAP
-   - Apakah ada kesimpulan/reaksi?
-   - Apakah cerita sudah selesai?
+3️⃣ CLIP HARUS MANDIRI (SELF-CONTAINED):
+   ✅ Tanyakan: "Jika ini satu-satunya video yang ditonton, apakah MASUK AKAL?"
+   ✅ Tidak boleh ada referensi ke hal di luar clip ("yang tadi", "seperti yang saya bilang")
+   ✅ Topik harus LENGKAP — ada awal, tengah, akhir
+   ✅ Emosi/reaksi harus tersampaikan utuh
 
-📤 OUTPUT (JSON array saja):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧠 METODE MENENTUKAN START & END:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+LANGKAH 1: Temukan MOMEN MENARIK (hook/viral moment)
+LANGKAH 2: MUNDUR ke belakang — cari di mana topik ini PERTAMA KALI diangkat
+   → Biasanya ditandai: pergantian topik, pertanyaan baru, "nah ceritanya...", "jadi waktu itu..."
+LANGKAH 3: MAJU ke depan — cari di mana topik ini BENAR-BENAR SELESAI
+   → Biasanya ditandai: jeda panjang, pergantian topik, kesimpulan eksplisit, reaksi final
+LANGKAH 4: VERIFIKASI — baca ulang dari start sampai end:
+   → Apakah kalimat pertama masuk akal tanpa konteks sebelumnya?
+   → Apakah kalimat terakhir terasa SELESAI (bukan menggantung)?
+   → Apakah ada "lubang" di tengah yang bikin bingung?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎬 KRITERIA MOMEN MENARIK (prioritas tinggi ke rendah):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Cerita personal yang mengejutkan/emosional (plot twist, pengalaman unik)
+2. Pernyataan kontroversial atau opini kuat
+3. Humor/joke dengan setup + punchline lengkap
+4. Fakta mengejutkan atau informasi yang jarang diketahui
+5. Momen emosional (marah, sedih, terharu) dengan KONTEKS kenapa emosi itu muncul
+6. Konflik/debat dengan argumen yang jelas dari kedua sisi
+7. Motivasi/wisdom yang powerful dengan penjelasan lengkap
+
+📤 OUTPUT (JSON array saja, tanpa teks lain):
 [
   {{
     "start": "MM:SS.s",
     "end": "MM:SS.s",
     "title": "Judul singkat menarik (max 50 karakter)",
-    "reason": "Kenapa clip ini menarik + konfirmasi konteks lengkap"
+    "reason": "Kenapa menarik + konfirmasi bahwa momen ini UTUH dan LENGKAP"
   }}
 ]
 
-⚠️ CHECKLIST WAJIB untuk setiap clip:
-✅ Penonton langsung paham siapa/apa/mengapa?
-✅ Tidak ada kalimat yang terpotong?
-✅ Ada kesimpulan/ending yang jelas?
-✅ Bisa dipahami TANPA konteks dari luar clip?"""
+⚠️ FINAL CHECK — SEBELUM OUTPUT, VERIFIKASI SETIAP CLIP:
+✅ Kalimat pertama MASUK AKAL tanpa konteks sebelumnya?
+✅ Kalimat terakhir SELESAI dan tidak menggantung?
+✅ Tidak ada kata/frase yang TERPOTONG?
+✅ Cerita/topik LENGKAP (ada awal + isi + akhir)?
+✅ Penonton bisa PAHAM 100% hanya dari clip ini?
+✅ Ada HOOK di awal yang bikin penonton mau nonton sampai habis?
+
+Jika salah satu gagal → PERBAIKI start/end sampai momen benar-benar utuh."""
 
         user_prompt = f"""📹 VIDEO DURASI: {self._format_duration(video_duration)}
 
-💡 DURASI CLIP: {min_clip_duration}-{max_clip_duration} detik (fleksibel, PRIORITASKAN KONTEKS LENGKAP)
+💡 DURASI CLIP: {min_clip_duration}-{max_clip_duration} detik (FLEKSIBEL — boleh lebih panjang demi momen yang UTUH)
 
 📝 TRANSKRIP:
 {transcript}
 
-📋 INSTRUKSI PENTING:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 INSTRUKSI STEP-BY-STEP:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-1. BACA KESELURUHAN transkrip untuk memahami konteks
+1. BACA KESELURUHAN transkrip untuk memahami alur pembicaraan
 
-2. IDENTIFIKASI momen yang menarik/viral
+2. IDENTIFIKASI momen-momen yang menarik/viral/emosional
 
-3. Untuk setiap momen, TENTUKAN START dengan mundur ke belakang:
-   - Kapan topik/cerita ini MULAI dibahas?
-   - Apa latar belakang yang DIPERLUKAN penonton?
+3. Untuk setiap momen, TENTUKAN START:
+   → Mundur ke belakang sampai menemukan AWAL TOPIK
+   → Pastikan kalimat pertama MASUK AKAL sendiri (tanpa konteks sebelumnya)
+   → Jangan mulai dari tengah kalimat atau tengah cerita
 
-4. TENTUKAN END dengan maju ke depan:
-   - Di mana KESIMPULAN/ending dari cerita ini?
-   - Apakah ada REAKSI yang perlu disertakan?
+4. TENTUKAN END:
+   → Maju ke depan sampai topik BENAR-BENAR SELESAI
+   → Pastikan kalimat terakhir adalah PENUTUP (kesimpulan/reaksi/punchline)
+   → Jangan berhenti saat pembicara masih menjelaskan
 
-5. VERIFIKASI setiap clip:
-   - Jika penonton HANYA melihat clip ini, apakah mereka PAHAM?
-   - Apakah ada kalimat yang TERPOTONG?
-   - Apakah cerita LENGKAP?
+5. VERIFIKASI WAJIB untuk setiap clip:
+   ✅ Baca dari start ke end — apakah ini terasa seperti cerita LENGKAP?
+   ✅ Kalimat pertama — apakah penonton langsung paham tanpa konteks?
+   ✅ Kalimat terakhir — apakah terasa SELESAI (bukan menggantung)?
+   ✅ Tidak ada kata yang terpotong di awal atau akhir?
+   ✅ Jika ada joke — apakah setup DAN punchline DAN reaksi termasuk?
+   ✅ Jika ada cerita — apakah ada awal, klimaks, DAN resolusi?
 
-⚠️ JANGAN buat clip yang dimulai dengan "jadi", "tapi", "terus" tanpa konteks sebelumnya!
+⚠️ PERINGATAN:
+- JANGAN buat clip yang dimulai dengan "jadi", "makanya", "terus", "nah tapi" tanpa konteks
+- JANGAN buat clip yang berakhir menggantung ("terus...", "dan akhirnya...", "jadi nanti...")
+- LEBIH BAIK clip sedikit lebih panjang tapi UTUH, daripada pendek tapi TERPOTONG
+- Jika ragu antara potong pendek vs sertakan konteks tambahan → SELALU pilih sertakan konteks
 
-Output JSON array saja."""
+Output JSON array saja, tanpa penjelasan tambahan."""
 
         if progress_callback:
             progress_callback(30, "Sending to AI...")
