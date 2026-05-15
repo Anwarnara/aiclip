@@ -1689,9 +1689,19 @@ class VideoProcessor:
                 render_mode = 'split'
             else:
                 render_mode = 'single'
-                # Keep only largest face if multiple detected
+                # Keep the face CLOSEST to last known position (not just largest)
+                # This prevents jumping to poster when host face is temporarily smaller
                 if len(faces) > 1:
-                    faces = [max(faces, key=lambda f: f['area'])]
+                    if smooth_x_single is not None:
+                        # Prefer face closest to where we were tracking
+                        faces.sort(key=lambda f: (
+                            (f['center'][0] - smooth_x_single)**2 + 
+                            (f['center'][1] - smooth_y_single)**2
+                        ))
+                        faces = [faces[0]]  # Keep closest
+                    else:
+                        # First frame: use largest
+                        faces = [max(faces, key=lambda f: f['area'])]
 
             # Log every 3 seconds (now includes raw count for debugging)
             if frame_idx % log_every_n_frames == 0:
@@ -1782,13 +1792,18 @@ class VideoProcessor:
                     target_x = float(face['center'][0])
                     target_y = float(face['center'][1])
 
-                    # Check for large position jump (person switch) - INSTANT JUMP
                     if smooth_x_single is not None:
+                        # ANTI-POSTER LOGIC: Reject faces that are too far from last known position
+                        # Host doesn't teleport. If a face appears far away, it's likely a poster
+                        # that got through filters, or a different person entirely.
                         distance = ((target_x - smooth_x_single)**2 + (target_y - smooth_y_single)**2)**0.5
-                        if distance > 150:  # Large jump = instant switch, no drifting
-                            smooth_x_single, smooth_y_single = target_x, target_y
+                        
+                        if distance > 200:
+                            # Face is too far from last known host position → IGNORE IT
+                            # Stay at last known position (host probably just turned away briefly)
+                            pass  # Don't update smooth position
                         else:
-                            # Smooth tracking for small movements
+                            # Normal smooth tracking
                             lerp = self._get_lerp_factor()
                             smooth_x_single += (target_x - smooth_x_single) * lerp
                             smooth_y_single += (target_y - smooth_y_single) * lerp
@@ -1797,7 +1812,7 @@ class VideoProcessor:
 
                     center = (int(smooth_x_single), int(smooth_y_single))
                 else:
-                    # No face - use center or last known position
+                    # No face detected - STAY at last known position (don't drift)
                     if smooth_x_single is not None:
                         center = (int(smooth_x_single), int(smooth_y_single))
                     else:
