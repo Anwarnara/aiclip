@@ -1680,13 +1680,16 @@ class VideoProcessor:
             # Runtime poster detection (catches posters that prescan missed)
             faces = runtime_poster_check(faces, frame_idx)
 
-            # SIMPLE LOGIC: Render based on ACTUAL face count, not prescan
-            # This prevents showing split screen when only 1 face is visible
-            if len(faces) >= 2 and self.enable_split_screen:
+            # RESPECT PRESCAN DECISION: Use the mode determined by prescan
+            # Prescan already analyzed identities and determined real people vs posters
+            # Only use split if prescan said split AND we actually see 2+ faces
+            prescan_mode = segments[0]['mode'] if segments else 'single'
+            
+            if prescan_mode == 'split' and len(faces) >= 2 and self.enable_split_screen:
                 render_mode = 'split'
             else:
                 render_mode = 'single'
-                # Keep only largest face if multiple detected after dedup
+                # Keep only largest face if multiple detected
                 if len(faces) > 1:
                     faces = [max(faces, key=lambda f: f['area'])]
 
