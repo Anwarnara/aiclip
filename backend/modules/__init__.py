@@ -11,6 +11,7 @@ from .face_embedder import FaceEmbedder, DLIB_EMBEDDER_AVAILABLE
 from .video_processor import VideoProcessor
 from .tracking_analyzer import TrackingAnalyzer
 from .subtitle_renderer import SubtitleRenderer
+from .optical_flow_filter import OpticalFlowFilter
 
 __all__ = [
     'YouTubeDownloader',
@@ -22,5 +23,6 @@ __all__ = [
     'DLIB_EMBEDDER_AVAILABLE',
     'VideoProcessor',
     'TrackingAnalyzer',
-    'SubtitleRenderer'
+    'SubtitleRenderer',
+    'OpticalFlowFilter'
 ]

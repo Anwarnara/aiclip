@@ -57,6 +57,18 @@ export function useApi() {
     }
   }, [])
 
+  const stopAllProcesses = useCallback(async () => {
+    try {
+      await api.stopAllProcesses()
+      setProcessing(false)
+      setCurrentStage('idle')
+      resetProgress()
+      addLog({ timestamp: new Date().toLocaleTimeString(), message: '⛔ All processes stopped', level: 'warning' })
+    } catch (e) {
+      console.error('Failed to stop all:', e)
+    }
+  }, [setProcessing, setCurrentStage, resetProgress, addLog])
+
   const exportClips = useCallback(async (clipIds: number[]) => {
     if (clipIds.length === 0) {
       setError('No clips selected')
@@ -120,6 +132,7 @@ export function useApi() {
     setError,
     startProcessing,
     cancelProcessing,
+    stopAllProcesses,
     exportClips,
     loadSettings,
     saveSettings,

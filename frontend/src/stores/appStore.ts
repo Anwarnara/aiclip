@@ -107,6 +107,12 @@ const defaultSettings: Settings = {
   ai_auto_chunk: true, // Auto calculate optimal chunk size
   ai_chunk_tokens: 0, // Max tokens per chunk (0 = send all as one)
   ai_chunk_cooldown: 2, // Cooldown in seconds between chunk requests
+  // Optical Flow Poster Filter
+  optical_flow_enabled: true,
+  optical_flow_threshold: 2.0,
+  optical_flow_min_samples: 5,
+  optical_flow_consistency: 0.7,
+  optical_flow_dense: false,
   // Debug settings
   debug_mode: false, // Enable basic tracking logs in terminal (minimalist)
   debug_mode_advanced: false // Enable detailed/verbose tracking logs in terminal

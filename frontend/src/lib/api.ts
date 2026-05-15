@@ -44,6 +44,11 @@ export const api = {
     return handleResponse(response)
   },
 
+  async stopAllProcesses(): Promise<{ status: string; message: string }> {
+    const response = await fetch(`${API_BASE}/video/stop-all`, { method: 'POST' })
+    return handleResponse(response)
+  },
+
   async getStatus(): Promise<ProcessingStatus> {
     const response = await fetch(`${API_BASE}/video/status`)
     return handleResponse(response)

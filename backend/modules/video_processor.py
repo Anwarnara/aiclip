@@ -13,6 +13,7 @@ from typing import Optional, Callable, Tuple, List, Dict, Any
 from .face_tracker import FaceTracker
 from .face_classifier import FaceClassifier
 from .face_embedder import FaceEmbedder, DLIB_EMBEDDER_AVAILABLE
+from .optical_flow_filter import OpticalFlowFilter
 
 # Check for CUDA support
 USE_CUDA = torch.cuda.is_available()
@@ -82,7 +83,13 @@ class VideoProcessor:
         # Debug mode - basic terminal logging (minimalist)
         debug_mode: bool = False,
         # Debug mode advanced - detailed/verbose terminal logging
-        debug_mode_advanced: bool = False
+        debug_mode_advanced: bool = False,
+        # Optical Flow Poster Filter
+        optical_flow_enabled: bool = True,
+        optical_flow_threshold: float = 2.0,
+        optical_flow_min_samples: int = 5,
+        optical_flow_consistency: float = 0.7,
+        optical_flow_dense: bool = False
     ):
         self.output_width = output_width
         self.output_height = output_height
@@ -97,6 +104,17 @@ class VideoProcessor:
         self.dynamic_focus = dynamic_focus  # Auto-zoom to active speaker
         self.debug_mode = debug_mode  # Basic terminal logging
         self.debug_mode_advanced = debug_mode_advanced  # Detailed terminal logging
+
+        # Optical Flow Poster Filter
+        self.optical_flow_enabled = optical_flow_enabled
+        self.optical_flow_filter: Optional[OpticalFlowFilter] = None
+        if optical_flow_enabled:
+            self.optical_flow_filter = OpticalFlowFilter(
+                flow_threshold=optical_flow_threshold,
+                min_samples=optical_flow_min_samples,
+                consistency_ratio=optical_flow_consistency,
+                use_dense_flow=optical_flow_dense
+            )
 
         # Speaker timeline for dynamic focus (set by caller)
         # Format: [{'start': float, 'end': float, 'speaker': 'left'|'right'|'both'}]
@@ -955,180 +973,70 @@ class VideoProcessor:
             frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
             frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 
-            # Track face positions over time to detect static faces (posters)
-            # key: grid position (x, y), value: list of (frame_idx, area)
-            face_history = {}
-            poster_positions = set()  # Confirmed poster positions
-            position_tracker = {}  # Track exact positions for static detection
-
-            # Filter out poster faces (comprehensive filter)
-            def filter_poster_faces(faces):
-                """
-                Filter out faces that are likely posters/banners/static images:
-                - Faces too high up (top 15% of frame)
-                - Faces too low (bottom 15% of frame) - likely ads/overlays
-                - Faces at extreme edges with small area
-                - Very small faces
-                """
-                min_y = frame_height * 0.15  # Top 15% is likely poster
-                max_y = frame_height * 0.85  # Bottom 15% is likely ad/overlay
-                edge_margin = frame_width * 0.10  # 10% from edges
-                min_area = 3000  # Minimum face area
-
-                filtered = []
-                for face in faces:
-                    cx, cy = face['center']
-                    area = face.get('area', 10000)
-
-                    # Skip faces in top 15%
-                    if cy < min_y:
-                        self._debug(f"  [POSTER] Skipped face at y={cy:.0f} (top 15%)")
-                        continue
-
-                    # Skip faces in bottom 15%
-                    if cy > max_y:
-                        self._debug(f"  [POSTER] Skipped face at y={cy:.0f} (bottom 15%)")
-                        continue
-
-                    # Skip small faces at extreme edges (likely side banners)
-                    if cx < edge_margin or cx > (frame_width - edge_margin):
-                        if area < 25000:  # Only skip if relatively small
-                            self._debug(f"  [POSTER] Skipped face at x={cx:.0f} (edge, area={area:.0f})")
-                            continue
-
-                    # Skip very small faces
-                    if area < min_area:
-                        self._debug(f"  [POSTER] Skipped face with area={area:.0f} (too small)")
-                        continue
-
-                    filtered.append(face)
-
-                return filtered
-
-            def track_and_filter_static(faces, current_frame):
-                """
-                Track faces over time and filter out static ones (posters).
-                Uses EXACT position tracking - posters don't move at all.
-                """
-                nonlocal poster_positions, position_tracker
-
-                result = []
-                for face in faces:
-                    cx, cy = face['center']
-                    area = face.get('area', 10000)
-
-                    # Use 20px grid for position grouping
-                    grid_x = int(cx // 20) * 20
-                    grid_y = int(cy // 20) * 20
-                    grid_key = (grid_x, grid_y)
-
-                    # Check if this is a known poster position
-                    if grid_key in poster_positions:
-                        self._debug(f"  [POSTER] Skipped known poster at ({grid_x}, {grid_y})")
-                        continue
-
-                    # Track exact positions
-                    if grid_key not in position_tracker:
-                        position_tracker[grid_key] = []
-
-                    position_tracker[grid_key].append({
-                        'frame': current_frame,
-                        'cx': cx,
-                        'cy': cy,
-                        'area': area
-                    })
-
-                    # Keep only recent history
-                    if len(position_tracker[grid_key]) > 30:
-                        position_tracker[grid_key] = position_tracker[grid_key][-30:]
-
-                    # Check if this position is VERY static (poster)
-                    history = position_tracker[grid_key]
-                    if len(history) >= 8:  # Need 8+ samples
-                        # Calculate position variance
-                        cx_values = [h['cx'] for h in history]
-                        cy_values = [h['cy'] for h in history]
-                        areas = [h['area'] for h in history]
-
-                        cx_var = sum((x - sum(cx_values)/len(cx_values))**2 for x in cx_values) / len(cx_values)
-                        cy_var = sum((y - sum(cy_values)/len(cy_values))**2 for y in cy_values) / len(cy_values)
-                        area_var = sum((a - sum(areas)/len(areas))**2 for a in areas) / len(areas)
-
-                        # Poster = VERY low variance in position AND area
-                        # Real person has some movement even when sitting
-                        pos_variance = (cx_var + cy_var) ** 0.5
-                        avg_area = sum(areas) / len(areas)
-
-                        # If position variance < 5px AND area variance < 2% = POSTER
-                        if pos_variance < 5 and area_var < (avg_area * 0.02):
-                            poster_positions.add(grid_key)
-                            self._log(f"[POSTER DETECTED] Static at ({grid_x},{grid_y}) pos_var={pos_variance:.1f}px area_var={area_var:.0f}")
-                            continue
-
-                    result.append(face)
-
-                return result
-
-            def filter_by_area_ratio(faces):
-                """
-                If there are 2 faces and one is much smaller than the other,
-                the smaller one is likely a poster/banner.
-                """
-                if len(faces) != 2:
-                    return faces
-
-                face_a, face_b = faces
-                area_a = face_a.get('area', 10000)
-                area_b = face_b.get('area', 10000)
-
-                # Calculate ratio (bigger / smaller)
-                if area_a > area_b:
-                    ratio = area_a / area_b if area_b > 0 else 999
-                    larger, smaller = face_a, face_b
-                else:
-                    ratio = area_b / area_a if area_a > 0 else 999
-                    larger, smaller = face_b, face_a
-
-                # If ratio > 2.0:1, the smaller one is likely a poster
-                if ratio > 2.0:
-                    smaller_cx = smaller['center'][0]
-                    # If smaller face is near edge (outer 25%), definitely poster
-                    if smaller_cx < frame_width * 0.25 or smaller_cx > frame_width * 0.75:
-                        self._log(f"[POSTER] Filtered: ratio={ratio:.1f}x, edge x={smaller_cx:.0f}")
-                        return [larger]
-
-                    # If ratio > 2.5:1, filter regardless of position
-                    if ratio > 2.5:
-                        self._log(f"[POSTER] Filtered: ratio={ratio:.1f}x (area diff too large)")
-                        return [larger]
-
-                return faces
+            # === NEW APPROACH: Identity Clustering ===
+            # Track face "identities" by spatial position over time
+            # Each identity = a cluster of detections at similar positions
+            # Real person: large, present in most frames, position varies (head movement)
+            # Poster: may be large, present in some frames, position NEVER varies independently
+            
+            poster_positions = set()  # Confirmed poster grid positions
+            
+            # Identity tracker: cluster faces by position across frames
+            # Each identity has: positions list, areas list, frame_indices list
+            identities = []  # List of identity dicts
+            IDENTITY_MERGE_DIST = 150  # Max distance to consider same identity
+            
+            total_sampled_frames = 0
 
             # Simple deduplication by distance
             def simple_dedupe(faces, min_distance=100):
-                """Remove duplicate faces that are too close to each other."""
                 if len(faces) <= 1:
                     return faces
-
-                # Sort by confidence (highest first)
                 sorted_faces = sorted(faces, key=lambda f: f.get('confidence', 0), reverse=True)
                 unique = []
-
                 for face in sorted_faces:
                     cx, cy = face['center']
-                    is_duplicate = False
-
+                    is_dup = False
                     for known in unique:
                         kx, ky = known['center']
-                        dist = ((cx - kx)**2 + (cy - ky)**2)**0.5
-                        if dist < min_distance:
-                            is_duplicate = True
+                        if ((cx - kx)**2 + (cy - ky)**2)**0.5 < min_distance:
+                            is_dup = True
                             break
-
-                    if not is_duplicate:
+                    if not is_dup:
                         unique.append(face)
-
                 return unique
+
+            def assign_to_identity(face, frame_num):
+                """Assign a detected face to an existing identity or create new one"""
+                cx, cy = face['center']
+                area = face.get('area', 0)
+                
+                # Find closest existing identity
+                best_identity = None
+                best_dist = IDENTITY_MERGE_DIST
+                
+                for identity in identities:
+                    # Use average position of last 10 detections
+                    recent = identity['positions'][-10:]
+                    avg_x = sum(p[0] for p in recent) / len(recent)
+                    avg_y = sum(p[1] for p in recent) / len(recent)
+                    dist = ((cx - avg_x)**2 + (cy - avg_y)**2)**0.5
+                    
+                    if dist < best_dist:
+                        best_dist = dist
+                        best_identity = identity
+                
+                if best_identity:
+                    best_identity['positions'].append((cx, cy))
+                    best_identity['areas'].append(area)
+                    best_identity['frames'].append(frame_num)
+                else:
+                    # New identity
+                    identities.append({
+                        'positions': [(cx, cy)],
+                        'areas': [area],
+                        'frames': [frame_num]
+                    })
 
             self._log(f"")
             self._log(f"Scanning frames...")
@@ -1142,84 +1050,168 @@ class VideoProcessor:
                     break
 
                 if frame_idx % sample_interval == 0:
+                    total_sampled_frames += 1
+                    
                     # Detect faces
                     faces = self.face_tracker.detect_faces(frame)
-
-                    # Filter out poster faces (position-based)
-                    faces = filter_poster_faces(faces)
-
-                    # Track and filter static faces (variance-based - posters don't move)
-                    faces = track_and_filter_static(faces, frame_idx)
-
-                    # Filter by area ratio (smaller face in pair is likely poster)
-                    faces = filter_by_area_ratio(faces)
-
-                    # Simple deduplication
+                    
+                    # Basic filters: skip tiny faces and extreme positions
+                    min_area = 2000
+                    faces = [f for f in faces if f.get('area', 0) >= min_area]
+                    
+                    # Deduplicate
                     faces = simple_dedupe(faces, min_distance=100)
-
-                    # Record face count
-                    face_count = len(faces)
-                    face_counts.append(face_count)
+                    
+                    # Assign each face to an identity
+                    for face in faces:
+                        assign_to_identity(face, frame_idx)
+                    
+                    # Record raw face count
+                    face_counts.append(len(faces))
 
                     # Log every 5 seconds
                     time_sec = frame_idx / fps
                     if time_sec % 5 < (sample_interval / fps):
-                        self._log(f"  @{time_sec:.1f}s → {face_count} faces")
+                        self._log(f"  @{time_sec:.1f}s → {len(faces)} faces, {len(identities)} identities")
 
                     if progress_callback and frame_idx % (sample_interval * 10) == 0:
                         progress_callback(20 + (frame_idx / total_frames) * 10, f"Scanning {time_sec:.0f}s...")
 
                 frame_idx += 1
 
-            if not face_counts:
+            if not face_counts or total_sampled_frames == 0:
                 self._log("No samples - defaulting to SINGLE")
                 return [{'start': 0, 'end': total_frames, 'mode': 'single'}], []
 
-            # Calculate MODE (most frequent face count)
-            from collections import Counter
-            count_freq = Counter(face_counts)
-
-            # Get most frequent count (excluding 0)
-            non_zero_counts = {k: v for k, v in count_freq.items() if k > 0}
-
-            if non_zero_counts:
-                mode_face_count = max(non_zero_counts, key=non_zero_counts.get)
-            else:
-                mode_face_count = 0
-
-            # Also calculate: what percentage of frames have 2+ faces?
-            frames_with_2plus = sum(1 for c in face_counts if c >= 2)
-            pct_with_2plus = (frames_with_2plus / len(face_counts)) * 100 if face_counts else 0
-
+            # === ANALYZE IDENTITIES ===
             self._log(f"")
             self._log(f"╔══════════════════════════════════════════")
-            self._log(f"║ PRESCAN RESULT")
+            self._log(f"║ IDENTITY ANALYSIS")
             self._log(f"╠══════════════════════════════════════════")
-            self._log(f"║ Total samples: {len(face_counts)}")
-            self._log(f"║ Face count distribution:")
-            for count, freq in sorted(count_freq.items()):
-                pct = (freq / len(face_counts)) * 100
-                self._log(f"║   {count} faces: {freq} samples ({pct:.1f}%)")
-            self._log(f"║")
-            self._log(f"║ Most frequent (MODE): {mode_face_count} faces")
-            self._log(f"║ Frames with 2+ faces: {pct_with_2plus:.1f}%")
+            self._log(f"║ Total sampled frames: {total_sampled_frames}")
+            self._log(f"║ Identities found: {len(identities)}")
+            
+            # Score each identity
+            scored_identities = []
+            for i, identity in enumerate(identities):
+                num_detections = len(identity['frames'])
+                presence_ratio = num_detections / total_sampled_frames  # 0-1
+                avg_area = sum(identity['areas']) / len(identity['areas'])
+                
+                # Position variance (how much this face moves)
+                positions = identity['positions']
+                if len(positions) >= 3:
+                    avg_x = sum(p[0] for p in positions) / len(positions)
+                    avg_y = sum(p[1] for p in positions) / len(positions)
+                    var_x = sum((p[0] - avg_x)**2 for p in positions) / len(positions)
+                    var_y = sum((p[1] - avg_y)**2 for p in positions) / len(positions)
+                    pos_variance = (var_x + var_y) ** 0.5
+                else:
+                    pos_variance = 0
+                
+                # Average position
+                avg_pos = (
+                    sum(p[0] for p in positions) / len(positions),
+                    sum(p[1] for p in positions) / len(positions)
+                )
+                
+                scored_identities.append({
+                    'index': i,
+                    'detections': num_detections,
+                    'presence': presence_ratio,
+                    'avg_area': avg_area,
+                    'pos_variance': pos_variance,
+                    'avg_pos': avg_pos,
+                    'identity': identity
+                })
+                
+                self._log(f"║ Identity {i}: detections={num_detections}, presence={presence_ratio*100:.0f}%, area={avg_area:.0f}, var={pos_variance:.1f}px, pos=({avg_pos[0]:.0f},{avg_pos[1]:.0f})")
+            
             self._log(f"╠══════════════════════════════════════════")
-
-            # SIMPLE DECISION:
-            # - If MODE >= 2 AND at least 30% of frames have 2+ faces → SPLIT
-            # - Otherwise → SINGLE
-            if mode_face_count >= 2 and pct_with_2plus >= 30:
+            
+            # === DETERMINE REAL PEOPLE vs POSTERS ===
+            # Criteria for REAL PERSON:
+            # 1. Present in at least 50% of frames (consistent presence)
+            # 2. Area is significant (not tiny background face)
+            # 3. Position variance > 5px (shows SOME independent movement)
+            #    Note: even with camera shake, a real person adds head movement on top
+            #
+            # Criteria for POSTER:
+            # 1. May be present in many frames BUT
+            # 2. Position variance is VERY LOW relative to real people
+            #    (poster only moves from camera shake, real person moves MORE)
+            
+            # Find the identity with HIGHEST position variance = most likely real person
+            if scored_identities:
+                max_variance = max(s['pos_variance'] for s in scored_identities)
+            else:
+                max_variance = 0
+            
+            real_people = []
+            posters = []
+            
+            for scored in scored_identities:
+                presence = scored['presence']
+                variance = scored['pos_variance']
+                area = scored['avg_area']
+                
+                # Must be present in at least 30% of frames to matter
+                if presence < 0.30:
+                    self._log(f"║ Identity {scored['index']}: IGNORED (presence {presence*100:.0f}% < 30%)")
+                    continue
+                
+                # KEY INSIGHT: Compare variance to the most-moving face
+                # Real person has variance that's at least 50% of the max
+                # Poster has much lower variance (only camera shake)
+                if max_variance > 0:
+                    variance_ratio = variance / max_variance
+                else:
+                    variance_ratio = 1.0
+                
+                # Decision logic:
+                # - If this face moves at least 40% as much as the most-moving face → REAL
+                # - If this face moves less than 40% of the most-moving face → POSTER
+                # - Exception: if ALL faces have very low variance (< 10px), use area-based logic
+                
+                if max_variance < 10:
+                    # Very static video (everyone sitting still, minimal camera movement)
+                    # Fall back to: largest + most present = real
+                    if presence >= 0.50 and area >= 5000:
+                        real_people.append(scored)
+                        self._log(f"║ Identity {scored['index']}: REAL (static video, presence={presence*100:.0f}%, area={area:.0f})")
+                    else:
+                        posters.append(scored)
+                        self._log(f"║ Identity {scored['index']}: POSTER (static video, low presence/area)")
+                else:
+                    # Normal video with some movement
+                    if variance_ratio >= 0.40:
+                        real_people.append(scored)
+                        self._log(f"║ Identity {scored['index']}: REAL (var_ratio={variance_ratio:.2f}, var={variance:.1f}px)")
+                    else:
+                        posters.append(scored)
+                        # Mark as poster position
+                        pos = scored['avg_pos']
+                        grid_key = (int(pos[0] // 30) * 30, int(pos[1] // 30) * 30)
+                        poster_positions.add(grid_key)
+                        self._log(f"║ Identity {scored['index']}: POSTER (var_ratio={variance_ratio:.2f}, var={variance:.1f}px vs max={max_variance:.1f}px)")
+            
+            self._log(f"╠══════════════════════════════════════════")
+            self._log(f"║ Real people: {len(real_people)}")
+            self._log(f"║ Posters: {len(posters)}")
+            
+            # === FINAL DECISION ===
+            if len(real_people) >= 2:
                 video_mode = 'split'
                 self._log(f"║ ★ DECISION: SPLIT MODE ★")
-                self._log(f"║   Reason: MODE={mode_face_count} faces, {pct_with_2plus:.0f}% frames have 2+")
+                self._log(f"║   Reason: {len(real_people)} real people detected")
             else:
                 video_mode = 'single'
                 self._log(f"║ ★ DECISION: SINGLE MODE ★")
-                if mode_face_count < 2:
-                    self._log(f"║   Reason: MODE={mode_face_count} face (not enough for split)")
+                if len(real_people) == 1:
+                    self._log(f"║   Reason: Only 1 real person (others are posters/inserts)")
                 else:
-                    self._log(f"║   Reason: Only {pct_with_2plus:.0f}% frames have 2+ faces (<30%)")
-
+                    self._log(f"║   Reason: No consistent real people detected")
+            
             self._log(f"╚══════════════════════════════════════════")
 
             # Log detected poster positions
@@ -1228,6 +1220,24 @@ class VideoProcessor:
                 self._log(f"[POSTER] Detected {len(poster_positions)} static poster positions:")
                 for pos in list(poster_positions)[:5]:  # Show max 5
                     self._log(f"  - Grid position: ({pos[0]}, {pos[1]})")
+
+            # Log optical flow results
+            if self.optical_flow_enabled and self.optical_flow_filter:
+                of_stats = self.optical_flow_filter.get_stats()
+                if of_stats['confirmed_posters'] > 0 or of_stats['confirmed_real'] > 0:
+                    self._log(f"")
+                    self._log(f"[OPTICAL FLOW] Results:")
+                    self._log(f"  - Confirmed REAL faces: {of_stats['confirmed_real']}")
+                    self._log(f"  - Confirmed POSTER faces: {of_stats['confirmed_posters']}")
+                    self._log(f"  - Pending (undecided): {of_stats['pending']}")
+                    self._log(f"  - Total samples analyzed: {of_stats['total_samples']}")
+                    for pos in of_stats['poster_positions'][:5]:
+                        self._log(f"  - Poster at grid: ({pos[0]}, {pos[1]})")
+
+                # Merge optical flow posters into poster_positions
+                of_poster_positions = self.optical_flow_filter.get_poster_positions()
+                for pos in of_poster_positions:
+                    poster_positions.add(pos)
 
             if progress_callback:
                 progress_callback(35, f"Prescan: {video_mode.upper()} mode")
@@ -1349,21 +1359,31 @@ class VideoProcessor:
         def is_poster_face(face):
             """
             Check if this face is a known poster from prescan.
-            DISABLED runtime detection - it was too aggressive.
+            Uses proximity matching (not exact grid) to handle slight position drift.
             """
             if not known_poster_positions:
                 return False  # No posters detected in prescan
 
             cx, cy = face['center']
-            grid_x = int(cx // 30) * 30
-            grid_y = int(cy // 30) * 30
-            grid_key = (grid_x, grid_y)
 
-            # Only check prescan-detected posters
-            if grid_key in known_poster_positions:
-                if self.debug_mode_advanced:
-                    self._debug(f"    [POSTER] Skipping face at ({cx:.0f},{cy:.0f}) - matches prescan poster at grid ({grid_x},{grid_y})")
-                return True
+            # Check multiple grid sizes to handle mismatch between prescan (20px) and processing
+            for grid_size in [20, 30, 40]:
+                grid_x = int(cx // grid_size) * grid_size
+                grid_y = int(cy // grid_size) * grid_size
+                grid_key = (grid_x, grid_y)
+
+                if grid_key in known_poster_positions:
+                    if self.debug_mode_advanced:
+                        self._debug(f"    [POSTER] Skipping face at ({cx:.0f},{cy:.0f}) - matches prescan poster at grid ({grid_x},{grid_y})")
+                    return True
+
+            # Also check proximity: if face center is within 50px of any known poster position
+            for pos in known_poster_positions:
+                dist = ((cx - pos[0]) ** 2 + (cy - pos[1]) ** 2) ** 0.5
+                if dist < 50:
+                    if self.debug_mode_advanced:
+                        self._debug(f"    [POSTER] Skipping face at ({cx:.0f},{cy:.0f}) - within 50px of poster at ({pos[0]},{pos[1]})")
+                    return True
 
             return False
 
@@ -1372,6 +1392,83 @@ class VideoProcessor:
             if not known_poster_positions:
                 return faces  # No filtering if no posters detected
             return [f for f in faces if not is_poster_face(f)]
+
+        # Runtime poster detection during processing
+        # Uses relative motion: compares how each face moves vs others
+        runtime_face_positions: Dict[str, List[Tuple[float, float, int]]] = {}  # key -> [(cx, cy, frame_idx)]
+        runtime_confirmed_posters: set = set()
+
+        def runtime_poster_check(faces, current_frame_idx):
+            """
+            Runtime detection using RELATIVE MOTION.
+            If a face always moves identically to other faces (no independent motion),
+            it's a poster riding on camera shake.
+            """
+            nonlocal runtime_confirmed_posters
+
+            # Track all faces
+            for face in faces:
+                cx, cy = face['center']
+                grid_key = f"{int(cx // 40) * 40}_{int(cy // 40) * 40}"
+                
+                if grid_key not in runtime_face_positions:
+                    runtime_face_positions[grid_key] = []
+                runtime_face_positions[grid_key].append((cx, cy, current_frame_idx))
+                
+                # Keep last 90 positions
+                if len(runtime_face_positions[grid_key]) > 90:
+                    runtime_face_positions[grid_key] = runtime_face_positions[grid_key][-90:]
+
+            # Need at least 2 tracked faces with enough history
+            tracked_keys = [k for k, v in runtime_face_positions.items() 
+                          if len(v) >= 15 and k not in runtime_confirmed_posters]
+            
+            if len(tracked_keys) >= 2 and current_frame_idx % 30 == 0:  # Check every 30 frames
+                for key in tracked_keys:
+                    if key in runtime_confirmed_posters:
+                        continue
+                    
+                    my_positions = runtime_face_positions[key]
+                    other_keys = [k for k in tracked_keys if k != key and k not in runtime_confirmed_posters]
+                    if not other_keys:
+                        continue
+                    
+                    # Calculate relative displacements
+                    relative_motions = []
+                    for i in range(1, min(len(my_positions), 30)):
+                        my_dx = my_positions[i][0] - my_positions[i-1][0]
+                        my_dy = my_positions[i][1] - my_positions[i-1][1]
+                        
+                        other_dxs = []
+                        other_dys = []
+                        for other_key in other_keys:
+                            other_pos = runtime_face_positions[other_key]
+                            if i < len(other_pos):
+                                other_dxs.append(other_pos[i][0] - other_pos[i-1][0])
+                                other_dys.append(other_pos[i][1] - other_pos[i-1][1])
+                        
+                        if other_dxs:
+                            avg_other_dx = sum(other_dxs) / len(other_dxs)
+                            avg_other_dy = sum(other_dys) / len(other_dys)
+                            rel_mag = ((my_dx - avg_other_dx)**2 + (my_dy - avg_other_dy)**2)**0.5
+                            relative_motions.append(rel_mag)
+                    
+                    if len(relative_motions) >= 10:
+                        avg_rel = sum(relative_motions) / len(relative_motions)
+                        independent_ratio = sum(1 for r in relative_motions if r > 1.5) / len(relative_motions)
+                        
+                        if avg_rel < 1.0 and independent_ratio < 0.15:
+                            runtime_confirmed_posters.add(key)
+                            self._log(f"[RUNTIME POSTER] Detected: {key} avg_rel={avg_rel:.2f}px indep={independent_ratio*100:.0f}%")
+
+            # Filter out confirmed posters
+            result = []
+            for face in faces:
+                cx, cy = face['center']
+                grid_key = f"{int(cx // 40) * 40}_{int(cy // 40) * 40}"
+                if grid_key not in runtime_confirmed_posters:
+                    result.append(face)
+            return result
 
         # Mode override DISABLED in prescan mode
         # Prescan segments are authoritative - no runtime override needed
@@ -1572,6 +1669,16 @@ class VideoProcessor:
 
             # Simple deduplication - remove faces too close together
             faces = deduplicate_faces(faces, min_distance=100)
+
+            # Optical Flow filtering during processing (uses prescan data)
+            if self.optical_flow_enabled and self.optical_flow_filter:
+                # Continue analyzing for faces not yet confirmed
+                self.optical_flow_filter.analyze_frame(frame, faces)
+                # Filter out confirmed posters
+                faces = self.optical_flow_filter.filter_faces(faces)
+
+            # Runtime poster detection (catches posters that prescan missed)
+            faces = runtime_poster_check(faces, frame_idx)
 
             # SIMPLE LOGIC: Render based on ACTUAL face count, not prescan
             # This prevents showing split screen when only 1 face is visible

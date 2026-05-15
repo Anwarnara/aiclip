@@ -53,6 +53,12 @@ DEFAULT_SETTINGS = {
     "ai_chunk_tokens": 0,  # Max tokens per chunk (0 = send all as one)
     "ai_chunk_cooldown": 2,  # Cooldown in seconds between chunk requests
     "ai_auto_chunk": True,  # Auto chunking enabled
+    # Optical Flow Poster Filter
+    "optical_flow_enabled": True,  # Enable optical flow poster detection
+    "optical_flow_threshold": 2.0,  # Min flow difference to consider face as real (px)
+    "optical_flow_min_samples": 5,  # Min frames to analyze before deciding
+    "optical_flow_consistency": 0.7,  # Ratio of frames showing independent motion (0-1)
+    "optical_flow_dense": False,  # True = Farneback (accurate/slow), False = Lucas-Kanade (fast)
     # Debug settings
     "debug_mode": False,  # Enable basic tracking logs in terminal (minimalist)
     "debug_mode_advanced": False  # Enable detailed/verbose tracking logs in terminal

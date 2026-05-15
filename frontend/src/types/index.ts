@@ -73,6 +73,12 @@ export interface Settings {
   ai_auto_chunk: boolean; // Auto calculate optimal chunk size
   ai_chunk_tokens: number; // Max tokens per chunk (0 = send all as one)
   ai_chunk_cooldown: number; // Cooldown in seconds between chunk requests
+  // Optical Flow Poster Filter
+  optical_flow_enabled: boolean;
+  optical_flow_threshold: number;  // Min flow difference (px)
+  optical_flow_min_samples: number;  // Min frames before deciding
+  optical_flow_consistency: number;  // Ratio for independent motion (0-1)
+  optical_flow_dense: boolean;  // True = Farneback (accurate), False = Lucas-Kanade (fast)
   // Debug settings
   debug_mode: boolean; // Enable basic tracking logs in terminal (minimalist)
   debug_mode_advanced: boolean; // Enable detailed/verbose tracking logs in terminal

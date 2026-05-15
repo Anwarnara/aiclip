@@ -398,6 +398,87 @@ export function Sidebar() {
               />
             </div>
 
+            {/* Optical Flow Poster Filter */}
+            <div className="space-y-2">
+              <div className="flex items-center justify-between">
+                <div>
+                  <Label className="text-xs">Optical Flow Filter</Label>
+                  <p className="text-[10px] text-muted-foreground">Detect posters by motion</p>
+                </div>
+                <Switch
+                  checked={settings.optical_flow_enabled ?? true}
+                  onCheckedChange={(v) => handleSettingChange('optical_flow_enabled', v)}
+                  disabled={isProcessing}
+                />
+              </div>
+
+              {/* Advanced settings - only show when enabled */}
+              {(settings.optical_flow_enabled ?? true) && (
+                <div className="pl-2 border-l-2 border-muted space-y-2">
+                  <div className="space-y-1">
+                    <div className="flex items-center justify-between">
+                      <Label className="text-[10px] text-muted-foreground">Threshold</Label>
+                      <span className="text-[10px] font-medium">{(settings.optical_flow_threshold ?? 2.0).toFixed(1)}px</span>
+                    </div>
+                    <Slider
+                      value={[settings.optical_flow_threshold ?? 2.0]}
+                      onValueChange={([v]) => handleSettingChange('optical_flow_threshold', v)}
+                      min={0.5}
+                      max={10}
+                      step={0.5}
+                      disabled={isProcessing}
+                    />
+                    <p className="text-[9px] text-muted-foreground">Lower = more sensitive (detects more posters)</p>
+                  </div>
+
+                  <div className="space-y-1">
+                    <div className="flex items-center justify-between">
+                      <Label className="text-[10px] text-muted-foreground">Min Samples</Label>
+                      <span className="text-[10px] font-medium">{settings.optical_flow_min_samples ?? 5}</span>
+                    </div>
+                    <Slider
+                      value={[settings.optical_flow_min_samples ?? 5]}
+                      onValueChange={([v]) => handleSettingChange('optical_flow_min_samples', v)}
+                      min={3}
+                      max={20}
+                      step={1}
+                      disabled={isProcessing}
+                    />
+                    <p className="text-[9px] text-muted-foreground">Frames needed before deciding</p>
+                  </div>
+
+                  <div className="space-y-1">
+                    <div className="flex items-center justify-between">
+                      <Label className="text-[10px] text-muted-foreground">Consistency</Label>
+                      <span className="text-[10px] font-medium">{((settings.optical_flow_consistency ?? 0.7) * 100).toFixed(0)}%</span>
+                    </div>
+                    <Slider
+                      value={[settings.optical_flow_consistency ?? 0.7]}
+                      onValueChange={([v]) => handleSettingChange('optical_flow_consistency', v)}
+                      min={0.3}
+                      max={1.0}
+                      step={0.05}
+                      disabled={isProcessing}
+                    />
+                    <p className="text-[9px] text-muted-foreground">Higher = stricter (fewer false positives)</p>
+                  </div>
+
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <Label className="text-[10px] text-muted-foreground">Dense Flow</Label>
+                      <p className="text-[9px] text-muted-foreground">Accurate but slower</p>
+                    </div>
+                    <Switch
+                      checked={settings.optical_flow_dense ?? false}
+                      onCheckedChange={(v) => handleSettingChange('optical_flow_dense', v)}
+                      disabled={isProcessing}
+                      className="h-4 w-7"
+                    />
+                  </div>
+                </div>
+              )}
+            </div>
+
             {/* Cinematic Mode (AE Style) */}
             <div className="flex items-center justify-between">
               <div>

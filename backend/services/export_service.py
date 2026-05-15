@@ -103,7 +103,13 @@ class ExportService:
             cancel_checker=cancel_checker,
             log_callback=log_wrapper,
             debug_mode=s.get('debug_mode', False),
-            debug_mode_advanced=s.get('debug_mode_advanced', False)
+            debug_mode_advanced=s.get('debug_mode_advanced', False),
+            # Optical Flow Poster Filter
+            optical_flow_enabled=s.get('optical_flow_enabled', True),
+            optical_flow_threshold=s.get('optical_flow_threshold', 2.0),
+            optical_flow_min_samples=s.get('optical_flow_min_samples', 5),
+            optical_flow_consistency=s.get('optical_flow_consistency', 0.7),
+            optical_flow_dense=s.get('optical_flow_dense', False)
         )
 
         return self.processor

@@ -592,6 +592,38 @@ async def cancel_processing():
     return {"status": "cancelled"}
 
 
+@router.post("/stop-all")
+async def stop_all_processes():
+    """Force stop ALL processes - processing, export, queue, everything"""
+    # Cancel video service (download/transcription)
+    video_service.cancel()
+
+    # Cancel export service
+    export_service.cancel()
+
+    # Set cancel flag
+    app_state.processing.cancel_requested = True
+
+    # Force reset all processing state
+    app_state.processing.is_processing = False
+    app_state.processing.current_stage = "idle"
+
+    # Reset progress
+    app_state.reset_progress()
+
+    # Pause queue if running
+    from backend.services.queue_service import queue_service
+    queue_service.pause()
+
+    app_state.add_log("⛔ ALL PROCESSES STOPPED by user", "warning")
+
+    # Broadcast status update
+    await app_state.broadcast('status', app_state.get_status())
+    await app_state.broadcast('stopped', {'message': 'All processes stopped'})
+
+    return {"status": "stopped", "message": "All processes have been stopped"}
+
+
 @router.get("/status", response_model=StatusResponse)
 async def get_status():
     """Get current processing status"""

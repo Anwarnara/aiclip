@@ -5,7 +5,7 @@
  */
 
 import { useState, useCallback, useRef, useEffect } from 'react'
-import { Youtube, FolderOpen, Play, Square, Upload, File as FileIcon, Download, ListPlus, Database, Trash2, RefreshCw } from 'lucide-react'
+import { Youtube, FolderOpen, Play, Square, Upload, File as FileIcon, Download, ListPlus, Database, Trash2, RefreshCw, StopCircle } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
@@ -26,7 +26,7 @@ interface CacheInfo {
 
 export function VideoInput() {
   const { activeTab, setActiveTab, inputValue, setInputValue, isProcessing, videoInfo, setProcessing, setCurrentStage, addLog, clips, selectedClips } = useAppStore()
-  const { loading, error, setError, startProcessing, cancelProcessing, exportClips } = useApi()
+  const { loading, error, setError, startProcessing, cancelProcessing, stopAllProcesses, exportClips } = useApi()
   const [isDragging, setIsDragging] = useState(false)
   const [selectedFile, setSelectedFile] = useState<File | null>(null)
   const [uploading, setUploading] = useState(false)
@@ -440,6 +440,17 @@ export function VideoInput() {
                         Start Processing
                       </>
                     )}
+                  </Button>
+
+                  <Button
+                    type="button"
+                    variant="destructive"
+                    onClick={stopAllProcesses}
+                    className="gap-2"
+                    title="Stop all processes (processing, export, queue)"
+                  >
+                    <StopCircle className="h-4 w-4" />
+                    Stop
                   </Button>
 
                   {clips.length > 0 && (

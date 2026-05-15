@@ -84,6 +84,12 @@ class SettingsModel(BaseModel):
     ai_auto_chunk: bool = True  # Auto calculate optimal chunk size
     ai_chunk_tokens: int = 0  # 0 = send all as one, otherwise max tokens per chunk (used when auto_chunk is off)
     ai_chunk_cooldown: int = 2  # Cooldown in seconds between chunk requests
+    # Optical Flow Poster Filter
+    optical_flow_enabled: bool = True  # Enable optical flow poster detection
+    optical_flow_threshold: float = 2.0  # Min flow difference (px)
+    optical_flow_min_samples: int = 5  # Min frames before deciding
+    optical_flow_consistency: float = 0.7  # Ratio for independent motion (0-1)
+    optical_flow_dense: bool = False  # True = Farneback, False = Lucas-Kanade
     # Debug settings
     debug_mode: bool = False  # Enable basic tracking logs in terminal (minimalist)
     debug_mode_advanced: bool = False  # Enable detailed/verbose tracking logs in terminal
@@ -128,6 +134,12 @@ class SettingsUpdateModel(BaseModel):
     ai_auto_chunk: Optional[bool] = None  # Auto calculate optimal chunk size
     ai_chunk_tokens: Optional[int] = None  # 0 = send all as one, otherwise max tokens per chunk (used when auto_chunk is off)
     ai_chunk_cooldown: Optional[int] = None  # Cooldown in seconds between chunk requests
+    # Optical Flow Poster Filter
+    optical_flow_enabled: Optional[bool] = None
+    optical_flow_threshold: Optional[float] = None
+    optical_flow_min_samples: Optional[int] = None
+    optical_flow_consistency: Optional[float] = None
+    optical_flow_dense: Optional[bool] = None
     # Debug settings
     debug_mode: Optional[bool] = None  # Enable basic tracking logs in terminal (minimalist)
     debug_mode_advanced: Optional[bool] = None  # Enable detailed/verbose tracking logs in terminal
